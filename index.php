@@ -1,20 +1,27 @@
 <?php
 /**
- * 这是 Typecho 0.9 系统的一套默认皮肤
+ * WINDS，如风吹拂！
  * 
- * @package Typecho Replica Theme 
- * @author Typecho Team
- * @version 1.2
- * @link http://typecho.org
+ * 一款可爱的Typecho主题
+ * 
+ * <a href="https://eas1.cn">WINDS使用文档</a>
+ * 
+ * @package     Typecho-Theme-WINDS 
+ * @author      风也
+ * @version     1.0.0
+ * @link        https://eas1.cn/
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  $this->need('header.php');
+ $this->need('inc/head.php');
  ?>
+<div class="main container">
+        <div class="row">
+            <div class="col-lg-8">
 
-<div class="col-mb-12 col-8" id="main" role="main">
-	<?php while($this->next()): ?>
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+            <?php while($this->next()): ?>
+        <article class="posts" itemscope itemtype="http://schema.org/BlogPosting">
 			<h2 class="post-title" itemprop="name headline"><a itemprop="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>
 			<ul class="post-meta">
 				<li itemprop="author" itemscope itemtype="http://schema.org/Person"><?php _e('作者: '); ?><a itemprop="name" href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a></li>
@@ -29,7 +36,55 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 	<?php endwhile; ?>
 
     <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
+                
+            </div>
+            <div class="col-lg-4">
+            <?php $this->need('inc/sidebar.php'); ?>
+                <div class="profile">侧栏</div>
+            </div>
+        </div>
+    </div>
+
+<div id="body">
+    <div class="container">
+        <div class="row">
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+            <?php if ($this->options->logoUrl): ?>
+                <a id="logo" href="<?php $this->options->siteUrl(); ?>">
+                    <img src="<?php $this->options->logoUrl() ?>" alt="<?php $this->options->title() ?>" />
+                </a>
+            <?php else: ?>
+                <a id="logo" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a>
+        	    <p class="description"><?php $this->options->description() ?></p>
+            <?php endif; ?>
+            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="<?php $this->options->siteUrl(); ?>" role="search">
+                    <label for="s" class="sr-only"><?php _e('搜索关键字'); ?></label>
+                    <input type="text" id="s" name="s" class="text" placeholder="<?php _e('输入关键字搜索'); ?>" />
+                    <button type="submit" class="submit"><?php _e('搜索'); ?></button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a<?php if($this->is('index')): ?> class="current"<?php endif; ?> href="<?php $this->options->siteUrl(); ?>"><?php _e('首页'); ?></a>
+                    <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
+                    <?php while($pages->next()): ?>
+                    <a<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
+                    <?php endwhile; ?>
+                </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+
+
+<div class="col-mb-12 col-8" id="main" role="main">
+
 </div><!-- end #main-->
 
-<?php $this->need('sidebar.php'); ?>
+
 <?php $this->need('footer.php'); ?>
