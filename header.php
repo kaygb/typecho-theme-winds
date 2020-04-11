@@ -18,6 +18,8 @@
 
     <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/header.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/winds.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/layout.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/sidebar.css'); ?>">
 
 
     <!-- 通过自有函数输出HTML头部信息 -->
