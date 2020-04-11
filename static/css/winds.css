@@ -5,6 +5,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    font-family: Roboto, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+    overflow-x: hidden;
+    letter-spacing: .5px!important;
 }
 
 .main {
@@ -13,10 +16,8 @@ body {
 
 .posts {
     height: 300px;
-    border: 0px solid #eee;
     margin: 50px 0;
-    background-color: #fff;
-    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
 }
 
 .profile {
