@@ -1,12 +1,4 @@
 .nav-bac {
-    /* line-height: 50px;
-    position: fixed;
-    top: 0;
-    background-color: hsla(0, 0%, 100%, .4);
-    z-index: 9999; */
-}
-
-.nav-bac {
     left: 0;
     right: 0;
     top: 0;
@@ -19,20 +11,6 @@
     color: #fff;
 }
 
-
-/* .blur-bg {
-    line-height: 50px;
-    box-sizing: border-box;
-    filter: blur(2px);
-    height: 50px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: #00000026;
-    overflow: hidden;
-} */
-
 .nav ul {
     list-style: none;
     display: flex;
@@ -40,9 +18,23 @@
 }
 
 .nav ul li {
-    /* float: left; */
     display: flex;
     margin: auto;
-    padding-right: 30px;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.nav ul li:hover {
+    background-color: rgba(87, 87, 87, 0.6);
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.winds-search {
+    padding: 0 10px;
     line-height: 50px;
 }
