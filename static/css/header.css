@@ -1,17 +1,42 @@
 .nav-bac {
-    background: #eee;
-    line-height: 50px;
+    /* line-height: 50px;
     position: fixed;
     top: 0;
+    background-color: hsla(0, 0%, 100%, .4);
+    z-index: 9999; */
 }
 
-.nav {
-    /* width: 100%; */
+.nav-bac {
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    z-index: 9999;
+    background: #000;
+    background: rgba(40, 42, 44, .6);
+    line-height: 50px;
+    height: 50px;
+    color: #fff;
 }
+
+
+/* .blur-bg {
+    line-height: 50px;
+    box-sizing: border-box;
+    filter: blur(2px);
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #00000026;
+    overflow: hidden;
+} */
 
 .nav ul {
     list-style: none;
     display: flex;
+    z-index: 999;
 }
 
 .nav ul li {
