@@ -7,6 +7,9 @@
     <title>WINDS</title>
     <link rel="stylesheet" href="static/css/winds.css">
     <link rel="stylesheet" href="static/css/header.css">
+    <link rel="stylesheet" href="static/css/layout.css">
+    <link rel="stylesheet" href="static/css/sidebar.css">
+
 
     <!-- 新 Bootstrap4 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
@@ -37,26 +40,45 @@
     <div class="main container">
         <div class="row">
             <div class="col-lg-8">
+                <article class="posts">
+                    <h2 class="post-title">
+                        <a href="<?php $this->permalink() ?>">
+                            <?php $this->title() ?>
+                        </a>
+                    </h2>
+                    <div class="post-meta">
+                        <span><i class="fas fa-user"></i><a href="#" rel="author">风也</a>
+                        </span>
+                        <span><i class="fas fa-calendar-alt"></i><time datetime="2020-04-12">2020-04-12</time>
+                        </span>
+                        <span><i class="fas fa-folder-minus"></i>分类
+                        </span>
+                        <span><i class="fas fa-comment-dots"></i><a href="#">1 条评论</a>
+                        </span>
+                        </ul>
+                        <div class="post-content">
+                            <?php $this->excerpt(50,'- 阅读剩余部分 -'); ?>
+                        </div>
+                </article>
                 <div class="posts">文章</div>
                 <div class="posts">文章</div>
                 <div class="posts">文章</div>
                 <div class="posts">文章</div>
-                <div class="posts">文章</div>
-            </div>
-            <div class="col-lg-4">
-                <div class="profile">侧栏</div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="profile">侧栏</div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+        <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+        <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
 
-    <!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
-    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+        <!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+        <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
 
-    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
