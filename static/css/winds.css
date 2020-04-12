@@ -5,10 +5,12 @@
 }
 
 .posts {
-    height: 200px;
+    /* height: 400px; */
     display: block;
     margin: 50px 0;
     /* padding: 20px; */
+    background-color: #fff;
+    width: 100%;
 }
 
 .blur {
@@ -16,10 +18,30 @@
     backdrop-filter: saturate(200%) blur(20px);
 }
 
-.thumb img {
-    /* width: 100%; */
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    height: 200px;
+.thumb-img {
+    min-height: 250px;
+    position: relative;
+    display: block;
+    background-position: 50% 50%;
+    background-size: cover;
+    /* border-top-left-radius: 6px;
+    border-top-right-radius: 6px; */
+}
+
+.posts-winds .post-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.posts-winds .post-content {
+    padding: 0 20px;
+}
+
+.posts-winds .post-meta {
+    padding: 10px;
+}
+
+.posts-winds .post-meta span {
+    text-align: center;
+    padding: 10px;
 }

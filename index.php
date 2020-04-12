@@ -21,35 +21,39 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
             <div class="col-lg-8">
             <?php while($this->next()): ?>
             <article class="posts blur">    
-                <div class="row">
-                    <div class="thumb col-6">
-                        <img src="https://file.kaygb.top/static_image/kaygb-logo/tx.png" alt="" srcset="">
+                    <div class="thumb-panle">
+                        <a href="<?php $this->permalink() ?>">
+                        <div class="thumb-img"
+                        style="background-image: url(https://file.kaygb.top/upload/20191212/b7c9bff871d1d.jpg)"
+                        ></div>
+                        </a>
+                        
                     </div>
-                    <div class="posts-alive col-6">
+                    <div class="posts-winds">
                         <h2 class="post-title">
                             <a href="<?php $this->permalink() ?>">
                                 <?php $this->title() ?>
                             </a>
                         </h2>
                         <div class="post-content">
-                        <?php $this->excerpt(20,''); ?>
+                        <?php $this->excerpt(50,''); ?>
                         </div>
                         <div class="post-meta">
                             <span>
-                                <?php _e('<i class="fas fa-user"></i>'); ?><a href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a>
+                                <?php _e('<i class="fas fa-user"></i> '); ?><a href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a>
                             </span>
                             <span>  
-                                <?php _e('<i class="fas fa-calendar-alt"></i>'); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>
+                                <?php _e('<i class="fas fa-calendar-alt"></i> '); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>
                             </span>
                             <span>
-                                <?php _e('<i class="fas fa-folder-minus"></i>'); ?><?php $this->category(','); ?>
+                                <?php _e('<i class="fas fa-folder-minus"></i> '); ?><?php $this->category(','); ?>
                             </span>
                             <span>
-                            <?php _e('<i class="fas fa-comment-dots"></i>'); ?><a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></a>
+                            <?php _e('<i class="fas fa-comment-dots"></i> '); ?><a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></a>
                             </span>
                         </div>
                     </div>
-                </div>
+                
             
         </article>
 	<?php endwhile; ?>
