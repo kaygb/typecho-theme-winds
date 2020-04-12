@@ -1,5 +1,5 @@
 
-<div class="container-fluid nav-bac">
+<div class="container-fluid nav-bac blur-nav">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 nav">

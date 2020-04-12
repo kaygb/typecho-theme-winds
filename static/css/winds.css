@@ -12,7 +12,7 @@
 }
 
 .blur {
-    background: rgba(255, 255, 255, .8)!important;
+    background: rgba(255, 255, 255, .5)!important;
     backdrop-filter: saturate(200%) blur(20px);
 }
 
@@ -28,18 +28,33 @@
 
 .posts-winds .post-title {
     text-align: center;
-    padding: 20px;
+    padding: 30px 20px 20px 20px;
+    margin: 0;
 }
 
 .posts-winds .post-content {
-    padding: 0 20px 20px 20px;
+    padding: 0 20px;
+    font-size: 14px;
 }
 
 .posts-winds .post-meta {
     padding: 10px;
+    font-size: 12px;
 }
 
 .posts-winds .post-meta span {
     text-align: center;
     padding: 10px;
+}
+
+@media (max-width:768px) {
+    .thumb-img {
+        min-height: 200px;
+    }
+}
+
+@media (max-width:576px) {
+    .thumb-img {
+        min-height: 150px;
+    }
 }

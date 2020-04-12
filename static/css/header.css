@@ -1,5 +1,10 @@
 /* 导航栏样式 */
 
+.blur-nav {
+    background: rgba(85, 84, 84, 0.5)!important;
+    backdrop-filter: saturate(200%) blur(20px);
+}
+
 .nav-bac {
     left: 0;
     right: 0;
