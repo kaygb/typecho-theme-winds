@@ -28,8 +28,8 @@
 }
 
 body {
-    /* background: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg); */
-    background-color: #ebf1f5 !important;
+    background: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg);
+    /* background-color: #ebf1f5 !important; */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,4 +71,10 @@ h5 {
 
 h6 {
     font-size: 17px;
+}
+
+div {
+    display: block;
+    padding: 0;
+    margin: 0;
 }

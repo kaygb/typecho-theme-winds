@@ -19,31 +19,38 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <div class="main container">
         <div class="row">
             <div class="col-lg-8">
-
             <?php while($this->next()): ?>
-        <article class="posts">
-			<h2 class="post-title">
-                <a href="<?php $this->permalink() ?>">
-                    <?php $this->title() ?>
-                </a>
-            </h2>
-			<div class="post-meta">
-				<span>
-                    <?php _e('<i class="fas fa-user"></i>'); ?><a href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a>
-                </span>
-				<span>
-                    <?php _e('<i class="fas fa-calendar-alt"></i>'); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>
-                </span>
-				<span>
-                    <?php _e('<i class="fas fa-folder-minus"></i>'); ?><?php $this->category(','); ?>
-                </span>
-				<span>
-                <?php _e('<i class="fas fa-comment-dots"></i>'); ?><a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></a>
-                </span>
-			</ul>
-            <div class="post-content">
-            <?php $this->excerpt(50,'- 阅读剩余部分 -'); ?>
-            </div>
+            <article class="posts blur">    
+                <div class="row">
+                    <div class="thumb col-6">
+                        <img src="https://file.kaygb.top/static_image/kaygb-logo/tx.png" alt="" srcset="">
+                    </div>
+                    <div class="posts-alive col-6">
+                        <h2 class="post-title">
+                            <a href="<?php $this->permalink() ?>">
+                                <?php $this->title() ?>
+                            </a>
+                        </h2>
+                        <div class="post-content">
+                        <?php $this->excerpt(20,''); ?>
+                        </div>
+                        <div class="post-meta">
+                            <span>
+                                <?php _e('<i class="fas fa-user"></i>'); ?><a href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a>
+                            </span>
+                            <span>  
+                                <?php _e('<i class="fas fa-calendar-alt"></i>'); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>
+                            </span>
+                            <span>
+                                <?php _e('<i class="fas fa-folder-minus"></i>'); ?><?php $this->category(','); ?>
+                            </span>
+                            <span>
+                            <?php _e('<i class="fas fa-comment-dots"></i>'); ?><a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            
         </article>
 	<?php endwhile; ?>
 

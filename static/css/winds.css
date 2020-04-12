@@ -5,8 +5,21 @@
 }
 
 .posts {
-    /* min-height: 300px; */
+    height: 200px;
     display: block;
     margin: 50px 0;
-    background-color: rgb(255, 255, 255);
+    /* padding: 20px; */
+}
+
+.blur {
+    background: rgba(255, 255, 255, .8)!important;
+    backdrop-filter: saturate(200%) blur(20px);
+}
+
+.thumb img {
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 200px;
 }
