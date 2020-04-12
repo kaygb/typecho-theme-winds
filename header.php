@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/winds.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/layout.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/sidebar.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/post.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/footer.css'); ?>">
 
     <!-- 测试-禁用缓存 -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />

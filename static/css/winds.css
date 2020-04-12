@@ -1,14 +1,12 @@
 /* 内容区域样式 */
 
 .main {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .posts {
-    /* height: 400px; */
     display: block;
-    margin: 50px 0;
-    /* padding: 20px; */
+    margin-bottom: 50px;
     background-color: #fff;
     width: 100%;
 }
