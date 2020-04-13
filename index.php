@@ -18,5 +18,3 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
     $this->need('inc/posts.php');  // 首页文章列表
     $this->need('inc/footer.php');     // 底部栏
 ?>
-</body>
-</html>

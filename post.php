@@ -42,5 +42,5 @@
 
 
 
-<?php $this->need('sidebar.php'); ?>
-<?php $this->need('footer.php'); ?>
+<?php $this->need('inc/sidebar.php'); ?>
+<?php $this->need('inc/footer.php'); ?>
