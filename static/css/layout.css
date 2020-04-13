@@ -5,6 +5,7 @@
 
 ::-webkit-scrollbar {
     width: 5px;
+    height: 5px;
     background-color: rgba(143, 143, 143, 0);
 }
 
@@ -19,7 +20,7 @@
 /*定义滑块 内阴影+圆角*/
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0.7);
 }
 
 body {
