@@ -23,16 +23,16 @@
                     <?php $this->excerpt(50,''); ?>
                     </div>
                     <div class="post-meta">
-                        <span>
+                        <span >
                             <?php _e('<i class="fas fa-user"></i> '); ?><a href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a>
                         </span>
-                        <span>  
+                        <span class="text-success">  
                             <?php _e('<i class="fas fa-calendar-alt"></i> '); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>
                         </span>
-                        <span>
+                        <span class="text-danger">
                             <?php _e('<i class="fas fa-folder-minus"></i> '); ?><?php $this->category(','); ?>
                         </span>
-                        <span>
+                        <span class="text-primary">
                         <?php _e('<i class="fas fa-comment-dots"></i> '); ?><a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></a>
                         </span>
                     </div>
