@@ -9,6 +9,9 @@
     margin-bottom: 50px;
     background-color: #fff;
     width: 100%;
+    animation: jianyi 1s;
+    box-shadow: 0 0 10px #00000026;
+    -webkit-box-shadow: 0 0 10px #00000026;
 }
 
 .blur {

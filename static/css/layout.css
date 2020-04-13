@@ -24,8 +24,8 @@
 }
 
 body {
-    background: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg);
-    /* background-color: #ebf1f5 !important; */
+    /* background: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg); */
+    background-color: #cdebff !important;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +41,7 @@ a {
 }
 
 a:hover {
-    color: cadetblue;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 

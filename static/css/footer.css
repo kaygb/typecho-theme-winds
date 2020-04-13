@@ -1,0 +1,10 @@
+/* MoeTop插件 */
+
+#reimu:hover,
+#marisa:hover,
+#flandre:hover {
+    right: -10px!important;
+    bottom: 0;
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
