@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-lg-8 col-md-12 col-12">
             <?php while($this->next()): ?>
-            <article class="posts blur">    
+            <article class="posts">    
                 <div class="thumb-panle">
                     <a href="<?php $this->permalink() ?>">
                         <div class="thumb-img" style="background-image: url(https://file.kaygb.top/upload/20191212/b7c9bff871d1d.jpg)">

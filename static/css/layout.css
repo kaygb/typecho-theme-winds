@@ -23,8 +23,12 @@
     background-color: rgb(0, 0, 0.7);
 }
 
+html {
+    backdrop-filter: blur(10px);
+}
+
 body {
-    /* background: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg); */
+    background: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg);
     background-color: #cdebff !important;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -77,4 +81,12 @@ div {
     display: block;
     padding: 0;
     margin: 0;
+}
+
+.bg-blur {
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    position: fixed;
 }
