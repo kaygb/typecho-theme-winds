@@ -28,12 +28,6 @@ html {
 }
 
 body {
-    background: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg);
-    background-color: #cdebff !important;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
     font-family: Roboto, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
     overflow-x: hidden;
     letter-spacing: .5px!important;
@@ -86,13 +80,16 @@ div {
 .bg-blur {
     width: 100%;
     height: 100vh;
-    -webkit-filter: blur(10px);
-    filter: blur(10px);
     position: fixed;
-    /* opacity: .2; */
-    background-size: cover;
     top: 0;
-    backdrop-filter: blur(10px);
+    left: 0;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    filter: blur(10px);
+    background-image: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: -1;
 }
 

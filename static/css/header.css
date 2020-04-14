@@ -1,10 +1,33 @@
 /* 导航栏样式 */
 
 .blur-nav {
-    background: rgba(0, 0, 0, 0.5)!important;
-    backdrop-filter: saturate(200%) blur(20px);
+    background: rgba(0, 0, 0, .5)!important;
+    /* backdrop-filter: saturate(200%) blur(20px); */
+    filter: blur(20px);
+    -webkit-filter: blur(20px);
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    z-index: 998;
+    line-height: 50px;
+    height: 50px;
+    color: #fff;
+}
+
+.blur-nav-bg {
+    background: rgba(0, 0, 0, .5)!important;
+    /* backdrop-filter: saturate(200%) blur(20px); */
     /* filter: blur(20px);
     -webkit-filter: blur(20px); */
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+    line-height: 50px;
+    height: 50px;
+    color: #fff;
 }
 
 .nav-bac {
@@ -13,8 +36,6 @@
     top: 0;
     position: fixed;
     z-index: 9999;
-    background: #000;
-    background: rgba(40, 42, 44, .6);
     line-height: 50px;
     height: 50px;
     color: #fff;
@@ -36,14 +57,14 @@
 .nav ul li:hover,
 .winds-search:hover,
 .nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.822);
-    color: #000;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.7);
     animation: jianyin 1s;
 }
 
 .nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 0 20px;
 }
