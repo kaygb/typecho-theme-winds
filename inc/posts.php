@@ -8,7 +8,9 @@
             <article class="posts">    
                 <div class="thumb-panle">
                     <a href="<?php $this->permalink() ?>">
-                        <div class="thumb-img" style="background-image: url(https://file.kaygb.top/upload/20191212/b7c9bff871d1d.jpg)">
+                        <!-- <div class="thumb-img" style="background-image: url(https://file.kaygb.top/upload/20191212/b7c9bff871d1d.jpg)">
+                        </div> -->
+                        <div class="thumb-img" style="background-image: url(https://file.kaygb.top/static_image/kaygb-logo/tx16-9.jpg)">
                         </div>
                     </a>
                         
