@@ -5,6 +5,10 @@
     min-height: 100vh;
 }
 
+.slide {
+    margin-bottom: 50px;
+}
+
 .posts {
     display: block;
     margin-bottom: 50px;

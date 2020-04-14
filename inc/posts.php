@@ -4,6 +4,42 @@
 <div class="main container">
     <div class="row">
         <div class="col-lg-8 col-md-12 col-12">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+ 
+ <!-- 指示符 -->
+ <ul class="carousel-indicators">
+   <li data-target="#demo" data-slide-to="0" class="active"></li>
+   <li data-target="#demo" data-slide-to="1"></li>
+   <li data-target="#demo" data-slide-to="2"></li>
+ </ul>
+
+ <!-- 轮播图片 -->
+ <div class="carousel-inner">
+   <div class="carousel-item active">
+     <img src="https://static.runoob.com/images/mix/img_fjords_wide.jpg">
+     <div class="carousel-caption">
+       <h3>第一张图片描述标题</h3>
+       <p>描述文字!</p>
+     </div>
+   </div>
+   <div class="carousel-item">
+     <img src="https://static.runoob.com/images/mix/img_nature_wide.jpg">
+     <div class="carousel-caption">
+       <h3>第二张图片描述标题</h3>
+       <p>描述文字!</p>
+     </div>
+   </div>
+   <div class="carousel-item">
+     <img src="https://static.runoob.com/images/mix/img_mountains_wide.jpg">
+     <div class="carousel-caption">
+       <h3>第三张图片描述标题</h3>
+       <p>描述文字!</p>
+     </div>
+   </div>
+ </div>
+
+
+</div>
             <?php while($this->next()): ?>
             <article class="posts">    
                 <div class="thumb-panle">
