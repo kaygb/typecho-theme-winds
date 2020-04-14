@@ -2,6 +2,7 @@
 
 .main {
     margin-top: 200px;
+    min-height: 100vh;
 }
 
 .posts {
@@ -12,11 +13,6 @@
     animation: jianyi 1s;
     box-shadow: 0 0 10px #00000026;
     -webkit-box-shadow: 0 0 10px #00000026;
-}
-
-.blur {
-    background: rgba(255, 255, 255, .5)!important;
-    backdrop-filter: saturate(200%) blur(20px);
 }
 
 .thumb-img {

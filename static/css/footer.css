@@ -8,3 +8,7 @@
     animation-play-state: paused;
     -webkit-animation-play-state: paused;
 }
+
+#footer {
+    line-height: 50px;
+}

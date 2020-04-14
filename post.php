@@ -6,7 +6,7 @@
 <div class="main container">
     <div class="row">
         <div class="col-lg-8">
-                <article class="post blur" itemscope itemtype="http://schema.org/BlogPosting">
+                <article class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
                 <h1 class="post-title" itemprop="name headline"><a itemprop="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h1>
                 <div class="post-meta">
                             <span>
