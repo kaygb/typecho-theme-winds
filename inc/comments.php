@@ -17,19 +17,22 @@
                 </div>
     		<p><?php _e('登录身份: '); ?><a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a>. <a href="<?php $this->options->logoutUrl(); ?>" title="Logout"><?php _e('退出'); ?> &raquo;</a></p>
             <?php else: ?>
-                
+                <div  class="form-group">
+                <label for="textarea" class="required"><?php _e('内容'); ?></label>
+                <textarea rows="8" cols="50" name="text" id="textarea" class="textarea form-control" required ><?php $this->remember('text'); ?></textarea>
+                </div>
                 <div class="input-group mb-3">
                     <div class="input-group-prepend ">
                         <span class="input-group-text bg-dark text-white">昵称</span>
                     </div>
-                    <input type="text" class="text form-control" placeholder="昵称" id="author" name="author"  value="<?php $this->remember('author'); ?>" required>
+                    <input type="text" class="text form-control" placeholder="昵称 (必填)" id="author" name="author"  value="<?php $this->remember('author'); ?>" required>
                 </div>
 
     		<div class="input-group mb-3">
                 <div class="input-group-prepend">
                     <span class="input-group-text" <?php if ($this->options->commentsRequireMail): ?> class="required"<?php endif; ?>>邮箱</span>
                 </div>
-    			<input type="email" name="mail" id="mail" class="text form-control" value="<?php $this->remember('mail'); ?>"<?php if ($this->options->commentsRequireMail): ?> required<?php endif; ?> />
+    			<input type="email" name="mail" id="mail"  placeholder="邮箱 (必填，仅管理员可见，仅用于评论推送)"  class="text form-control" value="<?php $this->remember('mail'); ?>"<?php if ($this->options->commentsRequireMail): ?> required<?php endif; ?> />
                 </div>
     		<div class="input-group mb-3">
             <div class="input-group-prepend">
@@ -49,14 +52,18 @@
     <h3><?php _e('评论已关闭'); ?></h3>
     <?php endif; ?>
 
-    <?php if ($comments->have()): ?>
-	<h3><?php $this->commentsNum(_t('暂无评论'), _t('仅有一条评论'), _t('共 %d 条评论')); ?></h3>
+
+
+    
+</div>
+
+<div id="comments-all" class="wbg-white container">
+<?php if ($comments->have()): ?>
+	<span class="text-muted"><?php $this->commentsNum(_t('暂无评论'), _t('共 1 条评论'), _t('共 %d 条评论')); ?></span>
     
     <?php $comments->listComments(); ?>
 
     <?php $comments->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
     
     <?php endif; ?>
-
-    
 </div>
