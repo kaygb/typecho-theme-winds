@@ -12,14 +12,14 @@
     	<form method="post" action="<?php $this->commentUrl() ?>" id="comment-form" role="form">
             <?php if($this->user->hasLogin()): ?>
                 <div  class="form-group">
-                <label for="textarea" class="required"><?php _e('内容'); ?></label>
-                <textarea rows="8" cols="50" name="text" id="textarea" class="textarea form-control" required ><?php $this->remember('text'); ?></textarea>
+                <!-- <label for="textarea" class="required"><?php //_e('内容：'); ?></label> -->
+                <textarea rows="8" cols="50" name="text"  placeholder="评论内容，必填"  id="textarea" class="textarea form-control" required ><?php $this->remember('text'); ?></textarea>
                 </div>
     		<p><?php _e('登录身份: '); ?><a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a>. <a href="<?php $this->options->logoutUrl(); ?>" title="Logout"><?php _e('退出'); ?> &raquo;</a></p>
             <?php else: ?>
                 <div  class="form-group">
-                <label for="textarea" class="required"><?php _e('内容'); ?></label>
-                <textarea rows="8" cols="50" name="text" id="textarea" class="textarea form-control" required ><?php $this->remember('text'); ?></textarea>
+                <!-- <label for="textarea" class="required"><?php //_e('内容：'); ?></label> -->
+                <textarea rows="8" cols="50" name="text" placeholder="评论内容，必填" id="textarea" class="textarea form-control" required ><?php $this->remember('text'); ?></textarea>
                 </div>
                 <div class="input-group mb-3">
                     <div class="input-group-prepend ">
