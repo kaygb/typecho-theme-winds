@@ -86,7 +86,8 @@ div {
     -webkit-filter: blur(10px);
     -moz-filter: blur(10px);
     filter: blur(10px);
-    background-image: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg);
+    /* background-image: url(https://cn01.img.twinkle222.cn/imgs/2020/03/f735a00354a3c282.jpg); */
+    background-image: url(https://cn01.img.twinkle222.cn/imgs/2020/04/ee45c144dbfefb85.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
