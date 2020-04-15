@@ -9,19 +9,19 @@
                 <article class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
                 <h1 class="post-title" itemprop="name headline"><a itemprop="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h1>
                 <div class="post-meta">
-                            <span>
-                                <?php _e('<i class="fas fa-user"></i> '); ?><a href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a>
-                            </span>
-                            <span>  
-                                <?php _e('<i class="fas fa-calendar-alt"></i> '); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>
-                            </span>
-                            <span>
-                                <?php _e('<i class="fas fa-folder-minus"></i> '); ?><?php $this->category(','); ?>
-                            </span>
-                            <span>
-                            <?php _e('<i class="fas fa-comment-dots"></i> '); ?><a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></a>
-                            </span>
-                        </div>
+                        <span >
+                            <?php _e('<i class="fas fa-user"></i> '); ?><a href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a>
+                        </span>
+                        <span class="text-success">  
+                            <?php _e('<i class="fas fa-calendar-alt"></i> '); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>
+                        </span>
+                        <span class="text-danger">
+                            <?php _e('<i class="fas fa-folder-minus"></i> '); ?><?php $this->category(','); ?>
+                        </span>
+                        <span class="text-primary">
+                        <?php _e('<i class="fas fa-comment-dots"></i> '); ?><a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></a>
+                        </span>
+                    </div>
                 <div class="post-content" itemprop="articleBody">
                     <?php $this->content(); ?>
                 </div>
