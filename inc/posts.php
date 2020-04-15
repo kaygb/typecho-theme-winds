@@ -43,7 +43,9 @@
                 </div>
             </article>
             <?php endwhile; ?>
-            <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
+            <div class="">
+            <?php $this->pageNav('<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'); ?>
+            </div>
         </div>
 
         <?php $this->need('inc/sidebar.php'); ?>
