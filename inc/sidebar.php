@@ -8,9 +8,22 @@
                 <i class="fab fa-github"></i>
                 </a>
             </span>
-            <span  class="social-item">GITHUB</span>
-            <span  class="social-item">BILIBILI</span>
-            <span  class="social-item">WEIBO</span>
+            <span  class="social-item">
+                <a href="https://github.com/kaygb" target="_blank" title="GitHub" data-balloon="GitHub" data-balloon-pos="up">
+                <i class="fab fa-facebook"></i>
+                </a>
+            </span>
+            <span  class="social-item">
+                <a href="https://github.com/kaygb" target="_blank" title="GitHub" data-balloon="GitHub" data-balloon-pos="up">
+                <i class="fab fa-telegram"></i>
+                </a>
+            </span>
+            <span  class="social-item">
+                <a href="https://github.com/kaygb" target="_blank" title="GitHub" data-balloon="GitHub" data-balloon-pos="up">
+                <i class="fab fa-twitter"></i>
+                </a>
+            </span>
+
         </div>
     </div> 
 </div>

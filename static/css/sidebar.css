@@ -32,10 +32,8 @@
     line-height: 50px;
     text-align: center;
     background: #eee;
-    /* border-radius: 50%; */
+    font-size: 20px;
     border-radius: 50%!important;
-    padding: 2;
-    /* padding-top: 20px; */
     margin: 20px auto;
 }
 
