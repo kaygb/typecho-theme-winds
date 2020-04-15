@@ -6,8 +6,16 @@
 <div class="main container">
     <div class="row">
         <div class="col-lg-8">
+                <div class="thumb-panle">
+
+                    <div class="thumb-img" style="background-image: url(/imgs/tx1.jpg)">
+                    </div>
+
+                        
+                </div>
                 <article class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
-                <h1 class="post-title" itemprop="name headline"><a itemprop="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h1>
+                
+                <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
                 <div class="post-meta">
                         <span >
                             <?php _e('<i class="fas fa-user"></i> '); ?><a href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a>
@@ -27,13 +35,16 @@
                 </div>
                 <p itemprop="keywords" class="tags"><?php _e('标签: '); ?><?php $this->tags(', ', true, 'none'); ?></p>
             </article>
-
-            <?php $this->need('comments.php'); ?>
-
-            <ul class="post-near">
+            <div class="post-wnear">
+            <ul class="post-near wbg-white">
                 <li>上一篇: <?php $this->thePrev('%s','没有了'); ?></li>
                 <li>下一篇: <?php $this->theNext('%s','没有了'); ?></li>
-            </ul>
+            </ul> 
+            </div>
+
+            <?php $this->need('inc/comments.php'); ?>
+
+            
         </div>
         <?php $this->need('inc/sidebar.php'); ?>
     </div>

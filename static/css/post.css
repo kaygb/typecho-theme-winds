@@ -3,10 +3,24 @@
     font-size: 12px;
 }
 
+.post-meta span {
+    text-align: center;
+    padding: 10px;
+}
+
 .post img {
     width: 100%;
 }
 
+.post .post-title,
+.post .post-meta {
+    text-align: center;
+}
+
 #comments {
     margin-top: 50px;
+}
+
+.post-wnear {
+    margin: 50px 0;
 }
