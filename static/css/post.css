@@ -24,3 +24,12 @@
 .post-wnear {
     margin: 50px 0;
 }
+
+.hljs-ln td {
+    padding: 3px!important;
+}
+
+code {
+    /* background: #ff94b259!important;
+    padding: 1px 10px!important; */
+}
