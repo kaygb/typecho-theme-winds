@@ -104,3 +104,7 @@ div {
     padding: 20px;
     background: #fff;
 }
+
+* {
+    border-radius: 0px!important;
+}
