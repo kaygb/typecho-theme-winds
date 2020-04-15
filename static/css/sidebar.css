@@ -42,3 +42,9 @@
     text-decoration: none;
     overflow: visible;
 }
+
+@media (max-width:1000px) {
+    .sidebar {
+        display: none;
+    }
+}
