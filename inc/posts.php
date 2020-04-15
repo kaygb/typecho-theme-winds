@@ -8,13 +8,18 @@
         <?php //$this->need('inc/carousel.php'); ?>
             <?php while($this->next()): ?>
             <article class="posts">    
+                <?php if($this->fields->postThumbUrl !=""): ?>
                 <div class="thumb-panle">
                     <a href="<?php $this->permalink() ?>">
-                        <div class="thumb-img" style="background-image: url(/imgs/tx1.jpg)">
+                        <div class="thumb-img" style="background-image: url(<?php echo $this->fields->postThumbUrl;?> )">
                         </div>
                     </a>
                         
                 </div>
+                <? endif;?>
+
+
+
                 <div class="posts-winds">
                     <h2 class="post-title">
                         <a href="<?php $this->permalink() ?>">

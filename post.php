@@ -6,13 +6,12 @@
 <div class="main container">
     <div class="row">
         <div class="col-lg-8">
+        <?php if($this->fields->postThumbUrl !=""): ?>
                 <div class="thumb-panle">
-
-                    <div class="thumb-img" style="background-image: url(/imgs/tx1.jpg)">
-                    </div>
-
-                        
+                        <div class="thumb-img" style="background-image: url(<?php echo $this->fields->postThumbUrl;?> )">
+                        </div>
                 </div>
+                <? endif;?>
                 <article class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
                 
                 <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>

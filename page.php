@@ -5,6 +5,12 @@
 <div class="main container">
     <div class="row">
         <div class="col-mb-12 col-8" id="main" role="main">
+        <?php if($this->fields->postThumbUrl !=""): ?>
+                <div class="thumb-panle">
+                        <div class="thumb-img" style="background-image: url(<?php echo $this->fields->postThumbUrl;?> )">
+                        </div>
+                </div>
+                <? endif;?>
             <article class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
                 <h1 class="post-title" itemprop="name headline"><a itemprop="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h1>
                 <div class="post-content" itemprop="articleBody">
