@@ -35,6 +35,7 @@
                 <li>下一篇: <?php $this->theNext('%s','没有了'); ?></li>
             </ul>
         </div>
+        <?php $this->need('inc/sidebar.php'); ?>
     </div>
 </div>
 
@@ -42,5 +43,5 @@
 
 
 
-<?php $this->need('inc/sidebar.php'); ?>
+
 <?php $this->need('inc/footer.php'); ?>

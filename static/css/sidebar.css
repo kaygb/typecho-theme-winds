@@ -18,3 +18,16 @@
 .wavatar {
     width: 100%;
 }
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 20px;
+}
+
+.social-item a {
+    display: block;
+    text-decoration: none;
+    overflow: visible;
+}
