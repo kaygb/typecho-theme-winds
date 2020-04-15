@@ -80,9 +80,8 @@
             <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
         </div>
 
-        <div class="col-lg-4">
-        <?php //$this->need('inc/sidebar.php'); ?>
-            <div class="profile">侧栏</div>
-        </div>
+        <?php $this->need('inc/sidebar.php'); ?>
+            
+
     </div><!-- end .row -->
 </div>
