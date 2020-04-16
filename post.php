@@ -1,6 +1,6 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
-<?php $this->need('inc/header.php'); 
- $this->need('inc/head.php');?>
+<?php $this->need('inc/head.php'); 
+ $this->need('inc/header.php');?>
 
 
 <div class="main container">

@@ -8,8 +8,8 @@ if($id != "" ||$id != null){//判断是否不等于空或者null
       header("location://".$_SERVER['HTTP_HOST'].$nameid);//跳转页面    
   }
 ?>
-<?php $this->need('header.php');
- $this->need('inc/head.php'); ?>
+<?php $this->need('head.php');
+ $this->need('inc/header.php'); ?>
 
     <div class="col-mb-12 col-tb-8 col-tb-offset-2">
 

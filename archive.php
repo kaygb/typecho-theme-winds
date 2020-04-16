@@ -1,6 +1,6 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
-<?php $this->need('header.php'); 
- $this->need('inc/head.php');?>
+<?php $this->need('head.php'); 
+ $this->need('inc/header.php');?>
 
     <div class="col-mb-12 col-8" id="main" role="main">
         <h3 class="archive-title"><?php $this->archiveTitle(array(
