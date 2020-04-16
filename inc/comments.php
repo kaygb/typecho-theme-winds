@@ -32,7 +32,7 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text  bg-dark text-white" <?php if ($this->options->commentsRequireMail): ?> class="required"<?php endif; ?>>邮箱</span>
                 </div>
-    			<input type="email" name="mail" id="mail"  placeholder="邮箱 (必填，仅管理员可见，仅用于评论推送)"  class="text form-control" value="<?php $this->remember('mail'); ?>"<?php if ($this->options->commentsRequireMail): ?> required<?php endif; ?> />
+    			<input type="email" name="mail" id="mail"  placeholder="邮箱 (必填，仅管理员可见，仅用于评论推送和头像显示)"  class="text form-control" value="<?php $this->remember('mail'); ?>"<?php if ($this->options->commentsRequireMail): ?> required<?php endif; ?> />
                 </div>
     		<div class="input-group mb-3">
             <div class="input-group-prepend">

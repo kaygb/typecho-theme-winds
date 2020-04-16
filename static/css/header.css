@@ -2,8 +2,8 @@
 
 .blur-nav {
     background: rgba(0, 0, 0, .5)!important;
-    filter: blur(20px);
-    -webkit-filter: blur(20px);
+    /* filter: blur(20px);
+    -webkit-filter: blur(20px); */
     left: 0;
     right: 0;
     top: 0;
