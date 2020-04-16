@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/keyframe.css'); ?>">
 <!-- highlightjs -->
 <link rel="stylesheet"
-      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/default.min.css">
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/atom-one-dark.min.css">
     <!-- 测试-禁用缓存 -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />

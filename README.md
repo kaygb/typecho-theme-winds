@@ -25,5 +25,6 @@ highlightjs-line-numbers.js
 
 返回顶部：
 
-MoeTop
+[MoeTop](https://github.com/Sanakey/MoeTop)
 
+[ExSearch](https://github.com/AlanDecode/Typecho-Plugin-ExSearch)

@@ -29,7 +29,10 @@
     padding: 3px!important;
 }
 
-code {
-    /* background: #ff94b259!important;
-    padding: 1px 10px!important; */
+.post-near-pre {
+    text-align: left;
+}
+
+.post-near-next {
+    text-align: right;
 }

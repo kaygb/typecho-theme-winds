@@ -34,11 +34,11 @@
                 </div>
                 <p itemprop="keywords" class="tags"><?php _e('标签: '); ?><?php $this->tags(', ', true, 'none'); ?></p>
             </article>
-            <div class="post-wnear">
-            <ul class="post-near wbg-white">
-                <li>上一篇: <?php $this->thePrev('%s','没有了'); ?></li>
-                <li>下一篇: <?php $this->theNext('%s','没有了'); ?></li>
-            </ul> 
+            <div class="post-wnear row">
+ 
+                    <span class="post-near-pre wbg-white col-lg-6"><i class="fas fa-angle-double-left text-success"></i> <?php $this->thePrev('%s','没有更早的文章了'); ?></span>
+                    <span class="post-near-next wbg-white col-lg-6"> <?php $this->theNext('%s','已经是最新的文章了'); ?> <i class="fas fa-angle-double-right text-success"></i></span>
+
             </div>
 
             <?php $this->need('inc/comments.php'); ?>

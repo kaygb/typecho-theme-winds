@@ -15,7 +15,7 @@
                 <?php endwhile; ?>
 
                 </ul>
-                <span class="winds-search"><i class="fas fa-search"></i></span>
+                <span class="winds-search search-form-input"><i class="fas fa-search"></i></span>
             </div>
         </div>
 
