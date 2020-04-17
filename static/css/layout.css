@@ -85,7 +85,8 @@ h6 {
 }
 
 p {
-    font-size: 15px;
+    font-size: 14px;
+    line-height: 1.75;
 }
 
 div {
