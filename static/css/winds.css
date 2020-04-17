@@ -26,19 +26,15 @@
     display: block;
     background-position: 50% 50%;
     background-size: cover;
-    /* border-top-left-radius: 6px;
-    border-top-right-radius: 6px; */
 }
 
 .posts-winds .post-title {
-    /* text-align: center; */
-    padding: 50px;
+    padding: 20px;
     margin: 0;
-    border-top: 5px solid rgb(255, 153, 0);
 }
 
 .posts-winds .post-content {
-    padding: 0 20px;
+    padding: 0 20px 20px 20px;
     font-size: 14px;
 }
 
@@ -58,44 +54,6 @@
 
 .post-meta span a {
     color: #fff;
-}
-
-.page-navigator {
-    /* color: rgba(0, 0, 0, .86);
-    list-style: none;
-    padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 1rem auto;
-    margin-bottom: 3rem;
-    padding: 0 20px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    max-width: 100%;
-    overflow: auto;
-    position: relative;
-    -webkit-overflow-scrolling: touch; */
-}
-
-.page-navigator li {
-    /* color: rgba(0, 0, 0, .86);
-    list-style: none;
-    padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 1rem auto;
-    margin-bottom: 3rem;
-    padding: 0 20px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    max-width: 100%;
-    overflow: auto;
-    position: relative;
-    -webkit-overflow-scrolling: touch; */
 }
 
 @media (max-width:768px) {

@@ -20,9 +20,9 @@
                             <?php $this->title() ?>
                         </a>
                     </h2>
-                    <!-- <div class="post-content">
-                    <?php //$this->excerpt(50,''); ?>
-                    </div> -->
+                    <div class="post-content">
+                    <?php $this->excerpt(200,''); ?>
+                    </div>
                     <div class="post-meta">
                         <span class="text-white bg-success">  
                             <?php _e('<i class="fas fa-calendar-alt"></i> '); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>

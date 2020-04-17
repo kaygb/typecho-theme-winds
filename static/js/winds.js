@@ -20,3 +20,7 @@ $('#w-pagination ol li').addClass('page-item');
 $('#w-pagination ol li a').addClass('page-link bg-dark text-white');
 
 $('#w-pagination .current').addClass('active');
+
+// 评论回复按钮
+
+$('.comment-reply a').addClass('btn btn-success');

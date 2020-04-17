@@ -26,7 +26,7 @@
                 <div class="post-content" itemprop="articleBody">
                     <?php $this->content(); ?>
                 </div>
-                <span itemprop="keywords" class="tags"><?php $this->tags(' ', true, '无标签'); ?></span>
+                <span itemprop="keywords" class="tags"><?php $this->tags(' ', true, ''); ?></span>
             </article>
             <div class="post-wnear row">
  
