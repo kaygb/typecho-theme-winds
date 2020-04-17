@@ -3,7 +3,7 @@
     <div class="profile">
         <img class="wavatar" src="<?php $this->options->avatarUrl(); ?>" alt="" srcset="">
         <div class="about">
-        Hi,<?php $this->author(); ?>
+        <?php $this->options->title(); ?>
         </div>
         <div class="social">
             <span  class="social-item">

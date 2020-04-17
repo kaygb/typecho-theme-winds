@@ -1,7 +1,7 @@
 /* 内容区域样式 */
 
 .main {
-    margin-top: 200px;
+    margin-top: 100px;
     min-height: 100vh;
 }
 
@@ -105,4 +105,18 @@
     .thumb-img {
         min-height: 150px;
     }
+}
+
+
+/* comments */
+
+.comment-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.comment-list li {
+    border: 2px solid #eee;
+    margin: 5px;
+    padding: 5px;
 }

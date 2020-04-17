@@ -56,6 +56,12 @@
     overflow: visible;
 }
 
+.profile .about {
+    text-align: center;
+    font-size: 21px;
+    padding: 10px;
+}
+
 @media (max-width:1000px) {
     .sidebar {
         display: none;
