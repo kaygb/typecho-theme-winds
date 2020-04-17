@@ -6,7 +6,7 @@
     <br>
     <?php _e('Powered by <a class="text-success" href="https://www.typecho.org" target="_blank">Typecho</a> and theme  <a class="text-success" href="https://github.com/kaygb/typecho-theme-winds" target="_blank">WINDS</a> '); ?>.
     <br>
-    <a href="#">没ICP备12345678号</a>
+    <a href="http://beian.miit.gov.cn/"><?php $this->options->beianNum(); ?></a>
 
 
 </footer><!-- end #footer -->

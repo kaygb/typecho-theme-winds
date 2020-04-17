@@ -40,7 +40,7 @@
                 </div>
             </article>
             <?php endwhile; ?>
-            <div class="">
+            <div id="w-pagination" class="w-pagination">
             <?php $this->pageNav('<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'); ?>
             </div>
         </div>

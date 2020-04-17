@@ -58,7 +58,7 @@
 }
 
 .page-navigator {
-    color: rgba(0, 0, 0, .86);
+    /* color: rgba(0, 0, 0, .86);
     list-style: none;
     padding: 0;
     display: -webkit-box;
@@ -73,11 +73,11 @@
     max-width: 100%;
     overflow: auto;
     position: relative;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch; */
 }
 
 .page-navigator li {
-    color: rgba(0, 0, 0, .86);
+    /* color: rgba(0, 0, 0, .86);
     list-style: none;
     padding: 0;
     display: -webkit-box;
@@ -92,7 +92,7 @@
     max-width: 100%;
     overflow: auto;
     position: relative;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch; */
 }
 
 @media (max-width:768px) {

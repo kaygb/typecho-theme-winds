@@ -39,3 +39,20 @@
 .post-near-next {
     text-align: right;
 }
+
+.table {
+    font-size: 12px!important;
+}
+
+.tags a {
+    border: 1px solid #eee;
+    padding: 5px;
+    /* animation: jianyin 1s; */
+    font-size: 12px;
+}
+
+.tags a:hover {
+    background-color: crimson;
+    color: #fff;
+    animation: jianyin 1s;
+}

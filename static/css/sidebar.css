@@ -37,6 +37,19 @@
     margin: 20px auto;
 }
 
+.social-item:hover {
+    background: #000;
+    color: #fff!important;
+    animation: jianyin 1s;
+}
+
+.social-item a:hover {
+    background: #000;
+    color: #fff!important;
+    animation: jianyin 1s;
+    border-radius: 50%!important;
+}
+
 .social-item a {
     display: block;
     text-decoration: none;
