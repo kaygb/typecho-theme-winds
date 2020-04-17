@@ -42,7 +42,7 @@
 <link rel="stylesheet"
       href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/atom-one-dark.min.css">
 <!-- fancybox -->
-      <link rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.2/jquery.fancybox.min.css">
+      <link rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css">
 
     <!-- 测试-禁用缓存 -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
