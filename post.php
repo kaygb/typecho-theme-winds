@@ -24,7 +24,12 @@
                         </span>
                     </div>
                 <div class="post-content" itemprop="articleBody">
-                    <?php $this->content(); ?>
+                <?php
+                        $pattern = '/\<img.*?src\=\"(.*?)\"[^>]*>/i';
+                        $replacement = '<a href="$1" data-fancybox="gallery" /><img src="$1" alt="'.$this->title.'" title="点击放大图片"></a>';
+                        $content = preg_replace($pattern, $replacement, $this->content);
+                        echo $content;
+                    ?>
                 </div>
                 <span itemprop="keywords" class="tags"><?php $this->tags(' ', true, ''); ?></span>
             </article>
