@@ -41,14 +41,20 @@
     font-size: 14px;
 }
 
-.posts-winds .post-meta {
+.post-meta {
+    font-size: 10px;
     padding: 10px;
-    font-size: 12px;
+    margin: 5px;
 }
 
-.posts-winds .post-meta span {
+.post-meta span {
     text-align: center;
-    padding: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.post-meta span a {
+    color: #fff;
 }
 
 .page-navigator {

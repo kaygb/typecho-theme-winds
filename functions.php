@@ -26,9 +26,9 @@ function themeFields($layout) {
 
 function themeFields(Typecho_Widget_Helper_Layout $layout) {
     $postThumbUrl = new Typecho_Widget_Helper_Form_Element_Text('postThumbUrl', NULL, NULL, '文章头图地址','在这里填入一个图片URL地址, 将在首页以及文章顶部显示');
-    
-
+    $defaultBanner = new Typecho_Widget_Helper_Form_Element_Text('defaultBanner', NULL, NULL, '文章头图地址','在这里填入一个图片URL地址, 将在首页以及文章顶部显示(兼容handsome)');
     $layout->addItem($postThumbUrl);
+    $layout->addItem($defaultBanner);
 
 }
 

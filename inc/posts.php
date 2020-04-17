@@ -30,17 +30,11 @@
                     <?php $this->excerpt(50,''); ?>
                     </div>
                     <div class="post-meta">
-                        <span >
-                            <?php _e('<i class="fas fa-user"></i> '); ?><a href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a>
-                        </span>
-                        <span class="text-success">  
+                        <span class="text-white bg-success">  
                             <?php _e('<i class="fas fa-calendar-alt"></i> '); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>
                         </span>
-                        <span class="text-danger">
+                        <span class="bg-danger text-white">
                             <?php _e('<i class="fas fa-folder-minus"></i> '); ?><?php $this->category(','); ?>
-                        </span>
-                        <span class="text-primary">
-                        <?php _e('<i class="fas fa-comment-dots"></i> '); ?><a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></a>
                         </span>
                     </div>
                 </div>
