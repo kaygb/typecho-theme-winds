@@ -56,6 +56,13 @@
     color: #fff;
 }
 
+
+/* 分页 */
+
+li.page-item {
+    padding: 5px;
+}
+
 @media (max-width:768px) {
     .thumb-img {
         min-height: 200px;

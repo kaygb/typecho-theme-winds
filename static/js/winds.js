@@ -22,8 +22,10 @@ $('thead').addClass('thead-dark');
 
 $('#w-pagination ol').addClass('pagination');
 $('#w-pagination ol li').addClass('page-item');
-$('#w-pagination ol li a').addClass('page-link bg-dark text-white');
-$('#w-pagination .current').addClass('active');
+$('#w-pagination ol li a').addClass('page-link bg-white text-dark');
+$('#w-pagination .current a').removeClass('bg-white text-dark');
+$('#w-pagination .current a').addClass('active bg-dark text-white');
+
 
 // 评论回复按钮
 
