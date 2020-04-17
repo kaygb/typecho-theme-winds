@@ -8,6 +8,10 @@
     padding: 10px;
 } */
 
+.post {
+    border-top: 5px solid rgb(255, 153, 0);
+}
+
 .post img {
     width: 100%;
 }

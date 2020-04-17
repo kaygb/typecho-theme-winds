@@ -31,9 +31,10 @@
 }
 
 .posts-winds .post-title {
-    text-align: center;
-    padding: 30px 20px 20px 20px;
+    /* text-align: center; */
+    padding: 50px;
     margin: 0;
+    border-top: 5px solid rgb(255, 153, 0);
 }
 
 .posts-winds .post-content {
@@ -42,9 +43,11 @@
 }
 
 .post-meta {
+    text-align: right;
     font-size: 10px;
     padding: 10px;
     margin: 5px;
+    border-bottom: 1px solid #eee;
 }
 
 .post-meta span {
