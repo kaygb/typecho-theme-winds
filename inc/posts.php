@@ -8,7 +8,7 @@
         <?php //$this->need('inc/pro-card.php'); ?>
         <?php //$this->need('inc/carousel.php'); ?>
             <?php while($this->next()): ?>
-            <article class="posts">    
+            <article class="posts card-show">    
             <?php $this->need('inc/post-list.php'); ?>
             
             </article>
