@@ -84,6 +84,10 @@ li.page-item:hover {
     -moz-transform: translateY(-6px);
 }
 
+li.page-item a {
+    border: 0;
+}
+
 @media (max-width:768px) {
     .thumb-img {
         min-height: 200px;
