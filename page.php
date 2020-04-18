@@ -4,7 +4,7 @@
 ?>
 <div class="main container">
     <div class="row">
-        <div class="col-mb-12 col-8" id="main" role="main">
+        <div class="col-mb-12 col-lg-8" id="main" role="main">
         <?php if($this->fields->postThumbUrl !=""): ?>
                 <div class="thumb-panle">
                         <div class="thumb-img" style="background-image: url(<?php echo $this->fields->postThumbUrl;?> )">

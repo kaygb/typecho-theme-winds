@@ -62,26 +62,32 @@ a:hover {
 
 h1 {
     font-size: 28px;
+    font-weight: 900;
 }
 
 h2 {
     font-size: 26px;
+    font-weight: 900;
 }
 
 h3 {
     font-size: 24px;
+    font-weight: 900;
 }
 
 h4 {
     font-size: 22px;
+    font-weight: 400;
 }
 
 h5 {
     font-size: 20px;
+    font-weight: 400;
 }
 
 h6 {
     font-size: 17px;
+    font-weight: 400;
 }
 
 p {

@@ -8,7 +8,7 @@
     right: 0;
     top: 0;
     position: fixed;
-    z-index: 998;
+    z-index: 97;
     line-height: 50px;
     height: 50px;
     color: #fff;
@@ -20,7 +20,7 @@
     right: 0;
     top: 0;
     position: fixed;
-    z-index: 999;
+    z-index: 98;
     line-height: 50px;
     height: 50px;
     color: #fff;
@@ -31,7 +31,7 @@
     right: 0;
     top: 0;
     position: fixed;
-    z-index: 9999;
+    z-index: 99;
     line-height: 50px;
     height: 50px;
     color: #fff;
@@ -40,7 +40,7 @@
 .nav ul {
     list-style: none;
     display: flex;
-    z-index: 999;
+    z-index: 98;
     padding: 0;
     margin: 0;
 }

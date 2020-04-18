@@ -12,7 +12,7 @@
                         </div>
                 </div>
                 <? endif;?>
-                <article class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
+                <article id="main-post" class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
                 
                 <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
                 <div class="post-meta">

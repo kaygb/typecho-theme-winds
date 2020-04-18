@@ -30,3 +30,7 @@ $('#w-pagination .current a').addClass('active bg-dark text-white');
 // 评论回复按钮
 
 $('.comment-reply a').addClass('btn btn-success');
+
+// 链接跳转新页面
+
+$('#main-post a').attr('target', '\"_blank\"');
