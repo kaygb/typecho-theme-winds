@@ -6,9 +6,8 @@
     <div class="row">
         <div class="col-mb-12 col-lg-8" id="main" role="main">
         <?php if($this->fields->postThumbUrl !=""): ?>
-                <div class="thumb-panle">
-                        <div class="thumb-img" style="background-image: url(<?php echo $this->fields->postThumbUrl;?> )">
-                        </div>
+            <div class="thumb-img">
+                    <img class="lazy-img" data-original="<?php echo $this->fields->postThumbUrl;?>" src="" alt="" srcset="">
                 </div>
                 <? endif;?>
             <article class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
