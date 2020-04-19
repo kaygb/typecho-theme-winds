@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 nav">
-            <span class="wind-logo"><?php $this->options->title(); ?></span>
+            <a class="wind-logo text-white" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>
                 <ul>
 
                     <li>
