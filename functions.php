@@ -8,6 +8,9 @@ function themeConfig($form) {
     $avatarUrl = new Typecho_Widget_Helper_Form_Element_Text('avatarUrl', NULL, NULL, _t('侧栏头像地址'), _t('在这里填入一个图片 URL 地址, 以在侧栏显示'));
     $form->addInput($avatarUrl);
 
+    $bgImgUrl = new Typecho_Widget_Helper_Form_Element_Text('bgImgUrl', NULL, NULL, _t('背景图片地址'), _t('在这里填入一个图片 URL 地址, 用于背景模糊设置'));
+    $form->addInput($bgImgUrl);
+
     $beianNum =  new Typecho_Widget_Helper_Form_Element_Text('beianNum', NULL, NULL, _t('备案号'), _t('在这里填入网站备案号'));
     $form->addInput($beianNum);
     

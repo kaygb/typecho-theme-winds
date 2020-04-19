@@ -9,6 +9,7 @@
 
 .post-content {
     /* margin-top: 30px; */
+    word-break: break-all;
 }
 
 #comments {
@@ -60,4 +61,8 @@ cite {
 
 .comment-reply a {
     font-size: 12px;
+}
+
+.col-lg-8 {
+    padding: 0;
 }

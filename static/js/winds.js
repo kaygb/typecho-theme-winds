@@ -34,3 +34,17 @@ $('.comment-reply a').addClass('btn btn-success');
 // 链接跳转新页面
 
 $('#main-post a').attr('target', '\"_blank\"');
+
+// lazyload
+window.onload = function() {
+    $('#main-post img').addClass('lazyload');
+    $(function() {
+        $("img.lazyload").lazyload({
+            effect: 'fadeIn'
+        });
+    });
+
+    $("img.lazy-img").lazyload({
+        effect: 'fadeIn'
+    });
+}

@@ -5,7 +5,9 @@
 <?php if($this->fields->postThumbUrl !=""): ?>
 <div class="thumb-panle">
     <a href="<?php $this->permalink() ?>">
-        <div class="thumb-img" style="background-image: url(<?php echo $this->fields->postThumbUrl;?> )">
+    
+        <div class="thumb-img">
+        <img class="lazy-img" data-original="<?php echo $this->fields->postThumbUrl;?>" src="" alt="" srcset="">
         </div>
     </a>
         
@@ -20,6 +22,7 @@
     <div class="post-content">
     <?php $this->excerpt(200,''); ?>
     
+
     </div>
     <div class="post-meta">
         <span class="text-white bg-success">  
