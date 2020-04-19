@@ -71,4 +71,14 @@
     line-height: 50px;
     height: 50px;
     cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.wind-logo {
+    display: flex;
+    line-height: 50px;
+    font-size: 25px;
+    padding-right: 20px;
+    font-weight: 900;
 }

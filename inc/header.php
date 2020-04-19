@@ -3,6 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 nav">
+            <span class="wind-logo"><?php $this->options->title(); ?></span>
                 <ul>
 
                     <li>
