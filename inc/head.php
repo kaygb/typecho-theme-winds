@@ -8,10 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="<?php $this->options->logoUrl(); ?>" mce_href="<?php $this->options->logoUrl(); ?>" type="image/x-icon">
     <title>
-    <?php if($this->is('index') && $this->_currentPage == 1)
+    <?php if($this->is('index'))
     {
         $this->options->title(); _e(' - ');$this->options->description();
-    }else{
+    }
+    // elseif($this->_currentPage){
+    //     _e('第 ');echo $this->_currentPage;_e(' 页 - ');$this->options->title(); _e(' - ');$this->options->description();
+    // }
+    
+    else{
         $this->archiveTitle(array(
             'category'  =>  _t('分类 %s 下的文章'),
             'search'    =>  _t('包含关键字 %s 的文章'),
@@ -55,7 +60,7 @@
 <!--[if lt IE 8]>
     <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>'); ?>.</div>
 <![endif]-->
-<?php if($this->is('index') && $this->_currentPage == 1):?>
+<?php if($this->is('index')):?>
     {
         <div class="bg-blur"><img class="lazy-img"  data-original="<?php $this->options->bgImgUrl(); ?>" src="" alt="" srcset=""></div>
     <?php else:?>
