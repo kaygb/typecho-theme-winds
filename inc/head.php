@@ -55,8 +55,19 @@
 <!--[if lt IE 8]>
     <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>'); ?>.</div>
 <![endif]-->
+<?php if($this->is('index') && $this->_currentPage == 1):?>
+    {
+        <div class="bg-blur"><img class="lazy-img"  data-original="<?php $this->options->bgImgUrl(); ?>" src="" alt="" srcset=""></div>
+    <?php else:?>
+        <div class="bg-blur"><img class="lazy-img"  data-original="<?php 
+            if($this->fields->postThumbUrl !=""){
+                echo $this->fields->postThumbUrl;
+            }else{
+                $this->options->bgImgUrl();
+            }
+            ?>" src="" alt="" srcset=""></div>
+<?php endif    ?>
 
-<div class="bg-blur"><img class="lazy-img"  data-original="<?php $this->options->bgImgUrl(); ?>" src="" alt="" srcset=""></div>
 
 
     
