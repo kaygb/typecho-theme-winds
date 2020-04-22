@@ -21,6 +21,7 @@
     <script src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="https://cdn.staticfile.org/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
     <script src="https://cdn.staticfile.org/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/aarondo/tabulous.js@master/demo/src/tabulous.js"></script>
     <script src="<?php $this->options->themeUrl('static/js/winds.js');?>"></script>
 </body>
 </html>

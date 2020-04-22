@@ -48,3 +48,8 @@ window.onload = function() {
         effect: 'fadeIn'
     });
 }
+
+//tab组
+$('#tabs').tabulous({
+    effect: 'scale'
+});
