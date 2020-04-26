@@ -19,6 +19,39 @@
     width: 100%;
 }
 
+.wavatar-s {
+    width: 70px;
+    z-index: 3;
+    position: absolute;
+    right: 15px;
+    border-radius: 50%!important;
+    bottom: 15px;
+}
+
+.profile-content {
+    position: relative;
+}
+
+
+/* slant */
+
+.avatar-slant {
+    position: relative;
+    overflow: hidden;
+}
+
+.winds-slant {
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 115%;
+    /* overflow: hidden; */
+    z-index: 0;
+    position: absolute;
+    transform: rotate(-20deg);
+    /* top: 300px; */
+    margin-top: -70px;
+}
+
 .social {
     display: flex;
     flex-wrap: wrap;
@@ -57,9 +90,12 @@
 }
 
 .profile .about {
-    text-align: center;
     font-size: 21px;
     padding: 10px;
+    position: absolute;
+    z-index: 3;
+    right: 100px;
+    bottom: 5px;
 }
 
 @media (max-width:1000px) {

@@ -3,7 +3,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 nav">
-            <a class="wind-logo text-white" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>
+            <a class="wind-logo text-white" href="<?php $this->options->siteUrl(); ?>"><?php //$this->options->title(); ?>
+                <img src="https://cdn.jsdelivr.net/gh/kaygb/blog-images/static_image/kaygb-logo/windyeah.svg" style="height: 40px;">
+            </a>
                 <ul>
 
                     <li>
