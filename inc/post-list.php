@@ -13,7 +13,7 @@
         
 </div>
 <? endif;?>
-<div class="posts-winds">
+<div class="posts-winds wbg-white">
 
     <h2 class="post-title">
         <a href="<?php $this->permalink() ?>">
