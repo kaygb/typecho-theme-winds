@@ -16,7 +16,9 @@
                 <?php while($pages->next()): ?>
                 <li><a<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a></a>
                 <?php endwhile; ?>
-
+                <li>
+                        <a href="//eas1.cn" target="_blank"><?php _e('主站'); ?></a>
+                    </li>
                 </ul>
                 <span class="winds-search search-form-input"><i class="fas fa-search"></i></span>
             </div>
