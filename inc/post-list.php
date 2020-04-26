@@ -14,6 +14,7 @@
 </div>
 <? endif;?>
 <div class="posts-winds">
+
     <h2 class="post-title">
         <a href="<?php $this->permalink() ?>">
             <?php $this->title() ?>
@@ -21,15 +22,14 @@
     </h2>
     <div class="post-content">
     <?php $this->excerpt(200,''); ?>
-    
-
     </div>
     <div class="post-meta">
-        <span class="text-white bg-success">  
+        <span class="">  
             <?php _e('<i class="fas fa-calendar-alt"></i> '); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>
         </span>
-        <span class="bg-danger text-white">
+        <span class="">
             <?php _e('<i class="fas fa-folder-minus"></i> '); ?><?php $this->category(','); ?>
         </span>
     </div>
+    
 </div>

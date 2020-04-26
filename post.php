@@ -12,16 +12,17 @@
                 </div>
                 <? endif;?>
                 <article id="main-post" class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
-                
-                <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
-                <div class="post-meta">
-                        <span class="text-white bg-success">  
+                <div class="post-head">
+                    <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
+                    <div class="post-meta">
+                        <span>  
                             <?php _e('<i class="fas fa-calendar-alt"></i> '); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>
                         </span>
-                        <span class="text-white bg-danger">
+                        <span>
                             <?php _e('<i class="fas fa-folder-minus"></i> '); ?><?php $this->category(','); ?>
                         </span>
                     </div>
+                </div>
                 <div class="post-content" itemprop="articleBody">
                 <?php
                         $pattern = '/\<img.*?src\=\"(.*?)\"[^>]*>/i';

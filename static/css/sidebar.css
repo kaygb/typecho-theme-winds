@@ -117,7 +117,7 @@
 }
 
 #tabs_container {
-    padding: 40px;
+    /* padding: 40px; */
     overflow: hidden;
     position: relative;
     background: white;
