@@ -1,4 +1,16 @@
 <?php
+
+/**
+ * functions.php
+ *
+ * 主题函数类
+ * 
+ * https://eas1.cn/185.html
+ *
+ * @author      风也
+ * @version     2020-04-27 1.0
+ * 
+ */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 function themeConfig($form) {

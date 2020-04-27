@@ -11,7 +11,8 @@
     position: fixed;
     top: 150px;
     width: 100%;
-    max-width: 350px;
+    max-width: 300px;
+    margin-left: 25px;
     background-color: #fff;
 }
 

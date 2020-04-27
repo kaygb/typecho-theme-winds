@@ -30,6 +30,7 @@
                         $content = preg_replace($pattern, $replacement, $this->content);
                         echo $content;
                     ?>
+
                 </div>
                 <span itemprop="keywords" class="tags"><?php $this->tags(' ', true, ''); ?></span>
             </article>
