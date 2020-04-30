@@ -46,7 +46,7 @@ body {
     font-family: Roboto, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
     overflow-x: hidden;
     letter-spacing: .5px!important;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(201, 201, 201);
     /* 
     background-image: linear-gradient( 0deg, transparent 24%, rgba(201, 195, 195, 0.329) 25%, rgba(209, 201, 201, 0.05) 26%, transparent 27%, transparent 74%, rgba(209, 204, 204, 0.185) 75%, rgba(180, 176, 176, 0.05) 76%, transparent 77%, transparent), linear-gradient( 90deg, transparent 24%, rgba(204, 196, 196, 0.226) 25%, rgba(172, 165, 165, 0.05) 26%, transparent 27%, transparent 74%, rgba(209, 204, 204, 0.185) 75%, rgba(180, 176, 176, 0.05) 76%, transparent 77%, transparent);
     background-size: 30px 30px; */
