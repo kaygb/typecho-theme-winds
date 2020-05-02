@@ -63,8 +63,8 @@
 
 <?php if($this->is('single')):?>
         <div class="bg-blur"><img class="lazy-img"  data-original="<?php 
-            if($this->fields->postThumbUrl !=""){
-                echo $this->fields->postThumbUrl;
+            if($this->fields->defaultBanner !=""){
+                echo $this->fields->defaultBanner;
             }else{
                 $this->options->bgImgUrl();
             }
