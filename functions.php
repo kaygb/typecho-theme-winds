@@ -17,8 +17,11 @@ function themeConfig($form) {
     $logoUrl = new Typecho_Widget_Helper_Form_Element_Text('logoUrl', NULL, NULL, _t('站点 LOGO 地址'), _t('在这里填入一个图片 URL 地址, 以在网站标题前加上一个 LOGO'));
     $form->addInput($logoUrl);
 
-    $avatarUrl = new Typecho_Widget_Helper_Form_Element_Text('avatarUrl', NULL, NULL, _t('侧栏头像地址'), _t('在这里填入一个图片 URL 地址, 以在侧栏显示'));
+    $avatarUrl = new Typecho_Widget_Helper_Form_Element_Text('avatarUrl', NULL, NULL, _t('个人卡片头像'), _t('在这里填入一个图片 URL 地址, 以在侧栏显示'));
     $form->addInput($avatarUrl);
+
+    $profileImgUrl = new Typecho_Widget_Helper_Form_Element_Text('profileImgUrl', NULL, NULL, _t('个人卡片大图'), _t('在这里填入一个图片 URL 地址, 以在侧栏显示'));
+    $form->addInput($profileImgUrl);
 
     $bgImgUrl = new Typecho_Widget_Helper_Form_Element_Text('bgImgUrl', NULL, NULL, _t('背景图片地址'), _t('在这里填入一个图片 URL 地址, 用于背景模糊设置'));
     $form->addInput($bgImgUrl);
@@ -55,3 +58,9 @@ function themeFields(Typecho_Widget_Helper_Layout $layout) {
 
 }
 
+function winds_fancybox(){
+    $pattern = '/\<img.*?src\=\"(.*?)\"[^>]*>/i';
+                        $replacement = '<a href="$1" data-fancybox="gallery" /><img src="$1" alt="'.$this->title.'" title="点击放大图片"></a>';
+                        $content = preg_replace($pattern, $replacement, $this->content);
+                        echo $content;
+}

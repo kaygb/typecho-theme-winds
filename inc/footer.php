@@ -1,10 +1,10 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
-    <div class="footer container-fluid blur">
+    <div class="footer container-fluid ">
     <footer id="footer" class="container" role="contentinfo">
 
         &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.
         <br>
-        <?php _e('Powered by <a class="text-success" href="https://www.typecho.org" target="_blank">Typecho</a> and theme  <a class="text-success" href="https://github.com/kaygb/typecho-theme-winds" target="_blank">WINDS</a> '); ?>.
+        <?php _e('<a class="text-success" href="https://www.typecho.org" target="_blank">TYPECHO</a>  THEME  <a class="text-success" href="https://github.com/kaygb/typecho-theme-winds" target="_blank">WINDS</a> '); ?>
         <br>
         <a href="http://beian.miit.gov.cn/"><?php $this->options->beianNum(); ?></a>
 

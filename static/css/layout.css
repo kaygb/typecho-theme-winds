@@ -37,9 +37,9 @@
 }
 
 * {
-    border-radius: 0px!important;
+    /* border-radius: 0px!important;
     -webkit-border-radius: 0px!important;
-    -moz-border-radius: 0px!important;
+    -moz-border-radius: 0px!important; */
 }
 
 body {
@@ -114,6 +114,9 @@ div {
 .bg-blur {
     height: 50vh;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bg-blur img {
