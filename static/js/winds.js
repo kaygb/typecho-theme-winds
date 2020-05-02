@@ -58,8 +58,10 @@ $('#tabs').tabulous({
 $(function() {
     $(window).scroll(function() {
         //获取垂直滚动的距离
-        var scrollTop = $(document).scrollTop();
-        if (scrollTop >= 300) {
+        let profileTop = $(".main").offset().top - $(window).scrollTop();
+        console.log(profileTop);
+        // var scrollTop = $(document).scrollTop();
+        if (profileTop < 150) {
             $(".profile").css({ "top": "150px", "position": "fixed" });
         } else {
             $(".profile").css({ "top": "inherit", "position": "" });
