@@ -5,13 +5,10 @@
 }
 
 .profile {
-    /* height: 500px; */
-    /* border: 3px solid #eee; */
-    margin-top: 50px;
-    position: fixed;
+    /* position: fixed; */
     top: 150px;
-    width: 100%;
-    max-width: 300px;
+    /* width: 100%; */
+    width: 300px;
     margin-left: 25px;
     background-color: #fff;
 }

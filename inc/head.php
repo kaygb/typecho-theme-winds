@@ -73,9 +73,9 @@
             ?>" src="" alt="" srcset=""></div>
 <?php endif    ?> -->
 
-<?php if($this->is('index')):?>
-        <div class="bg-blur"><img class="lazy-img"  data-original="<?php $this->options->bgImgUrl(); ?>" src="" alt="" srcset=""></div>
-<?php endif    ?>
+
+        <div class="bg-blur"><img class="lazy-img"  data-original="<?php $this->options->bgImgUrl(); ?>" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" alt="" srcset=""></div>
+
 
     
     

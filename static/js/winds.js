@@ -53,3 +53,16 @@ window.onload = function() {
 $('#tabs').tabulous({
     effect: 'scale'
 });
+
+// sidebar
+$(function() {
+    $(window).scroll(function() {
+        //获取垂直滚动的距离
+        var scrollTop = $(document).scrollTop();
+        if (scrollTop >= 300) {
+            $(".profile").css({ "top": "150px", "position": "fixed" });
+        } else {
+            $(".profile").css({ "top": "inherit", "position": "" });
+        }
+    });
+});

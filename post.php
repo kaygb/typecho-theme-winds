@@ -8,7 +8,7 @@
         <div class="col-lg-8">
         <?php if($this->fields->postThumbUrl !=""): ?>
                 <div class="thumb-img">
-                    <img class="lazy-img" data-original="<?php echo $this->fields->postThumbUrl;?>" src="" alt="" srcset="">
+                    <img class="lazy-img" data-original="<?php echo $this->fields->postThumbUrl;?>" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" alt="" srcset="">
                 </div>
                 <? endif;?>
                 <article id="main-post" class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
