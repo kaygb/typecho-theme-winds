@@ -36,6 +36,7 @@
 .avatar-slant {
     position: relative;
     overflow: hidden;
+    height: 170px;
 }
 
 .winds-slant {
@@ -45,9 +46,9 @@
     /* overflow: hidden; */
     z-index: 0;
     position: absolute;
-    transform: rotate(-20deg);
+    transform: rotate(-10deg);
     /* top: 300px; */
-    margin-top: -70px;
+    margin-top: -30px;
 }
 
 .social {
@@ -71,12 +72,14 @@
 .social-item:hover {
     background: #000;
     color: #fff!important;
+    -webkit-animation: jianyin 1s;
     animation: jianyin 1s;
 }
 
 .social-item a:hover {
     background: #000;
     color: #fff!important;
+    -webkit-animation: jianyin 1s;
     animation: jianyin 1s;
     border-radius: 50%!important;
 }
@@ -162,31 +165,15 @@
 }
 
 .transition {
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    -webkit-transition-delay: .3s;
-    -moz-transition-delay: .3s;
-    -o-transition-delay: .3s;
-    -ms-transition-delay: .3s;
     transition-delay: .3s;
 }
 
 .make_transist {
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
 .hidescale {
-    -webkit-transform: scale(0.9);
-    -moz-transform: scale(0.9);
-    -o-transform: scale(0.9);
-    -ms-transform: scale(0.9);
     transform: scale(0.9);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -195,26 +182,14 @@
 }
 
 .showscale {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -o-transform: scale(1);
-    -ms-transform: scale(1);
     transform: scale(1);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1;
-    -webkit-transition-delay: .3s;
-    -moz-transition-delay: .3s;
-    -o-transition-delay: .3s;
-    -ms-transition-delay: .3s;
     transition-delay: .3s;
 }
 
 .hideleft {
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
     transform: translateX(-100%);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -222,26 +197,14 @@
 }
 
 .showleft {
-    -webkit-transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    -ms-transform: translateX(0px);
     transform: translateX(0px);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1;
-    -webkit-transition-delay: .3s;
-    -moz-transition-delay: .3s;
-    -o-transition-delay: .3s;
-    -ms-transition-delay: .3s;
     transition-delay: .3s;
 }
 
 .hidescaleup {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
     transform: scale(1.1);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -249,18 +212,10 @@
 }
 
 .showscaleup {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -o-transform: scale(1);
-    -ms-transform: scale(1);
     transform: scale(1);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1;
-    -webkit-transition-delay: .3s;
-    -moz-transition-delay: .3s;
-    -o-transition-delay: .3s;
-    -ms-transition-delay: .3s;
     transition-delay: .3s;
 }
 
@@ -268,15 +223,7 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
-    -webkit-transform: rotatey(-90deg) scale(1.1);
-    -moz-transform: rotatey(-90deg) scale(1.1);
-    -o-transform: rotatey(-90deg) scale(1.1);
-    -ms-transform: rotatey(-90deg) scale(1.1);
     transform: rotatey(-90deg) scale(1.1);
-    -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -o-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
 }
 
@@ -284,20 +231,8 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1;
-    -webkit-transition-delay: .3s;
-    -moz-transition-delay: .3s;
-    -o-transition-delay: .3s;
-    -ms-transition-delay: .3s;
     transition-delay: .3s;
-    -webkit-transform: rotatey(0deg) scale(1);
-    -moz-transform: rotatey(0deg) scale(1);
-    -o-transform: rotatey(0deg) scale(1);
-    -ms-transform: rotatey(0deg) scale(1);
     transform: rotatey(0deg) scale(1);
-    -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -o-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
 }
 
