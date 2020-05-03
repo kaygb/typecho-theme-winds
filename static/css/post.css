@@ -38,7 +38,7 @@
 }
 
 .table {
-    font-size: 12px!important;
+    font-size: .8rem!important;
 }
 
 .tags a {
@@ -51,6 +51,7 @@
 .tags a:hover {
     background-color: crimson;
     color: #fff;
+    -webkit-animation: jianyin 1s;
     animation: jianyin 1s;
 }
 
