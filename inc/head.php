@@ -82,7 +82,6 @@
 <?php endif    ?>
 
 
-        <!-- <div class="bg-blur"><img class="lazy-img"  data-original="<?php $this->options->bgImgUrl(); ?>" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" alt="" srcset=""></div> -->
 
 
     
