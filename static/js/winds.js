@@ -12,6 +12,15 @@ $(document).ready(function() {
     });
     // 初始化fancybox
     $(".fancybox").fancybox();
+
+    // 导航栏分类
+    $(".winds-category-menu-item").css("display", "none");
+    $(".winds-category-menu").mouseover(function() {
+        $(".winds-category-menu-item").css("display", "flex");
+    });
+    $(".winds-category-menu").mouseout(function() {
+        $(".winds-category-menu-item").css("display", "none");
+    });
 });
 
 // 表格样式

@@ -16,9 +16,15 @@
                 <?php while($pages->next()): ?>
                 <li><a<?php if($this->is('page', $pages->slug)): ?> class="current" <?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a></a>
                 <?php endwhile; ?>
+                <li class="dropdown winds-category-menu">
+                <a  href="#">分类</a>
+                    <?php $this->widget('Widget_Metas_Category_List')->listCategories('wrapClass=dropdown-menu winds-category-menu-item'); ?>
+                </li>
+                
                 <li>
                         <a href="//eas1.cn" target="_blank"><?php _e('主站'); ?></a>
                     </li>
+                    
                 </ul>
                 <span class="winds-search search-form-input"><i class="fas fa-search"></i></span>
             </div>
