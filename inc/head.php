@@ -62,7 +62,7 @@
 <![endif]-->
 
 <?php if($this->is('single')):?>
-        <div class="bg-blur"><img class="lazy-img"  data-original="<?php 
+        <div class="bg-blur"><h1 class="main-title container"><?php $this->title(); ?></h1> <img class="lazy-img"  data-original="<?php 
             if($this->fields->defaultBanner !=""){
                 echo $this->fields->defaultBanner;
             }else{
@@ -70,7 +70,11 @@
             }
             ?>" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" alt="" srcset=""></div>
         <?php else:?>
-            <div class="bg-blur"><img class="lazy-img"  data-original="<?php $this->options->bgImgUrl(); ?>" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" alt="" srcset=""></div>
+            <div class="bg-blur">
+                <h1 class="main-title"><?php $this->options->siteName(); ?></h1>    
+                <img class="lazy-img"  data-original="<?php $this->options->bgImgUrl(); ?>" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" alt="" srcset="">
+            </div>
+            
 
 <?php endif    ?>
 
