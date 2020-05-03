@@ -72,8 +72,12 @@ $(function() {
         // var scrollTop = $(document).scrollTop();
         if (profileTop < 150) {
             $(".profile").css({ "top": "150px", "position": "fixed" });
+            $(".blur-nav-bg").css({ "display": "inherit" });
+            $(".blur-nav").css({ "display": "inherit" });
         } else {
             $(".profile").css({ "top": "inherit", "position": "" });
+            $(".blur-nav-bg").css({ "display": "none" });
+            $(".blur-nav").css({ "display": "none" });
         }
     });
 });

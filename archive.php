@@ -17,7 +17,7 @@
     		</article>
     	<?php endwhile; ?>
         <?php else: ?>
-            <article class="post">
+            <article class="post  wbg-white">
                 <h2 class="post-title"><?php _e('没有找到内容'); ?></h2>
             </article>
         <?php endif; ?>

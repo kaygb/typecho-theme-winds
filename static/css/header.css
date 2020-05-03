@@ -12,6 +12,7 @@
     line-height: 50px;
     height: 50px;
     color: #fff;
+    display: none;
 }
 
 .blur-nav-bg {
@@ -24,6 +25,7 @@
     line-height: 50px;
     height: 50px;
     color: #fff;
+    display: none;
 }
 
 .nav-bac {
