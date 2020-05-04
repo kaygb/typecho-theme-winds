@@ -54,6 +54,7 @@
 
 .nav ul li:hover,
 .winds-search:hover,
+.wd-md-navspan:hover,
 .nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.6);
     color: rgba(0, 0, 0, 0.7);
@@ -110,4 +111,32 @@
     width: max-content;
     min-width: auto;
     border: 0;
+}
+
+
+/* mobile-nav */
+
+.winds-mb-menu {}
+
+.mobile-nav {
+    line-height: 50px;
+    height: 50px;
+    float: left;
+    padding: 0;
+}
+
+.wind-logo-mb {
+    line-height: 50px;
+    font-size: 25px;
+    padding-right: 20px;
+    font-weight: 900;
+}
+
+.wd-md-navspan {
+    float: right;
+    padding: 0 20px;
+    line-height: 50px;
+    height: 50px;
+    cursor: pointer;
+    /* position: absolute */
 }

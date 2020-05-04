@@ -50,7 +50,7 @@
       <link rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css">
 
       <!-- google-fonts -->
-      <link href='https://fonts.loli.net/css?family=Open+Sans' rel='stylesheet'>
+      <!-- <link href='https://fonts.loli.net/css?family=Open+Sans' rel='stylesheet'> -->
 
     <!-- 测试-禁用缓存 -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
