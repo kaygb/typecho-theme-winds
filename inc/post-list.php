@@ -21,7 +21,7 @@
         </a>
     </h2>
     <div class="post-content">
-    <?php $this->excerpt(200,''); ?>
+    <?php $this->excerpt(100,''); ?>...
     </div>
     <div class="post-meta">
         <span class="">  

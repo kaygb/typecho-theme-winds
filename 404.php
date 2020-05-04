@@ -16,15 +16,6 @@
 <?php $this->need('inc/head.php');
  $this->need('inc/header.php'); ?>
 <div class="main container">
-    <div class="row">
-        <div class="col-mb-12 col-tb-8 col-tb-offset-2  wbg-white">
-
-            <div class="error-page">
-                <h2 class="post-title">404 - <?php _e('页面没找到'); ?></h2>
-            </div>
-
-        </div><!-- end #content-->
-    </div>
 </div>
     
 	<?php $this->need('inc/footer.php'); ?>
