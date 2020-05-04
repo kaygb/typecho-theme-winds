@@ -20,4 +20,10 @@
 
 .footer {
     margin-top: 50px;
+    background: #000;
+    color: #eee;
+}
+
+.footer a {
+    color: #eee;
 }
