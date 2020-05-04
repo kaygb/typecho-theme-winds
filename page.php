@@ -6,7 +6,6 @@
     <div class="row">
         <div class="col-mb-12 col-lg-8" id="main" role="main">
             <article class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
-                <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
                 <div class="post-content" itemprop="articleBody">
                     <?php $this->content(); ?>
                 </div>

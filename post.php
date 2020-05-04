@@ -8,7 +8,7 @@
         <div class="col-lg-8">
                 <article id="main-post" class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
                 <div class="post-head">
-                    <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
+                    
                     <div class="post-meta">
                         <span>  
                             <?php _e('<i class="fas fa-calendar-alt"></i> '); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>

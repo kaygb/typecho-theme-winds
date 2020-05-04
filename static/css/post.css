@@ -72,3 +72,15 @@ cite {
 .col-lg-8 {
     padding: 0;
 }
+
+.post dl,
+.post figure,
+.post form,
+.post hr,
+.post ol,
+.post p,
+.post pre,
+.post table,
+.post ul {
+    margin: 0 0 1.2em 0;
+}
