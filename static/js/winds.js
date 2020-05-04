@@ -69,7 +69,7 @@ $(function() {
         if ($(window).width() > 768) {
             //获取垂直滚动的距离
             let profileTop = $(".main").offset().top - $(window).scrollTop();
-            console.log(profileTop);
+            // console.log(profileTop);
             // var scrollTop = $(document).scrollTop();
             if (profileTop < 150) {
                 $(".profile").css({ "top": "150px", "position": "fixed" });

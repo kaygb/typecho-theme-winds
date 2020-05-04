@@ -69,8 +69,8 @@ cite {
     font-size: 12px;
 }
 
-.col-lg-8 {
-    padding: 0;
+.main-posts-content {
+    padding: 5px;
 }
 
 .post dl,

@@ -5,7 +5,7 @@
 
 <div class="main container">
     <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-8 main-posts-content">
                 <article id="main-post" class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
                 <div class="post-head">
                     

@@ -152,3 +152,14 @@ div {
     padding: 20px;
     background: #fff;
 }
+
+@media (max-width:768px) {
+    .bg-blur {
+        height: 35vh;
+    }
+    .main-title {
+        font-size: 25px;
+        word-break: break-all;
+        padding-bottom: 30px;
+    }
+}

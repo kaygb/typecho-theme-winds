@@ -3,7 +3,7 @@
 ?>
 <div class="main container">
     <div class="row">
-        <div class="col-lg-8 col-md-12 col-12">
+        <div class="col-lg-8 col-md-12 col-12 main-posts-content">
 
         <?php //$this->need('inc/pro-card.php'); ?>
         <?php //$this->need('inc/carousel.php'); ?>
