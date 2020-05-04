@@ -66,7 +66,7 @@ $('#tabs').tabulous({
 // sidebar
 $(function() {
     $(window).scroll(function() {
-        if ($(window).width() > 768) {
+        if ($(window).width() > 1000) {
             //获取垂直滚动的距离
             let profileTop = $(".main").offset().top - $(window).scrollTop();
             // console.log(profileTop);
