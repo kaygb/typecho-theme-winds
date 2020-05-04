@@ -73,12 +73,16 @@ $(function() {
             // var scrollTop = $(document).scrollTop();
             if (profileTop < 150) {
                 $(".profile").css({ "top": "150px", "position": "fixed" });
-                $(".blur-nav-bg").css({ "display": "inherit" });
-                $(".blur-nav").css({ "display": "inherit" });
+                // $(".blur-nav-bg").css({ "display": "inherit" });
+                // $(".blur-nav").css({ "display": "inherit" });
+                $(".blur-nav-bg").fadeIn();
+                $(".blur-nav").fadeIn();
             } else {
                 $(".profile").css({ "top": "inherit", "position": "" });
-                $(".blur-nav-bg").css({ "display": "none" });
-                $(".blur-nav").css({ "display": "none" });
+                // $(".blur-nav-bg").css({ "display": "none" });
+                // $(".blur-nav").css({ "display": "none" });
+                $(".blur-nav-bg").fadeOut();
+                $(".blur-nav").fadeOut();
             }
         } else {
             $(".blur-nav-bg").css({ "display": "inherit" });
