@@ -140,6 +140,7 @@
     line-height: 50px;
     height: 50px;
     cursor: pointer;
+    width: 50px;
     /* position: absolute */
 }
 
@@ -160,6 +161,19 @@
 
 .mobile-menu a {
     color: #eee;
+    text-align: center;
+}
+
+.wind-menu-hr {
+    background-color: #eeeeee50;
+}
+
+.mobile-menu a:hover,
+.mobile-menu-section a:hover {
+    -webkit-animation: jianyin 1s;
+    animation: jianyin 1s;
+    background-color: #eee;
+    color: #000;
 }
 
 .mobile-menu-title {
@@ -173,12 +187,24 @@
     display: flex;
 }
 
+.mobile-menu-section ul {
+    list-style: none;
+    padding: 0;
+}
+
 .pc-nav {
     display: flex;
 }
 
 .mobile-nav {
     display: none;
+}
+
+.categories {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    color: #eee;
 }
 
 @media (max-width:768px) {

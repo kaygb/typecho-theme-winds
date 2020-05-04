@@ -91,15 +91,20 @@ $(function() {
 //移动端导航
 
 $(".winds-mb-menu").click(function() {
-    $(".mobile-menu").css({ "display": "block" });
+    // $(".mobile-menu").css({ "display": "block" });
+    $(".mobile-menu").fadeIn();
+
     $(".winds-mb-menu-f").css({ "display": "inherit" });
     $(".winds-mb-menu ").css({ "display": "none" });
     $(".back-to-top ").css({ "z-index": "100" });
 });
 $(".winds-mb-menu-f").click(function() {
-    $(".mobile-menu").css({ "display": "none" });
+    // $(".mobile-menu").css({ "display": "none" });
+    $(".mobile-menu").fadeOut();
     $(".winds-mb-menu-f").css({ "display": "none" });
+    // $(".winds-mb-menu-f").fadeOut();;
     $(".winds-mb-menu").css({ "display": "inherit" });
 
 
 });
+$(".wind-other a").addClass("col-6");

@@ -34,25 +34,28 @@
                 </a>
                
                 <span class="winds-mb-menu wd-md-navspan"><i class="fas fa-bars"></i></span>
-                <span class="winds-mb-menu-f wd-md-navspan"><i class="fas fa-bars"></i></span>
+                <span class="winds-mb-menu-f wd-md-navspan"><i class="fas fa-times"></i></span>
                 <span class="winds-search-mb wd-md-navspan search-form-input"><i class="fas fa-search"></i></span>
             </div>
             <div class="mobile-menu ">
                 <div class="container">
                     <span class="mobile-menu-title">页面</span>
-                    <div class="pages mobile-menu-section">
+                    <hr class="wind-menu-hr">
+                    <div class="pages mobile-menu-section row">
                         <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
                         <?php while($pages->next()): ?>
-                        <a<?php if($this->is('page', $pages->slug)): ?> class="current" <?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
+                        <a class="col-6" <?php if($this->is('page', $pages->slug)): ?> class="current" <?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
                         <?php endwhile; ?>
                     </div>
                     <span class="mobile-menu-title">分类</span>
-                    <div class="categories mobile-menu-section">
-                        <?php $this->widget('Widget_Metas_Category_List')->listCategories('wrapClass='); ?>
-                    </div>
+                    <hr class="wind-menu-hr">
+                    <div class="categories mobile-menu-section row">
+                        <?php $this->widget('Widget_Metas_Category_List')->parse('<a class="col-6" href="{permalink}">{name}</a>');?>
+                        </div>
                             
                     <span class="mobile-menu-title">其他</span>
-                    <div class="wind-other mobile-menu-section">
+                    <hr class="wind-menu-hr">
+                    <div class="wind-other mobile-menu-section row">
                         <a href="//eas1.cn" target="_blank"><?php _e('主站'); ?></a>
                     </div>
                 </div>
