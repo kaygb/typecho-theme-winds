@@ -66,18 +66,40 @@ $('#tabs').tabulous({
 // sidebar
 $(function() {
     $(window).scroll(function() {
-        //获取垂直滚动的距离
-        let profileTop = $(".main").offset().top - $(window).scrollTop();
-        console.log(profileTop);
-        // var scrollTop = $(document).scrollTop();
-        if (profileTop < 150) {
-            $(".profile").css({ "top": "150px", "position": "fixed" });
+        if ($(window).width() > 768) {
+            //获取垂直滚动的距离
+            let profileTop = $(".main").offset().top - $(window).scrollTop();
+            console.log(profileTop);
+            // var scrollTop = $(document).scrollTop();
+            if (profileTop < 150) {
+                $(".profile").css({ "top": "150px", "position": "fixed" });
+                $(".blur-nav-bg").css({ "display": "inherit" });
+                $(".blur-nav").css({ "display": "inherit" });
+            } else {
+                $(".profile").css({ "top": "inherit", "position": "" });
+                $(".blur-nav-bg").css({ "display": "none" });
+                $(".blur-nav").css({ "display": "none" });
+            }
+        } else {
             $(".blur-nav-bg").css({ "display": "inherit" });
             $(".blur-nav").css({ "display": "inherit" });
-        } else {
-            $(".profile").css({ "top": "inherit", "position": "" });
-            $(".blur-nav-bg").css({ "display": "none" });
-            $(".blur-nav").css({ "display": "none" });
         }
+
     });
+});
+
+//移动端导航
+
+$(".winds-mb-menu").click(function() {
+    $(".mobile-menu").css({ "display": "block" });
+    $(".winds-mb-menu-f").css({ "display": "inherit" });
+    $(".winds-mb-menu ").css({ "display": "none" });
+    $(".back-to-top ").css({ "z-index": "100" });
+});
+$(".winds-mb-menu-f").click(function() {
+    $(".mobile-menu").css({ "display": "none" });
+    $(".winds-mb-menu-f").css({ "display": "none" });
+    $(".winds-mb-menu").css({ "display": "inherit" });
+
+
 });
