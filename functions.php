@@ -119,8 +119,6 @@ function getCatalog() {    //输出文章目录容器
             $index .= '</li>'."\n".'</ul>'."\n";
         }
     $index = '<div class="winds-toc"><div id="toc-container">'."\n".'<div id="toc">'."\n".'<strong class="wind-toc-title">文章目录</strong>'."\n".$index.'</div>'."\n".'</div></div>'."\n";
-    }else{
-        $index = 0;
     }
     echo $index;
 }
