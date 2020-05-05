@@ -63,6 +63,9 @@
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="https://cdn.staticfile.org/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kaygb/blogMenu@master/js/jquery.autoMenu.js"></script>
+    <!-- <script src="https://cdn.staticfile.org/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js"></script> -->
     <script src="https://cdn.staticfile.org/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
     <script src="<?php $this->options->themeUrl('static/js/tabulous.js');?>"></script>
     <script src="<?php $this->options->themeUrl('static/js/winds.js');?>"></script>

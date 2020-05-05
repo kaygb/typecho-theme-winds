@@ -22,7 +22,21 @@ $(document).ready(function() {
         $(".winds-category-menu-item").css("display", "none");
     });
 });
+// $(function() {
+//     //Calls the tocify method on your HTML div.
+//     var toc = $("#toc").tocify({ selectors: "h2,h3,h4,h5" });
 
+// });
+
+// autoMenu
+$("#autoMenu").autoMenu({
+    levelOne: 'h2', //一级标题
+    levelTwo: 'h3', //二级标题（暂不支持更多级）
+    width: 200, //容器宽度
+    height: 400, //容器高度
+    padding: 20, //内部间距
+    offTop: 100 //滚动切换导航时离顶部的距离
+});
 // 表格样式
 $('table').addClass('table table-hover table-bordered text-muted');
 $('thead').addClass('thead-dark');

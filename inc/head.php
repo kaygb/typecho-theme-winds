@@ -48,7 +48,11 @@
       href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/atom-one-dark.min.css">
 <!-- fancybox -->
       <link rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css">
+<!-- tocify -->
+<!-- <link rel="stylesheet" href="https://cdn.staticfile.org/jquery.tocify/1.9.0/stylesheets/jquery.tocify.min.css"> -->
 
+<!-- autoToc -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kaygb/blogMenu@master/css/jquery.autoMenu.css"> -->
       <!-- google-fonts -->
       <!-- <link href='https://fonts.loli.net/css?family=Open+Sans' rel='stylesheet'> -->
 

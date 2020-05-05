@@ -37,6 +37,11 @@
                     </a>
                 </span>
             </div>
+            <!-- <div id="toc"></div> -->
+            <!-- <div class="autoMenu" id="autoMenu"></div> -->
+            <div>
+            <?php getCatalog(); ?></div>
+
         </div>
     </div> 
 </div>
