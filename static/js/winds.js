@@ -1,7 +1,24 @@
 console.log(" %c WINDS %c https://github.com/kaygb/typecho-theme-winds/ ", "color: #000; background: pink; padding:5px;", "background: #fff; padding:5px;"),
-
+    // 返回顶部
+    $(function() {
+        $(window).scroll(function() {
+            var scroHei = $(window).scrollTop();
+            if (scroHei > 300) {
+                $('.back-to-top').css("display", "block");
+                $('.back-to-top').fadeIn;
+            } else {
+                $('.back-to-top').css("display", "none");
+                $('.back-to-top').fadeOut;
+            }
+        })
+        $('.back-to-top').click(function() {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 500);
+        })
+    })
     // 代码高亮
-    hljs.initHighlightingOnLoad();
+hljs.initHighlightingOnLoad();
 hljs.initLineNumbersOnLoad();
 
 //初始化
