@@ -3,12 +3,7 @@
     <div class="profile">
         <?php 
         if($this->is('post')){
-            if(getCatalog() == 0){
-                
-                $this->need('inc/pro-card.php');
-            }else{
                 getCatalog();
-            }
         }else{
             $this->need('inc/pro-card.php');
         }?>
