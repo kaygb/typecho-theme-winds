@@ -90,7 +90,7 @@ function getCatalog() {    //输出文章目录容器
     global $catalog;
     $index = '';
     if ($catalog) {
-        $index = '<ul>'."\n";
+        $index = '<ul class="wind-woc-index">'."\n";
         $prev_depth = '';
         $to_depth = 0;
         foreach($catalog as $catalog_item) {
@@ -118,7 +118,9 @@ function getCatalog() {    //输出文章目录容器
         for ($i=0; $i<=$to_depth; $i++) {
             $index .= '</li>'."\n".'</ul>'."\n";
         }
-    $index = '<div id="toc-container">'."\n".'<div id="toc">'."\n".'<strong>文章目录</strong>'."\n".$index.'</div>'."\n".'</div>'."\n";
+    $index = '<div class="winds-toc"><div id="toc-container">'."\n".'<div id="toc">'."\n".'<strong class="wind-toc-title">文章目录</strong>'."\n".$index.'</div>'."\n".'</div></div>'."\n";
+    }else{
+        $index = 0;
     }
     echo $index;
 }
@@ -127,4 +129,12 @@ function themeInit($archive) {
     if ($archive->is('single')) {
         $archive->content = createCatalog($archive->content);
     }
+}
+
+
+function trimall($str)//删除空格
+{
+    $limit=array(" ","　","\t","\n","\r");
+    $rep=array("","","","","");
+    return str_replace($limit,$rep,$str); 
 }

@@ -6,7 +6,7 @@
 
 .profile {
     /* position: fixed; */
-    top: 150px;
+    top: 100px;
     /* width: 100%; */
     width: 300px;
     margin-left: 25px;
@@ -102,8 +102,28 @@
 }
 
 .winds-toc {
-    max-height: 50vh;
+    max-height: 80vh;
     overflow-y: scroll;
+    padding: 10px;
+}
+
+.wind-woc-index ul {
+    list-style: none;
+    padding: 5px 5px 5px 10px;
+}
+
+.wind-woc-index ul li {
+    padding: 5px;
+}
+
+.wind-woc-index {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.wind-toc-title {
+    display: block;
+    text-align: center;
 }
 
 @media (max-width:1000px) {

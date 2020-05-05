@@ -85,8 +85,8 @@ $(function() {
             let profileTop = $(".main").offset().top - $(window).scrollTop();
             // console.log(profileTop);
             // var scrollTop = $(document).scrollTop();
-            if (profileTop < 150) {
-                $(".profile").css({ "top": "150px", "position": "fixed" });
+            if (profileTop < 100) {
+                $(".profile").css({ "top": "100px", "position": "fixed" });
                 // $(".blur-nav-bg").css({ "display": "inherit" });
                 // $(".blur-nav").css({ "display": "inherit" });
                 $(".blur-nav-bg").fadeIn();

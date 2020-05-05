@@ -42,22 +42,10 @@
     -moz-border-radius: 0px!important; */
 }
 
-@font-face {
-    font-family: 'webfont';
-    font-display: swap;
-    src: url('//at.alicdn.com/t/webfont_mp9fqe5fd7.eot');
-    /* IE9*/
-    src: url('//at.alicdn.com/t/webfont_mp9fqe5fd7.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('//at.alicdn.com/t/webfont_mp9fqe5fd7.woff2') format('woff2'), url('//at.alicdn.com/t/webfont_mp9fqe5fd7.woff') format('woff'), /* chrome、firefox */
-    url('//at.alicdn.com/t/webfont_mp9fqe5fd7.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('//at.alicdn.com/t/webfont_mp9fqe5fd7.svg#Alibaba-PuHuiTi-Regular') format('svg');
-    /* iOS 4.1- */
-}
-
 body {
-    font-family: "webfont", "Open Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "WenQuanYi Micro Hei", "Segoe UI Emoji", "Segoe UI Symbol", Helvetica, Arial, -apple-system, system-ui, sans-serif;
+    font-family: sans-serif, "Open Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "WenQuanYi Micro Hei", "Segoe UI Emoji", "Segoe UI Symbol", Helvetica, Arial, -apple-system, system-ui;
     overflow-x: hidden;
-    letter-spacing: 0.1rem!important;
+    /* letter-spacing: 0.1rem!important; */
     background-color: #dff9fb;
 }
 
