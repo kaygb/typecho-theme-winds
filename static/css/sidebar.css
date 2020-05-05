@@ -101,6 +101,11 @@
     bottom: 5px;
 }
 
+.winds-toc {
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
 @media (max-width:1000px) {
     .sidebar {
         display: none;

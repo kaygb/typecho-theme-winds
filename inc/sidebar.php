@@ -39,7 +39,7 @@
             </div>
             <!-- <div id="toc"></div> -->
             <!-- <div class="autoMenu" id="autoMenu"></div> -->
-            <div>
+            <div class="winds-toc">
             <?php getCatalog(); ?></div>
 
         </div>
