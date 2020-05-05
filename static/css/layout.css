@@ -139,6 +139,9 @@ div {
 .wbg-white {
     padding: 20px;
     background: #fff;
+    border-radius: .25rem;
+    box-shadow: 0 0 10px #00000026;
+    -webkit-box-shadow: 0 0 10px #00000026;
 }
 
 @media (max-width:768px) {

@@ -17,6 +17,7 @@
     opacity: 1;
     box-shadow: 0 0 10px #00000026;
     -webkit-box-shadow: 0 0 10px #00000026;
+    border-radius: .25rem;
 }
 
 .card-show {
@@ -37,6 +38,7 @@
     overflow: hidden;
     width: 100%;
     max-height: 300px;
+    border-radius: .25rem .25rem 0 0;
 }
 
 .lazy-img {
