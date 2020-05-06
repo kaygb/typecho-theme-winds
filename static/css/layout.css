@@ -49,6 +49,12 @@ body {
     background-color: #dff9fb;
 }
 
+code {
+    padding: 2px 5px;
+    background: #fff2f8;
+    margin: 0 2px;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -96,10 +102,9 @@ p {
 
 blockquote {
     margin: 0 0 1rem;
-    border-left: 5px solid #009e4ecc;
-    padding: 0 10px;
-    background: #eee;
-    font-style: italic;
+    border-left: 2px solid #009e4ecc;
+    padding: 0 15px;
+    background: #e9ffee;
 }
 
 div {
