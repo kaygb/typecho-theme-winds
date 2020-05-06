@@ -3,7 +3,7 @@
  $this->need('inc/header.php');?>
 <div class="main container">
     <div class="row">
-    <div class="col-lg-8 col-md-12 col-12" id="main" role="main">
+    <div class="col-lg-8 col-md-12 col-12 main-posts-content" id="main" role="main">
         <?php if ($this->have()): ?>
     	<?php while($this->next()): ?>
             <article class="posts card-show" itemscope itemtype="http://schema.org/BlogPosting">

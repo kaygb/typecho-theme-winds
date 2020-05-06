@@ -11,6 +11,8 @@
     width: 300px;
     margin-left: 25px;
     background-color: #fff;
+    box-shadow: 0 0 10px #00000026;
+    -webkit-box-shadow: 0 0 10px #00000026;
 }
 
 .wavatar {
