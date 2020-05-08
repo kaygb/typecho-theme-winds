@@ -29,7 +29,7 @@ function themeConfig($form) {
     $profileImgUrl = new Typecho_Widget_Helper_Form_Element_Text('profileImgUrl', NULL, NULL, _t('个人卡片大图'), _t('在这里填入一个图片 URL 地址, 以在侧栏显示'));
     $form->addInput($profileImgUrl);
 
-    $windsExcerptNum = new Typecho_Widget_Helper_Form_Element_Text('windsExcerptNum', NULL, NULL, _t('个人卡片大图'), _t('在这里填入一个图片 URL 地址, 以在侧栏显示'));
+    $windsExcerptNum = new Typecho_Widget_Helper_Form_Element_Text('windsExcerptNum', NULL, NULL, _t('首页文章摘要字数'), _t('默认100'));
     $form->addInput($windsExcerptNum);
 
 
