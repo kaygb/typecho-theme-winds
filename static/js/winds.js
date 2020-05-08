@@ -1,6 +1,6 @@
-console.log(" %c WINDS %c https://github.com/kaygb/typecho-theme-winds/ ", "color: #000; background: pink; padding:5px;", "background: #fff; padding:5px;"),
-    // 返回顶部
-    $(function() {
+console.log(" %c WINDS %c https://github.com/kaygb/typecho-theme-winds/ ", "color: #000; background: pink; padding:5px;", "background: #fff; padding:5px;");
+// 返回顶部
+$(function() {
         $(window).scroll(function() {
             var scroHei = $(window).scrollTop();
             if (scroHei > 300) {
@@ -38,6 +38,7 @@ $(document).ready(function() {
     $(".winds-category-menu").mouseout(function() {
         $(".winds-category-menu-item").css("display", "none");
     });
+    $('.main-title').fadeIn(3000);
 });
 // $(function() {
 //     //Calls the tocify method on your HTML div.
