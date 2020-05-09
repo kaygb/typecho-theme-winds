@@ -34,7 +34,7 @@
             <?php endif; ?>
     		
     		<div>
-                <button type="submit" class="submit btn btn-dark"><?php _e('提交评论'); ?></button>
+                <button type="submit" class="submit btn btn-dark"><?php _e('发布评论'); ?></button>
             </div>
     	</form>
     </div>

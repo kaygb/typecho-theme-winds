@@ -29,6 +29,7 @@
                 </div>
                 <span itemprop="keywords" class="tags"><?php $this->tags(' ', true, ''); ?></span>
             </article>
+            <?php $this->need('inc/comments.php'); ?>
             <div class="post-wnear row">
  
                     <span class="post-near-pre wbg-white col-lg-6"><i class="fas fa-angle-double-left text-success"></i> <?php $this->thePrev('%s','没有更早的文章了'); ?></span>
@@ -36,7 +37,7 @@
 
             </div>
 
-            <?php $this->need('inc/comments.php'); ?>
+
 
             
         </div>
