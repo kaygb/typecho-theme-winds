@@ -18,7 +18,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="post-content" itemprop="articleBody">
+                <div id="post-content" class="post-content" itemprop="articleBody">
                 <?php 
                 
                     $pattern = '/\<img.*?src\=\"(.*?)\"[^>]*>/i';

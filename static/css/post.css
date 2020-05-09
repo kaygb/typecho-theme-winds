@@ -84,3 +84,48 @@ cite {
 .post ul {
     margin: 0 0 1.2em 0;
 }
+
+#post-content h2::before {
+    content: "";
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    bottom: -7px;
+    position: absolute;
+}
+
+#post-content h2::before {
+    content: "";
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    bottom: -7px;
+    position: absolute;
+}
+
+:after,
+ :before {
+    box-sizing: border-box;
+}
+
+#post-content h2::after {
+    transition: all .35s;
+    content: "";
+    position: absolute;
+    background: linear-gradient(#3c67bd8c 30%, #3c67bd 70%);
+    width: 1em;
+    left: 0;
+    box-shadow: 0 3px 3px rgba(32, 160, 255, .4);
+    height: 3px;
+    bottom: -8px;
+}
+
+#post-content h2::after {
+    transition: all .35s;
+    content: "";
+    position: absolute;
+    background: linear-gradient(#3c67bd8c 30%, #3c67bd 70%);
+    width: 1em;
+    left: 0;
+    box-shadow: 0 3px 3px rgba(32, 160, 255, .4);
+    height: 3px;
+    bottom: -8px;
+}
