@@ -115,3 +115,45 @@ li.page-item a {
     margin: 5px;
     padding: 5px;
 }
+
+#wind-comment-group textarea {
+    border: 0;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+    height: 100px;
+}
+
+input.wind-comment-input.input-group {
+    border: 0;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+    height: 100px;
+}
+
+input.wind-comment-input.input-group:focus,
+.wind-comment-inputextarea:focus {
+    outline: none!important;
+    border: 0;
+    border-bottom: 1px solid #f60;
+}
+
+.wind-comment-inputextarea {
+    outline: none!important;
+    width: 100%;
+    resize: none;
+}
+
+.wind-comment-inputext {
+    border: 0;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    width: 100%;
+}
+
+.wind-comment-input .input-group {
+    padding: 0;
+}
+
+.wind-comment-input {
+    margin: 10px auto;
+}

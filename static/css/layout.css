@@ -113,6 +113,13 @@ div {
     margin: 0;
 }
 
+input:focus,
+textarea:focus {
+    outline: none!important;
+    border: 0;
+    border-bottom: 1px solid #f60;
+}
+
 .bg-blur {
     height: 50vh;
     overflow: hidden;
