@@ -3,8 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 nav pc-nav">
-            <a class="wind-logo text-white" href="<?php $this->options->siteUrl(); ?>"><?php //$this->options->title(); ?>
-                <img src="https://cdn.jsdelivr.net/gh/kaygb/blog-images/static_image/kaygb-logo/windyeah.svg" style="height: 40px;">
+            <a class="wind-logo text-white" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?>
+                <!-- <img src="https://cdn.jsdelivr.net/gh/kaygb/blog-images/static_image/kaygb-logo/windyeah.svg" style="height: 40px;"> -->
             </a>
                 <ul>
                     <li>
@@ -29,8 +29,8 @@
             <!-- mobile-nav -->
             <div class="col-lg-12 mobile-nav">
             
-                <a class="wind-logo-mb text-white" href="<?php $this->options->siteUrl(); ?>"><?php //$this->options->title(); ?>
-                    <img src="https://cdn.jsdelivr.net/gh/kaygb/blog-images/static_image/kaygb-logo/windyeah.svg" style="height: 40px;position: absolute;top: 0;">
+                <a class="wind-logo-mb text-white" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?>
+                    <!-- <img src="https://cdn.jsdelivr.net/gh/kaygb/blog-images/static_image/kaygb-logo/windyeah.svg" style="height: 40px;position: absolute;top: 0;"> -->
                 </a>
                
                 <span class="winds-mb-menu wd-md-navspan"><i class="fas fa-bars"></i></span>
