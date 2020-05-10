@@ -88,6 +88,8 @@ li.page-item:hover {
 
 li.page-item a {
     border: 0;
+    box-shadow: 0 0 10px #00000026;
+    -webkit-box-shadow: 0 0 10px #00000026;
 }
 
 @media (max-width:768px) {
