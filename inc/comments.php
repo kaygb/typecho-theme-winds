@@ -16,7 +16,7 @@
             </div>
             <?php if($this->user->hasLogin()): ?>
                 
-    		<p><?php _e('登录身份: '); ?><a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a>. <a href="<?php $this->options->logoutUrl(); ?>" title="Logout"><?php _e('退出'); ?> &raquo;</a></p>
+    		<p><?php _e('您已登陆: '); ?><a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a> ，<a href="<?php $this->options->logoutUrl(); ?>" title="Logout"><?php _e('退出？'); ?></a></p>
             <?php else: ?>
                 <div class="row wind-comment-input">
                     <div class="input-group col-md-4">

@@ -21,7 +21,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
         <div class="col-mb-12 col-lg-8 main-posts-content" id="main" role="main">
             <article class="post  wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
                 <div id="post-content" class="post-content" itemprop="articleBody">
-                    <div class="tags">
+                    <div class="content-tags">
                         <h2>标签</h2>
                         <?php $this->widget('Widget_Metas_Tag_Cloud', 'sort=count&ignoreZeroCount=1&desc=1&limit=50')->to($tags); ?>
                         <?php if($tags->have()): ?>
@@ -33,7 +33,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         <?php endif; ?></div>
                     </div>
                     <h2>文章</h2>
-                    <?php $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->parse('<li>{year}-{month}-{day} : <a href="{permalink}">{title}</a></li>'); ?>
+                    <ul>
+                        <?php $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->parse('<li>{year}-{month}-{day} : <a href="{permalink}">{title}</a></li>'); ?>
+                    </ul>
             </article>
         </div><!-- end #main-->
         <?php $this->need('inc/sidebar.php'); ?>
