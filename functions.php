@@ -136,3 +136,5 @@ function trimall($str)//删除空格
     $rep=array("","","","","");
     return str_replace($limit,$rep,$str); 
 }
+
+// 文章缩略图
