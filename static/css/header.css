@@ -62,7 +62,8 @@
     animation: jianyin 1s;
 }
 
-ul.dropdown-menu.winds-category-menu-item {
+ul.dropdown-menu.winds-category-menu-item,
+ul.dropdown-page.winds-category-page-item {
     display: none;
 }
 
@@ -99,7 +100,8 @@ ul.dropdown-menu.winds-category-menu-item {
     text-align: center;
 }
 
-.dropdown-menu {
+.dropdown-menu,
+.dropdown-page {
     background: rgba(0, 0, 0, 0.5);
     justify-content: center;
     flex-direction: column;
@@ -108,7 +110,8 @@ ul.dropdown-menu.winds-category-menu-item {
     border-radius: 0;
 }
 
-.winds-category-menu-item {
+.winds-category-menu-item,
+.winds-category-page-item {
     display: none;
     width: -webkit-max-content;
     width: -moz-max-content;

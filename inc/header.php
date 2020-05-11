@@ -14,6 +14,10 @@
                     <?php while($pages->next()): ?>
                     <li><a<?php if($this->is('page', $pages->slug)): ?> class="current" <?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a></a>
                     <?php endwhile; ?>
+                    <li class="dropdown winds-category-page">
+                    <a  href="#">页面</a>
+                        <?php $this->widget('Widget_Contents_Page_List')->listPages('wrapClass=dropdown-page winds-category-page-item'); ?>
+                    </li>
                     <li class="dropdown winds-category-menu">
                     <a  href="#">分类</a>
                         <?php $this->widget('Widget_Metas_Category_List')->listCategories('wrapClass=dropdown-menu winds-category-menu-item'); ?>

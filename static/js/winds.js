@@ -38,6 +38,13 @@ $(document).ready(function() {
     $(".winds-category-menu").mouseout(function() {
         $(".winds-category-menu-item").css("display", "none");
     });
+    $(".winds-category-page-item").css("display", "none");
+    $(".winds-category-page").mouseover(function() {
+        $(".winds-category-page-item").css("display", "flex");
+    });
+    $(".winds-category-page").mouseout(function() {
+        $(".winds-category-page-item").css("display", "none");
+    });
     $('.main-title').fadeIn(3000);
 });
 // $(function() {
