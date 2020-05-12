@@ -23,6 +23,13 @@
                                 <li>
                                     <a <?php if($this->is('page', $pages->slug)): ?> <?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
                                 </li>
+                                <!-- <?php echo ("<script>alert(\"非隐藏页面\")</script>");?> -->
+                            <?php endwhile; ?>
+                            <?php while($pages->status == "hidden"): ?>
+                            <?php echo ("<script>alert(\"隐藏页面\")</script>");?>
+                                <li>
+                                    <a <?php if($this->is('page', $pages->slug)): ?> <?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
+                                </li>
                             <?php endwhile; ?>
                         </ul>
                     </li>
