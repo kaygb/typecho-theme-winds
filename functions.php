@@ -40,7 +40,10 @@ function themeConfig($form) {
 
     $footer =  new Typecho_Widget_Helper_Form_Element_Textarea('footer', NULL, NULL, _t('自定义footer标签内容 <a href="#">文档</a>'), _t('输出在底部'));
     $form->addInput($footer);
-    
+
+    $beginTime =  new Typecho_Widget_Helper_Form_Element_Text('beginTime', NULL, NULL, _t('网站开始时间'), _t('格式：2019-01-01'));
+    $form->addInput($beginTime);
+
     $beianNum =  new Typecho_Widget_Helper_Form_Element_Text('beianNum', NULL, NULL, _t('备案号'), _t('在这里填入网站备案号'));
     $form->addInput($beianNum);
 

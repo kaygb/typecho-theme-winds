@@ -9,6 +9,7 @@
         <br>
         <a href="http://beian.miit.gov.cn/"><?php $this->options->beianNum(); ?></a>
         <br>
+        <?php $this->options->footer(); ?>
         <script>
     function secondToDate(second) {
         if (!second) {
@@ -37,8 +38,10 @@
         return time;
     }
     function setTime() {
+        var str="<?php $this->options->beginTime(); ?>";
+	    var begin_time=str.split("-");
         // 博客创建时间秒数，时间格式中，月比较特殊，是从0开始的，所以想要显示5月，得写4才行，如下
-        var create_time = Math.round(new Date(Date.UTC(2019, 0, 4, 0, 0, 0))
+        var create_time = Math.round(new Date(Date.UTC(begin_time[0], begin_time[1]-1, begin_time[2] , 0, 0, 0))
                 .getTime() / 1000);
         // 当前时间秒数,增加时区的差异
         var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
