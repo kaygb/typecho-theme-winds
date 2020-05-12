@@ -1,4 +1,17 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+<!--
+      ___                       ___          _____          ___     
+     /__/\        ___          /__/\        /  /::\        /  /\    
+    _\_ \:\      /  /\         \  \:\      /  /:/\:\      /  /:/_   
+   /__/\ \:\    /  /:/          \  \:\    /  /:/  \:\    /  /:/ /\  
+  _\_ \:\ \:\  /__/::\      _____\__\:\  /__/:/ \__\:|  /  /:/ /::\ 
+ /__/\ \:\ \:\ \__\/\:\__  /__/::::::::\ \  \:\ /  /:/ /__/:/ /:/\:\
+ \  \:\ \:\/:/    \  \:\/\ \  \:\~~\~~\/  \  \:\  /:/  \  \:\/:/~/:/
+  \  \:\ \::/      \__\::/  \  \:\  ~~~    \  \:\/:/    \  \::/ /:/ 
+   \  \:\/:/       /__/:/    \  \:\         \  \::/      \__\/ /:/  
+    \  \::/        \__\/      \  \:\         \__\/         /__/:/   
+     \__\/                     \__\/                       \__\/    
+-->
 <!DOCTYPE HTML>
 <html class="no-js">
 <head>
@@ -7,6 +20,7 @@
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="<?php $this->options->logoUrl(); ?>" mce_href="<?php $this->options->logoUrl(); ?>" type="image/x-icon">
+    <meta name="theme-color" content="#000" />
     <title>
     <?php if($this->is('index'))
     {
@@ -28,6 +42,7 @@
     ?>
         
     </title>
+
 
     <!-- 新 Bootstrap4 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
