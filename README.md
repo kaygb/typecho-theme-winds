@@ -2,6 +2,10 @@
 
 一款typecho主题，以模糊和卡片为主要样式。
 
+## 文档
+
+[WINDS使用文档](https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/)
+
 ## 组件
 
 框架：
