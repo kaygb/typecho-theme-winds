@@ -23,7 +23,9 @@
         </a>
     </h2>
     <div class="post-content">
-    <?php $this->excerpt(100,''); ?>...
+    <?php 
+    // $excerptNum = intval($this->options->windsExcerptNum());
+    $this->excerpt(100,''); ?>...
     </div>
     <div class="post-meta">
         <span class="">  
