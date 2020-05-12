@@ -85,22 +85,6 @@ cite {
     margin: 0 0 1.2em 0;
 }
 
-#post-content h2::before {
-    content: "";
-    width: 100%;
-    border-bottom: 1px solid #eee;
-    bottom: -7px;
-    position: absolute;
-}
-
-#post-content h2::before {
-    content: "";
-    width: 100%;
-    border-bottom: 1px solid #eee;
-    bottom: -7px;
-    position: absolute;
-}
-
 .post-content a {
     color: #28a745;
 }
