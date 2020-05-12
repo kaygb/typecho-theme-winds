@@ -120,6 +120,10 @@ ul.dropdown-page.winds-category-page-item {
     border: 0;
 }
 
+ul.dropdown-menu.winds-category-page-item {
+    display: none;
+}
+
 
 /* mobile-nav */
 
