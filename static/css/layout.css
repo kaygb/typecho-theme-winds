@@ -50,6 +50,10 @@ body {
     overflow-y: scroll;
 }
 
+img {
+    max-width: 100%;
+}
+
 code {
     padding: 2px 5px;
     background: #fff2f8;
