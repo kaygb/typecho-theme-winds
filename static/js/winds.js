@@ -1,4 +1,5 @@
 console.log(" %c WINDS %c https://github.com/kaygb/typecho-theme-winds/ ", "color: #000; background: pink; padding:5px;", "background: #fff; padding:5px;");
+
 // 返回顶部
 $(function() {
         $(window).scroll(function() {
