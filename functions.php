@@ -32,13 +32,13 @@ function themeConfig($form) {
     $windsExcerptNum = new Typecho_Widget_Helper_Form_Element_Text('windsExcerptNum', NULL, NULL, _t('首页文章摘要字数'), _t('默认100'));
     $form->addInput($windsExcerptNum);
 
-    $head =  new Typecho_Widget_Helper_Form_Element_Textarea('head', NULL, NULL, _t('自定义head标签内容 <a href="#">文档</a>'), _t('输出在head标签'));
+    $head =  new Typecho_Widget_Helper_Form_Element_Textarea('head', NULL, NULL, _t('自定义head标签内容 <a href="https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/#toc_9">文档</a>'), _t('输出在head标签'));
     $form->addInput($head);
 
-    $headnav =  new Typecho_Widget_Helper_Form_Element_Textarea('headnav', NULL, NULL, _t('自定义导航栏 <a href="#">文档</a>'), _t('输出在导航栏'));
+    $headnav =  new Typecho_Widget_Helper_Form_Element_Textarea('headnav', NULL, NULL, _t('自定义导航栏 <a href="https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/#toc_10">文档</a>'), _t('输出在导航栏'));
     $form->addInput($headnav);
 
-    $footer =  new Typecho_Widget_Helper_Form_Element_Textarea('footer', NULL, NULL, _t('自定义footer标签内容 <a href="#">文档</a>'), _t('输出在底部'));
+    $footer =  new Typecho_Widget_Helper_Form_Element_Textarea('footer', NULL, NULL, _t('自定义footer标签内容 <a href="https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/#toc_11">文档</a>'), _t('输出在底部'));
     $form->addInput($footer);
 
     $beginTime =  new Typecho_Widget_Helper_Form_Element_Text('beginTime', NULL, NULL, _t('网站开始时间'), _t('格式：2019-01-01'));
