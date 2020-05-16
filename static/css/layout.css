@@ -171,3 +171,11 @@ textarea:focus {
         padding-bottom: 30px;
     }
 }
+
+
+/* @media (max-width:1100px) {
+    .bg-blur img {
+        height: 100%;
+        width: auto;
+    }
+} */
