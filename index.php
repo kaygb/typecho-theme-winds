@@ -4,11 +4,11 @@
  * 
  * 一款可爱的Typecho主题
  * 
- * <a href="https://eas1.cn">WINDS使用文档</a>
+ * <a href="https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/">WINDS使用文档</a>
  * 
  * @package     Typecho-Theme-WINDS 
  * @author      风也
- * @version     1.0.0
+ * @version     1.0.0-beta
  * @link        https://eas1.cn/
  */
 define('__TYPECHO_DEBUG__',true);
