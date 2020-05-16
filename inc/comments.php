@@ -46,10 +46,12 @@
     <?php if ($comments->have()): ?>
     <div id="comments-all" class="">
 	<span class="text-muted"><?php $this->commentsNum(_t('暂无评论'), _t('共 1 条评论'), _t('共 %d 条评论')); ?></span>
-    
+    <div id="w-pagination" class="w-pagination">
+            <?php //$this->pageNav('<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'); ?>
+            </div>
     <?php $comments->listComments(); ?>
 
-    <?php $comments->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
+    <?php $comments->pageNav('<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'); ?>
     </div>
     <?php endif; ?>
     
