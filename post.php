@@ -34,7 +34,7 @@
             <div class="post-wnear row">
  
                     <span class="post-near-pre wbg-white col-lg-6"><i class="fas fa-angle-double-left text-success"></i> <?php $this->thePrev('%s','没有更早的文章了'); ?></span>
-                    <span class="post-near-next wbg-white col-lg-6"> <?php $this->theNext('%s','已经是最新的文章了'); ?> <i class="fas fa-angle-double-right text-success"></i></span>
+                    <span class="post-near-next wbg-white col-lg-6"> <?php $this->theNext($this,$this->options->defaultBanner); ?> <i class="fas fa-angle-double-right text-success"></i></span>
 
             </div>
 
