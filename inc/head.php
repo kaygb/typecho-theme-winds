@@ -42,6 +42,9 @@
     ?>
         
     </title>
+    <meta itemprop="description" name="description" content="<?php $this->excerpt(30, '...'); ?>"/> 
+    <meta itemprop="name" content="<?php if($this->is('index')) { $this->options->title(); _e(' - ');$this->options->description(); } // elseif($this->_currentPage){ // _e('第 ');echo $this->_currentPage;_e(' 页 - ');$this->options->title(); _e(' - ');$this->options->description(); // } else{ $this->archiveTitle(array( 'category' => _t('分类 %s 下的文章'), 'search' => _t('包含关键字 %s 的文章'), 'tag' => _t('标签 %s 下的文章'), 'author' => _t('%s 发布的文章') ), '', ' - '); $this->options->title(); } ?>"/>
+    <meta id="image" itemprop="image" content="<?php $this->options->logoUrl(); ?>"/>
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/header.css'); ?>">
