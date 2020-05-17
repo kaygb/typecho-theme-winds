@@ -8,44 +8,44 @@
  * https://eas1.cn/185.html
  *
  * @author      风也
- * @version     2020-04-27 1.0
+ * @version     2020-05-28 01
  * 
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 function themeConfig($form) {
-    $siteName = new Typecho_Widget_Helper_Form_Element_Text('siteName', NULL, NULL, _t('站点名称'), _t('在首页导航栏下显示'));
-    $form->addInput($siteName);
+    $t = new Typecho_Widget_Helper_Form_Element_Text('siteName', NULL, NULL, _t('站点名称'), _t('在首页导航栏下显示'));
+    $form->addInput($t);
     
-    $bgImgUrl = new Typecho_Widget_Helper_Form_Element_Text('bgImgUrl', NULL, NULL, _t('背景图片地址'), _t('在这里填入一个图片 URL 地址, 用于背景模糊设置'));
-    $form->addInput($bgImgUrl);
+    $t = new Typecho_Widget_Helper_Form_Element_Text('bgImgUrl', NULL, NULL, _t('背景图片地址'), _t('在这里填入一个图片 URL 地址, 用于背景模糊设置'));
+    $form->addInput($t);
 
-    $logoUrl = new Typecho_Widget_Helper_Form_Element_Text('logoUrl', NULL, NULL, _t('站点 LOGO 地址'), _t('在这里填入一个图片 URL 地址, 以在网站标题前加上一个 LOGO'));
-    $form->addInput($logoUrl);
+    $t = new Typecho_Widget_Helper_Form_Element_Text('logoUrl', NULL, NULL, _t('站点 LOGO 地址'), _t('在这里填入一个图片 URL 地址, 以在网站标题前加上一个 LOGO'));
+    $form->addInput($t);
 
-    $avatarUrl = new Typecho_Widget_Helper_Form_Element_Text('avatarUrl', NULL, NULL, _t('个人卡片头像'), _t('在这里填入一个图片 URL 地址, 以在侧栏显示'));
-    $form->addInput($avatarUrl);
+    $t = new Typecho_Widget_Helper_Form_Element_Text('avatarUrl', NULL, NULL, _t('个人卡片头像'), _t('在这里填入一个图片 URL 地址, 以在侧栏显示'));
+    $form->addInput($t);
 
-    $profileImgUrl = new Typecho_Widget_Helper_Form_Element_Text('profileImgUrl', NULL, NULL, _t('个人卡片大图'), _t('在这里填入一个图片 URL 地址, 以在侧栏显示'));
-    $form->addInput($profileImgUrl);
+    $t = new Typecho_Widget_Helper_Form_Element_Text('profileImgUrl', NULL, NULL, _t('个人卡片大图'), _t('在这里填入一个图片 URL 地址, 以在侧栏显示'));
+    $form->addInput($t);
 
-    $windsExcerptNum = new Typecho_Widget_Helper_Form_Element_Text('windsExcerptNum', NULL, NULL, _t('首页文章摘要字数'), _t('默认100'));
-    $form->addInput($windsExcerptNum);
+    $t = new Typecho_Widget_Helper_Form_Element_Text('windsExcerptNum', NULL, NULL, _t('首页文章摘要字数'), _t('默认100'));
+    $form->addInput($t);
 
-    $head =  new Typecho_Widget_Helper_Form_Element_Textarea('head', NULL, NULL, _t('自定义head标签内容 <a href="https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/#toc_9">文档</a>'), _t('输出在head标签'));
-    $form->addInput($head);
+    $t =  new Typecho_Widget_Helper_Form_Element_Textarea('head', NULL, NULL, _t('自定义head标签内容 <a href="https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/#toc_9">文档</a>'), _t('输出在head标签'));
+    $form->addInput($t);
 
-    $headnav =  new Typecho_Widget_Helper_Form_Element_Textarea('headnav', NULL, NULL, _t('自定义导航栏 <a href="https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/#toc_10">文档</a>'), _t('输出在导航栏'));
-    $form->addInput($headnav);
+    $t =  new Typecho_Widget_Helper_Form_Element_Textarea('headnav', NULL, NULL, _t('自定义导航栏 <a href="https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/#toc_10">文档</a>'), _t('输出在导航栏'));
+    $t->addInput($t);
 
-    $footer =  new Typecho_Widget_Helper_Form_Element_Textarea('footer', NULL, NULL, _t('自定义footer标签内容 <a href="https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/#toc_11">文档</a>'), _t('输出在底部'));
-    $form->addInput($footer);
+    $t =  new Typecho_Widget_Helper_Form_Element_Textarea('footer', NULL, NULL, _t('自定义footer标签内容 <a href="https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/#toc_11">文档</a>'), _t('输出在底部'));
+    $form->addInput($t);
 
-    $beginTime =  new Typecho_Widget_Helper_Form_Element_Text('beginTime', NULL, NULL, _t('网站开始时间'), _t('格式：2019-01-01'));
-    $form->addInput($beginTime);
+    $t =  new Typecho_Widget_Helper_Form_Element_Text('beginTime', NULL, NULL, _t('网站开始时间'), _t('格式：2019-01-01'));
+    $form->addInput($t);
 
-    $beianNum =  new Typecho_Widget_Helper_Form_Element_Text('beianNum', NULL, NULL, _t('备案号'), _t('在这里填入网站备案号'));
-    $form->addInput($beianNum);
+    $t =  new Typecho_Widget_Helper_Form_Element_Text('beianNum', NULL, NULL, _t('备案号'), _t('在这里填入网站备案号'));
+    $form->addInput($t);
 
     // $sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', 
     // array('ShowRecentPosts' => _t('显示最新文章'),
@@ -67,10 +67,8 @@ function themeFields($layout) {
 */
 
 function themeFields(Typecho_Widget_Helper_Layout $layout) {
-    $defaultBanner = new Typecho_Widget_Helper_Form_Element_Text('defaultBanner', NULL, NULL, '文章头图地址','在这里填入一个图片URL地址, 将在首页以及文章顶部显示(兼容handsome主题默认头图)');
-
-    $layout->addItem($defaultBanner);
-
+    $t = new Typecho_Widget_Helper_Form_Element_Text('defaultBanner', NULL, NULL, '文章头图地址','在这里填入一个图片URL地址, 将在首页以及文章顶部显示(兼容handsome主题默认头图)');
+    $layout->addItem($t);
 }
 
 function winds_fancybox(){
