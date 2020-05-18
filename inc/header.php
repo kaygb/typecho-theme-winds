@@ -54,25 +54,28 @@
             </div>
             <div class="mobile-menu ">
                 <div class="container">
-                    <span class="mobile-menu-title">页面</span>
+                    <span class="mobile-menu-title">导航</span>
+
+
+                    <ul class="categories mobile-menu-section row">
+                    <?php $this->options->headnav(); ?>
+                    </ul>
                     <hr class="wind-menu-hr">
+                    <span class="mobile-menu-title">页面</span>
+
                     <div class="pages mobile-menu-section row">
                         <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
                         <?php while($pages->next()): ?>
                         <a class="col-6" <?php if($this->is('page', $pages->slug)): ?> class="current" <?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
                         <?php endwhile; ?>
                     </div>
-                    <span class="mobile-menu-title">分类</span>
                     <hr class="wind-menu-hr">
+                    <span class="mobile-menu-title">分类</span>
+
                     <div class="categories mobile-menu-section row">
                         <?php $this->widget('Widget_Metas_Category_List')->parse('<a class="col-6" href="{permalink}">{name}</a>');?>
                         </div>
-                            
-                    <span class="mobile-menu-title">其他</span>
-                    <hr class="wind-menu-hr">
-                    <div class="wind-other mobile-menu-section row">
-                        <a href="//eas1.cn" target="_blank"><?php _e('主站'); ?></a>
-                    </div>
+                        <hr class="wind-menu-hr">
                 </div>
 
                     
