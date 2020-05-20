@@ -31,10 +31,16 @@
                 <span itemprop="keywords" class="tags"><?php $this->tags(' ', true, ''); ?></span>
             </article>
             <?php $this->need('inc/comments.php'); ?>
-            <div class="post-wnear row">
+            <div class="post-wnear wbg-white row">
  
-                    <span class="post-near-pre wbg-white col-lg-6"><i class="fas fa-angle-double-left text-success"></i> <?php $this->thePrev('%s','没有更早的文章了'); ?></span>
-                    <span class="post-near-next wbg-white col-lg-6"><?php $this->theNext('%s','没有更早的文章了'); ?><i class="fas fa-angle-double-right text-success"></i></span>
+                    <span class="post-near-pre col-lg-6">
+                        <small class="d-block text-xs text-muted">上一篇</small>    
+                        <?php $this->thePrev('%s','没有更早的文章了'); ?>
+                    </span>
+                    <span class="post-near-next col-lg-6">
+                        <small class="d-block text-xs text-muted">下一篇</small>    
+                        <?php $this->theNext('%s','已经是最新的文章了'); ?>
+                    </span>
 
             </div>
 

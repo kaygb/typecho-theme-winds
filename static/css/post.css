@@ -19,6 +19,7 @@
 
 #comments {
     margin-top: 50px;
+    word-break: break-all;
 }
 
 .post-wnear {
@@ -29,16 +30,13 @@
     padding: 3px!important;
 }
 
-.post-near-pre {
-    text-align: left;
-}
-
+.post-near-pre,
 .post-near-next {
-    text-align: right;
+    text-align: center;
 }
 
 .table {
-    font-size: .8rem!important;
+    font-size: 1rem!important;
 }
 
 .tags a {
