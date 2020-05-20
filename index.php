@@ -8,10 +8,9 @@
  * 
  * @package     Typecho-Theme-WINDS 
  * @author      风也
- * @version     1.0.0-beta
+ * @version     1.0.0
  * @link        https://eas1.cn/
  */
-define('__TYPECHO_DEBUG__',true);
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
     $this->need('inc/head.php');     // 头文件
     $this->need('inc/header.php');   // 导航栏
