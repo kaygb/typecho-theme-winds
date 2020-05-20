@@ -44,13 +44,13 @@
     <meta id="image" itemprop="image" content="<?php $this->options->logoUrl(); ?>"/>
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/header.css'); ?>">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/winds.css'); ?>">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/layout.css'); ?>">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/sidebar.css'); ?>">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/post.css'); ?>">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/footer.css'); ?>">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/keyframe.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/header.css'); ?>?v=<?php echo date('Ymd'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/winds.css'); ?>?v=<?php echo date('Ymd'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/layout.css'); ?>?v=<?php echo date('Ymd'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/sidebar.css'); ?>?v=<?php echo date('Ymd'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/post.css'); ?>?v=<?php echo date('Ymd'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/footer.css'); ?>?v=<?php echo date('Ymd'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/keyframe.css'); ?>?v=<?php echo date('Ymd'); ?>">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css">
     <!-- <link rel="stylesheet" href="https://cdn.staticfile.org/jquery.tocify/1.9.0/stylesheets/jquery.tocify.min.css"> -->
