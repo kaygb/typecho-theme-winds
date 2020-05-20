@@ -24,13 +24,25 @@
     width: 70px;
     z-index: 3;
     position: absolute;
-    right: 15px;
+    left: 20px;
     border-radius: 50%!important;
-    bottom: 15px;
+    top: -35px;
+}
+
+.profile .about {
+    color: #545454;
+    font-size: 1rem;
+    text-align: center;
+    z-index: 3;
 }
 
 .profile-content {
     position: relative;
+}
+
+.card-profile {
+    position: relative;
+    padding-bottom: 30px;
 }
 
 
@@ -91,16 +103,6 @@
     display: block;
     text-decoration: none;
     overflow: visible;
-}
-
-.profile .about {
-    color: #fff;
-    font-size: 21px;
-    padding: 10px;
-    position: absolute;
-    z-index: 3;
-    right: 100px;
-    bottom: 5px;
 }
 
 .winds-toc {
