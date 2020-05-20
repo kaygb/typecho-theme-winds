@@ -130,6 +130,16 @@
     text-align: center;
 }
 
+
+/* winds-toc */
+
+.winds-toc li a:hover {
+    /* background: #eee; */
+    color: #28a745;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid;
+}
+
 @media (max-width:1000px) {
     .sidebar {
         display: none;
