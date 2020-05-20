@@ -19,6 +19,7 @@
 
 #comments {
     margin-top: 50px;
+    word-break: break-all;
 }
 
 .post-wnear {
