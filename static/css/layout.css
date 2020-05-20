@@ -161,6 +161,15 @@ textarea:focus {
     -webkit-box-shadow: 0 0 10px #00000026;
 }
 
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
 @media (max-width:768px) {
     .bg-blur {
         height: 35vh;
