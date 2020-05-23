@@ -41,11 +41,15 @@ function themeConfig($form) {
     $footer =  new Typecho_Widget_Helper_Form_Element_Textarea('footer', NULL, NULL, _t('自定义footer标签内容 <a href="https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/#toc_11">文档</a>'), _t('输出在底部'));
     $form->addInput($footer);
 
+    $windsAd =  new Typecho_Widget_Helper_Form_Element_Textarea('windsAd', NULL, NULL, _t('文章底部广告代码'), _t('在这里填入广告代码，推荐谷歌广告'));
+    $form->addInput($windsAd);
+
     $beginTime =  new Typecho_Widget_Helper_Form_Element_Text('beginTime', NULL, NULL, _t('网站开始时间'), _t('格式：2019-01-01'));
     $form->addInput($beginTime);
 
     $beianNum =  new Typecho_Widget_Helper_Form_Element_Text('beianNum', NULL, NULL, _t('备案号'), _t('在这里填入网站备案号'));
     $form->addInput($beianNum);
+
 
     // $sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', 
     // array('ShowRecentPosts' => _t('显示最新文章'),
