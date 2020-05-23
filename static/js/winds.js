@@ -65,7 +65,7 @@ $("#autoMenu").autoMenu({
 });
 // 表格样式
 $('table').addClass('table table-hover table-bordered text-muted');
-$('thead').addClass('thead-dark');
+// $('thead').addClass('thead-dark');
 
 // 分页导航
 
