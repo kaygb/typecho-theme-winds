@@ -230,4 +230,18 @@ ul.dropdown-menu.winds-category-page-item {
     .mobile-nav {
         display: block;
     }
+    .bg-blur img {
+        transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+    }
+    .thumb-img img {
+        transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+    }
 }
