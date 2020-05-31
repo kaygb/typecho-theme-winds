@@ -214,12 +214,12 @@ function threadedComments($comments, $options) {
                     echo "<span class='author-after-text'>[作者]</span>";
                 }?>
             <?php }?>
-            <!-- <div class="comment-meta"> -->
-                <a href="<?php $comments->permalink(); ?>"><?php $comments->date('Y-m-d H:i'); ?></a>
-            <!-- </div> -->
+
         </span>
             </div>
-            
+            <div class="comment-meta">
+                <a href="<?php $comments->permalink(); ?>"><?php $comments->date('Y-m-d H:i'); ?></a>
+            </div>
             <span class="comment-reply"><?php $comments->reply(); ?></span>
             <div class="comment-content">
                 <?php $comments->content(); ?>
