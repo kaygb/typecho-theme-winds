@@ -159,3 +159,80 @@ function theAllViews()
     $row = $db->fetchAll('SELECT SUM(VIEWS) FROM `typecho_contents`');
         echo number_format($row[0]['SUM(VIEWS)']);
 }
+
+// 懒加载gravatar
+
+function lazy_gravatar($size = 32, $default = NULL) 
+{
+    if ($this->options->commentsAvatar && 'comment' == $this->type) {
+        $rating = $this->options->commentsAvatarRating;
+        
+        $this->pluginHandle(__CLASS__)->trigger($plugged)->gravatar($size, $rating, $default, $this); 
+        if (!$plugged) {
+            //$url = Typecho_Common::gravatarUrl($this->mail, $size, $rating, $default, $this->request->isSecure());
+            $mailHash = NULL; 
+            if (!empty($this->mail)) {
+                $mailHash = md5(strtolower($this->mail));
+            }       
+            $url = 'https://secure.gravatar.com/avatar/';
+            // $url = 'https://cdn.v2ex.com/gravatar/';
+            if (!empty($this->mail)){
+                $url .= $mailHash;
+            }       
+            $url .= '?s=' . $size;
+            $url .= '&r=' . $rating;
+            $url .= '&d=' . $default;
+            echo '<img class="avatar lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" data-original=="' . $url . '" alt="' .
+            $this->author . '" width="' . $size . '" height="' . $size . '" />';
+        }
+    }
+}
+
+
+//重写评论
+function threadedComments($comments, $options) {
+    $commentClass = '';
+    $commentLevelClass = $comments->levels > 0 ? ' comment-child' : ' comment-parent';
+    ?>
+    <li id="li-<?php $comments->theId(); ?>" class="comment-body<?php
+    if ($comments->levels > 0) {
+        echo ' comment-child';
+        $comments->levelsAlt(' comment-level-odd', ' comment-level-even');
+    } else {
+        echo ' comment-parent';
+    }
+    $comments->alt(' comment-odd', ' comment-even');
+    echo $commentClass;
+    ?>">
+        <div id="<?php $comments->theId(); ?>" class="comment-item">
+            <div class="comment-author">
+                <?php $comments->gravatar('40', ''); ?>
+                <span class="fn">
+            <?php $comments->author(); ?>
+            <?php if ($comments->authorId) {
+                if ($comments->authorId == $comments->ownerId) {
+                    echo "<span class='author-after-text'>[作者]</span>";
+                }?>
+            <?php }?>
+
+        </span>
+        <!-- <div class="comment-meta"> -->
+            <small class="comment-meta  ">
+                <a class="text-xs text-muted" href="<?php $comments->permalink(); ?>"><?php $comments->date('Y-m-d H:i'); ?></a>
+                </small>
+                <!-- </div> -->
+            </div>
+
+
+            <div class="comment-content">
+                <?php $comments->content(); ?>
+            </div>
+            <span class="comment-reply"><?php $comments->reply(); ?></span>
+        </div>
+        <?php if ($comments->children) { ?>
+            <div class="comment-children">
+                <?php $comments->threadedComments($options); ?>
+            </div>
+        <?php } ?>
+    </li>
+<?php }
