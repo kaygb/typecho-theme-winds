@@ -1,27 +1,4 @@
 console.log(" %c WINDS %c https://github.com/kaygb/typecho-theme-winds/ ", "color: #000; background: pink; padding:5px;", "background: #fff; padding:5px;");
-
-// 返回顶部
-$(function() {
-        $(window).scroll(function() {
-            var scroHei = $(window).scrollTop();
-            if (scroHei > 300) {
-                $('.back-to-top').css("display", "block");
-                $('.back-to-top').fadeIn;
-            } else {
-                $('.back-to-top').css("display", "none");
-                $('.back-to-top').fadeOut;
-            }
-        })
-        $('.back-to-top').click(function() {
-            $('body,html').animate({
-                scrollTop: 0
-            }, 500);
-        })
-    })
-    // 代码高亮
-hljs.initHighlightingOnLoad();
-hljs.initLineNumbersOnLoad();
-
 //初始化
 $(document).ready(function() {
     // 初始化highlightjs
@@ -48,6 +25,29 @@ $(document).ready(function() {
     });
     $('.main-title').fadeIn(3000);
 });
+// 返回顶部
+$(function() {
+        $(window).scroll(function() {
+            var scroHei = $(window).scrollTop();
+            if (scroHei > 300) {
+                $('.back-to-top').css("display", "block");
+                $('.back-to-top').fadeIn;
+            } else {
+                $('.back-to-top').css("display", "none");
+                $('.back-to-top').fadeOut;
+            }
+        })
+        $('.back-to-top').click(function() {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 500);
+        })
+    })
+    // 代码高亮
+hljs.initHighlightingOnLoad();
+hljs.initLineNumbersOnLoad();
+
+
 // $(function() {
 //     //Calls the tocify method on your HTML div.
 //     var toc = $("#toc").tocify({ selectors: "h2,h3,h4,h5" });
@@ -104,6 +104,28 @@ $('#tabs').tabulous({
 });
 
 // sidebar
+if ($(window).width() > 1000) {
+            //获取垂直滚动的距离
+            let profileTop = $(".main").offset().top - $(window).scrollTop();
+            // console.log(profileTop);
+            // var scrollTop = $(document).scrollTop();
+            if (profileTop < 100) {
+                $(".profile").css({ "top": "100px", "position": "fixed" });
+                // $(".blur-nav-bg").css({ "display": "inherit" });
+                // $(".blur-nav").css({ "display": "inherit" });
+                $(".blur-nav-bg").fadeIn();
+                $(".blur-nav").fadeIn();
+            } else {
+                $(".profile").css({ "top": "inherit", "position": "" });
+                // $(".blur-nav-bg").css({ "display": "none" });
+                // $(".blur-nav").css({ "display": "none" });
+                $(".blur-nav-bg").fadeOut();
+                $(".blur-nav").fadeOut();
+            }
+        } else {
+            $(".blur-nav-bg").css({ "display": "inherit" });
+            $(".blur-nav").css({ "display": "inherit" });
+        }
 $(function() {
     $(window).scroll(function() {
         if ($(window).width() > 1000) {

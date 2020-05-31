@@ -216,14 +216,18 @@ function threadedComments($comments, $options) {
             <?php }?>
 
         </span>
+        <!-- <div class="comment-meta"> -->
+            <small class="comment-meta  ">
+                <a class="text-xs text-muted" href="<?php $comments->permalink(); ?>"><?php $comments->date('Y-m-d H:i'); ?></a>
+                </small>
+                <!-- </div> -->
             </div>
-            <div class="comment-meta">
-                <a href="<?php $comments->permalink(); ?>"><?php $comments->date('Y-m-d H:i'); ?></a>
-            </div>
-            <span class="comment-reply"><?php $comments->reply(); ?></span>
+
+
             <div class="comment-content">
                 <?php $comments->content(); ?>
             </div>
+            <span class="comment-reply"><?php $comments->reply(); ?></span>
         </div>
         <?php if ($comments->children) { ?>
             <div class="comment-children">
