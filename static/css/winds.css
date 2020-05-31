@@ -113,9 +113,16 @@ li.page-item a {
 }
 
 .comment-list li {
-    border: 2px solid #eee;
+    /* border: 2px solid #eee; */
     margin: 5px;
-    padding: 5px;
+    /* padding: 5px; */
+}
+.comment-child{
+    background: #eee;
+    padding: 10px;
+}
+.comment-author .avatar{
+    border-radius: 50%!important;
 }
 
 #wind-comment-group textarea {

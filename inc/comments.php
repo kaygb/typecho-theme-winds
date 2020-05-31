@@ -2,6 +2,8 @@
 <div id="comments" class="wbg-white container">
     <?php $this->comments()->to($comments); ?>
 
+    <?php  ?>
+
     <?php if($this->allow('comment')): ?>
     <div id="<?php $this->respondId(); ?>" class="respond">
         <div class="cancel-comment-reply">
