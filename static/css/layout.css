@@ -47,6 +47,7 @@ body {
     overflow-x: hidden;
     /* letter-spacing: 0.1rem!important; */
     background-color: #dff9fb;
+    color: #333;
     overflow-y: scroll;
 }
 
