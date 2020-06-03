@@ -80,7 +80,15 @@ h2 {
     font-size: 1.5rem;
     font-weight: 900;
 }
-
+h2::after {
+    content: '';
+    width: 50px;
+    border-radius: 5px;
+    display: block;
+    margin: 5px 0;
+    height: 5px;
+    background: #333;
+}
 h3 {
     font-size: 1.4rem;
     font-weight: 900;
