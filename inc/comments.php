@@ -14,8 +14,9 @@
         <form method="post" action="<?php $this->commentUrl() ?>" id="comment-form" role="form" class="wind-comment">
             <div id="wind-comment-group"  class="form-group wind-comment-group">
                 <!-- <label for="textarea" class="required"><?php //_e('内容：'); ?></label> -->
-                <textarea rows="8" cols="50" name="text"  placeholder="评论内容，必填"  id="textarea" class="textarea wind-comment-inputextarea" required ><?php $this->remember('text'); ?></textarea>
+                <textarea rows="8" cols="50" name="text"  placeholder="评论内容，必填"  id="textarea" class="textarea wind-comment-inputextarea OwO-textarea" required ><?php $this->remember('text'); ?></textarea>
             </div>
+
             <?php if($this->user->hasLogin()): ?>
                 
     		<p><?php _e('您已登陆: '); ?><a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a> ，<a href="<?php $this->options->logoutUrl(); ?>" title="Logout"><?php _e('退出？'); ?></a></p>
@@ -34,9 +35,11 @@
                 </div>
 
             <?php endif; ?>
-    		
+            <div class="OwO"></div>
     		<div>
-                <button type="submit" class="submit btn btn-dark"><?php _e('发布评论'); ?></button>
+            
+                <button type="submit" class="submit winds-submit btn btn-dark"><?php _e('发布评论'); ?></button>
+
             </div>
     	</form>
     </div>
@@ -59,6 +62,18 @@
     
 </div>
 
-
+<script src="<?php $this->options->themeUrl('static/OwO/OwO.min.js'); ?>"></script>
+<!-- <script src="<?php $this->options->themeUrl('static/OwO/OwO.min.js.map'); ?>"></script> -->
+<script>
+var OwO_winds = new OwO({
+    logo: '<i class="fas fa-smile"></i > 表情',
+    container: document.getElementsByClassName('OwO')[0],
+    target: document.getElementsByClassName('OwO-textarea')[0],
+    api: '<?php $this->options->themeUrl('static/OwO/OwO.json'); ?>',
+    position: 'down',
+    width: '100%',
+    maxHeight: '250px'
+});
+</script>
 
 

@@ -1,0 +1,1824 @@
+{
+  "颜文字": {
+    "type": "emoticon",
+    "container": [
+      {
+        "icon": "OωO",
+        "text": "Author: DIYgod"
+      },
+      {
+        "icon": "|´・ω・)ノ",
+        "text": "Hi"
+      },
+      {
+        "icon": "ヾ(≧∇≦*)ゝ",
+        "text": "开心"
+      },
+      {
+        "icon": "(☆ω☆)",
+        "text": "星星眼"
+      },
+      {
+        "icon": "（╯‵□′）╯︵┴─┴",
+        "text": "掀桌"
+      },
+      {
+        "icon": "￣﹃￣",
+        "text": "流口水"
+      },
+      {
+        "icon": "(/ω＼)",
+        "text": "捂脸"
+      },
+      {
+        "icon": "∠( ᐛ 」∠)＿",
+        "text": "给跪"
+      },
+      {
+        "icon": "(๑•̀ㅁ•́ฅ)",
+        "text": "Hi"
+      },
+      {
+        "icon": "→_→",
+        "text": "斜眼"
+      },
+      {
+        "icon": "୧(๑•̀⌄•́๑)૭",
+        "text": "加油"
+      },
+      {
+        "icon": "٩(ˊᗜˋ*)و",
+        "text": "有木有WiFi"
+      },
+      {
+        "icon": "(ノ°ο°)ノ",
+        "text": "前方高能预警"
+      },
+      {
+        "icon": "(´இ皿இ｀)",
+        "text": "我从未见过如此厚颜无耻之人"
+      },
+      {
+        "icon": "⌇●﹏●⌇",
+        "text": "吓死宝宝惹"
+      },
+      {
+        "icon": "(ฅ´ω`ฅ)",
+        "text": "已阅留爪"
+      },
+      {
+        "icon": "(╯°A°)╯︵○○○",
+        "text": "去吧大师球"
+      },
+      {
+        "icon": "φ(￣∇￣o)",
+        "text": "太萌惹"
+      },
+      {
+        "icon": "ヾ(´･ ･｀｡)ノ\"",
+        "text": "咦咦咦"
+      },
+      {
+        "icon": "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃",
+        "text": "气呼呼"
+      },
+      {
+        "icon": "(ó﹏ò｡)",
+        "text": "我受到了惊吓"
+      },
+      {
+        "icon": "Σ(っ °Д °;)っ",
+        "text": "什么鬼"
+      },
+      {
+        "icon": "( ,,´･ω･)ﾉ\"(´っω･｀｡)",
+        "text": "摸摸头"
+      },
+      {
+        "icon": "╮(╯▽╰)╭ ",
+        "text": "无奈"
+      },
+      {
+        "icon": "o(*////▽////*)q ",
+        "text": "脸红"
+      },
+      {
+        "icon": "＞﹏＜",
+        "text": ""
+      },
+      {
+        "icon": "( ๑´•ω•) \"(ㆆᴗㆆ)",
+        "text": ""
+      },
+      {
+        "icon": "(｡•ˇ‸ˇ•｡)",
+        "text": ""
+      }
+    ]
+  }, 
+  "阿鲁": {
+    "name": "aru",
+    "type": "image",
+    "container": [
+      {
+        "icon": "despise",
+        "text": "鄙视"
+      },
+      {
+        "icon": "knife",
+        "text": "插刀"
+      },
+      {
+        "icon": "pouting",
+        "text": "亲嘴"
+      },
+      {
+        "icon": "shutup",
+        "text": "闭嘴"
+      },
+      {
+        "icon": "unhappy",
+        "text": "不开心"
+      },
+      {
+        "icon": "discovertruth",
+        "text": "发现真相"
+      },
+      {
+        "icon": "shit",
+        "text": "便便"
+      },
+      {
+        "icon": "distressed",
+        "text": "烦恼"
+      },
+      {
+        "icon": "shy",
+        "text": "捂脸"
+      },
+      {
+        "icon": "speechless",
+        "text": "无语"
+      },
+      {
+        "icon": "confuse",
+        "text": "迷惑"
+      },
+      {
+        "icon": "frown",
+        "text": "皱眉"
+      },
+      {
+        "icon": "proud",
+        "text": "得意"
+      },
+      {
+        "icon": "cheer",
+        "text": "欢呼"
+      },
+      {
+        "icon": "meditation",
+        "text": "沉思"
+      },
+      {
+        "icon": "diving",
+        "text": "潜水"
+      },
+      {
+        "icon": "cryingface",
+        "text": "掩面哭泣"
+      },
+      {
+        "icon": "lurking",
+        "text": "潜伏"
+      },
+      {
+        "icon": "thumb",
+        "text": "大拇指"
+      },
+      {
+        "icon": "smile",
+        "text": "微笑"
+      },
+      {
+        "icon": "clap",
+        "text": "拍掌"
+      },
+      {
+        "icon": "envious",
+        "text": "眼馋"
+      },
+      {
+        "icon": "surrender",
+        "text": "投降"
+      },
+      {
+        "icon": "bigeye",
+        "text": "大眼睛"
+      },
+      {
+        "icon": "nose",
+        "text": "抠鼻"
+      },
+      {
+        "icon": "sweat",
+        "text": "流汗"
+      },
+      {
+        "icon": "flower",
+        "text": "小花花"
+      },
+      {
+        "icon": "crying",
+        "text": "流泪"
+      },
+      {
+        "icon": "spit",
+        "text": "吐"
+      },
+      {
+        "icon": "surprised",
+        "text": "吃惊"
+      },
+      {
+        "icon": "blood",
+        "text": "一滩血"
+      },
+      {
+        "icon": "blood2",
+        "text": "吐血"
+      },
+      {
+        "icon": "shy2",
+        "text": "脸红"
+      },
+      {
+        "icon": "angry",
+        "text": "生气"
+      },
+      {
+        "icon": "nomatter",
+        "text": "无所谓"
+      },
+      {
+        "icon": "dead",
+        "text": "死翘翘"
+      },
+      {
+        "icon": "insidious",
+        "text": "阴险"
+      },
+      {
+        "icon": "tongue",
+        "text": "吐舌"
+      }
+
+    ]
+
+  },
+  "贴吧":{
+    "type": "image",
+    "name": "tieba",
+    "container":[
+      {
+        "icon": "Y.tb1",
+        "text": "贴吧"
+      },
+      {
+        "icon": "Y.tb2",
+        "text": "贴吧"
+      },
+      {
+        "icon": "Y.tb3",
+        "text": "贴吧"
+      },
+      {
+        "icon": "Y.tb4",
+        "text": "贴吧"
+      },
+      {
+        "icon": "Y.tb5",
+        "text": "贴吧"
+      },
+      {
+        "icon": "Y.tb6",
+        "text": "贴吧"
+      },
+      {
+        "icon": "Y.tb7",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb8",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb9",
+        "text": "贴吧"
+      },
+      {
+        "icon": "Y.tb10",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb11",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb12",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb13",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb14",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb15",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb17",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb18",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb19",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb20",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb23",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb24",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb25",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb26",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb27",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb28",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb29",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb30",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb31",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb32",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb33",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb34",
+        "text": "贴吧"
+	  },
+	  {
+        "icon": "Y.tb35",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb36",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb37",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb38",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb39",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb40",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb41",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb42",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb43",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb44",
+        "text": "贴吧"
+	  },
+	  {
+        "icon": "Y.tb45",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb46",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb47",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb48",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb49",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb50",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb51",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb52",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb53",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb54",
+        "text": "贴吧"
+	  },
+	  {
+        "icon": "Y.tb55",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb56",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb57",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb58",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb59",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb60",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb61",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb62",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb63",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb64",
+        "text": "贴吧"
+	  },
+	  {
+        "icon": "Y.tb65",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb66",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb67",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb68",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb69",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb70",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb71",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb72",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb73",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb74",
+        "text": "贴吧"
+	  },
+	  {
+        "icon": "Y.tb75",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb76",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb77",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb78",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb79",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb80",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb81",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb82",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb83",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb84",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb85",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb86",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb87",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb88",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb89",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb90",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb91",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb92",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb93",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb94",
+        "text": "贴吧"
+	  },
+	  {
+        "icon": "Y.tb95",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb96",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb97",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb98",
+        "text": "贴吧"
+      },
+	  {
+        "icon": "Y.tb99",
+        "text": "贴吧"
+      }
+
+    ]
+
+  },
+  "微博":{
+    "type": "image",
+    "name": "weibo",
+    "container":[
+      {
+        "icon": "Y.wb1",
+        "text": "微博"
+      },
+      {
+        "icon": "Y.wb2",
+        "text": "微博"
+      },
+      {
+        "icon": "Y.wb3",
+        "text": "微博"
+      },
+      {
+        "icon": "Y.wb4",
+        "text": "微博"
+      },
+      {
+        "icon": "Y.wb5",
+        "text": "微博"
+      },
+      {
+        "icon": "Y.wb6",
+        "text": "微博"
+      },
+      {
+        "icon": "Y.wb7",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb8",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb9",
+        "text": "微博"
+      },
+      {
+        "icon": "Y.wb10",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb11",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb12",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb13",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb14",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb15",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb16",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb17",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb18",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb19",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb20",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb21",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb22",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb23",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb24",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb25",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb26",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb27",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb28",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb29",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb30",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb31",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb32",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb33",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb34",
+        "text": "微博"
+	  },
+	  {
+        "icon": "Y.wb35",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb36",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb37",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb38",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb39",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb40",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb41",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb42",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb43",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb44",
+        "text": "微博"
+	  },
+	  {
+        "icon": "Y.wb45",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb46",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb47",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb48",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb49",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb50",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb51",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb52",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb53",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb54",
+        "text": "微博"
+	  },
+	  {
+        "icon": "Y.wb55",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb56",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb57",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb58",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb59",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb60",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb61",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb62",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb63",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb64",
+        "text": "微博"
+	  },
+	  {
+        "icon": "Y.wb65",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb66",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb67",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb68",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb69",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb70",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb71",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb72",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb73",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb74",
+        "text": "微博"
+	  },
+	  {
+        "icon": "Y.wb75",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb76",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb77",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb78",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb79",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb80",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb81",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb82",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb83",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb84",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb85",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb86",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb87",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb88",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb89",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb90",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb91",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb92",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb93",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb94",
+        "text": "微博"
+	  },
+	  {
+        "icon": "Y.wb95",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb96",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb97",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb98",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb99",
+        "text": "微博"
+            },
+	  {
+        "icon": "Y.wb100",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb101",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb102",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb103",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb104",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb105",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb106",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb107",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb108",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb109",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb110",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb111",
+        "text": "微博"
+      },
+	  {
+        "icon": "Y.wb112",
+        "text": "微博"
+      }
+
+    ]
+
+  },
+  "QQ":{
+    "type": "image",
+    "name": "QQ",
+    "container":[
+      {
+        "icon": "Y.qq1",
+        "text": "QQ"
+      },
+      {
+        "icon": "Y.qq2",
+        "text": "QQ"
+      },
+      {
+        "icon": "Y.qq3",
+        "text": "QQ"
+      },
+      {
+        "icon": "Y.qq4",
+        "text": "QQ"
+      },
+      {
+        "icon": "Y.qq5",
+        "text": "QQ"
+      },
+      {
+        "icon": "Y.qq6",
+        "text": "QQ"
+      },
+      {
+        "icon": "Y.qq7",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq8",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq9",
+        "text": "QQ"
+      },
+      {
+        "icon": "Y.qq10",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq11",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq12",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq13",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq14",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq15",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq17",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq18",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq19",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq20",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq23",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq24",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq25",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq26",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq27",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq28",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq29",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq30",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq31",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq32",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq33",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq34",
+        "text": "QQ"
+	  },
+	  {
+        "icon": "Y.qq35",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq36",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq37",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq38",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq39",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq40",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq41",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq42",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq43",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq44",
+        "text": "QQ"
+	  },
+	  {
+        "icon": "Y.qq45",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq46",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq47",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq48",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq49",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq50",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq51",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq52",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq53",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq54",
+        "text": "QQ"
+	  },
+	  {
+        "icon": "Y.qq55",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq56",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq57",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq58",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq59",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq60",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq61",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq62",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq63",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq64",
+        "text": "QQ"
+	  },
+	  {
+        "icon": "Y.qq65",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq66",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq67",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq68",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq69",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq70",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq71",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq72",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq73",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq74",
+        "text": "QQ"
+	  },
+	  {
+        "icon": "Y.qq75",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq76",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq77",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq78",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq79",
+        "text": "QQ"
+      },
+	  {
+        "icon": "Y.qq80",
+        "text": "QQ"
+	  
+      }
+
+    ]
+
+  },
+  "emoji":{
+    "type": "image",
+    "name": "emoji",
+    "container":[
+      {
+        "icon": "Y.emoji1",
+        "text": "emoji"
+      },
+      {
+        "icon": "Y.emoji2",
+        "text": "emoji"
+      },
+      {
+        "icon": "Y.emoji3",
+        "text": "emoji"
+      },
+      {
+        "icon": "Y.emoji4",
+        "text": "emoji"
+      },
+      {
+        "icon": "Y.emoji5",
+        "text": "emoji"
+      },
+      {
+        "icon": "Y.emoji6",
+        "text": "emoji"
+      },
+      {
+        "icon": "Y.emoji7",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji8",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji9",
+        "text": "emoji"
+      },
+      {
+        "icon": "Y.emoji10",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji11",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji12",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji13",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji14",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji15",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji17",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji18",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji19",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji20",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji23",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji24",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji25",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji26",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji27",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji28",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji29",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji30",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji31",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji32",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji33",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji34",
+        "text": "emoji"
+	  },
+	  {
+        "icon": "Y.emoji35",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji36",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji37",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji38",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji39",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji40",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji41",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji42",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji43",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji44",
+        "text": "emoji"
+	  },
+	  {
+        "icon": "Y.emoji45",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji46",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji47",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji48",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji49",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji50",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji51",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji52",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji53",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji54",
+        "text": "emoji"
+	  },
+	  {
+        "icon": "Y.emoji55",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji56",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji57",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji58",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji59",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji60",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji61",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji62",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji63",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji64",
+        "text": "emoji"
+	  },
+	  {
+        "icon": "Y.emoji65",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji66",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji67",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji68",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji69",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji70",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji71",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji72",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji73",
+        "text": "emoji"
+      },
+	  {
+        "icon": "Y.emoji74",
+        "text": "emoji"
+	  },
+	  {
+        "icon": "Y.emoji75",
+        "text": "emoji"
+      }
+    ]
+  },
+  "蛆音娘": {
+    "name": "quyin",
+    "type": "image",
+    "container": [
+      {
+        "icon": "hematemesis",
+        "text": "吐血"
+      },
+      {
+        "icon": "1huaji",
+        "text": "滑稽"
+      },
+      {
+        "icon": "amazing",
+        "text": "吃惊"
+      },
+      {
+        "icon": "angry",
+        "text": "生气"
+      },
+      {
+        "icon": "cry",
+        "text": "哭泣"
+      },
+      {
+        "icon": "die",
+        "text": "die"
+      },
+      {
+        "icon": "doubt",
+        "text": "疑问"
+      },
+      {
+        "icon": "feizao",
+        "text": "肥皂"
+      },
+      {
+        "icon": "fue",
+        "text": "扶额"
+      },
+      {
+        "icon": "heng",
+        "text": "哼"
+      },
+      {
+        "icon": "laughing",
+        "text": "大笑"
+      },
+      {
+        "icon": "look",
+        "text": "偷看"
+      },
+      {
+        "icon": "maimeng",
+        "text": "卖萌"
+      },
+      {
+        "icon": "OK",
+        "text": "OK！"
+      },
+      {
+        "icon": "scare",
+        "text": "吓死宝宝惹"
+      },
+      {
+        "icon": "shakinghead",
+        "text": "摇头"
+      },
+      {
+        "icon": "sleep",
+        "text": "睡觉"
+      },
+      {
+        "icon": "speechless",
+        "text": "无语"
+      },
+      {
+        "icon": "watermaleon",
+        "text": "吃瓜"
+      },
+      {
+        "icon": "witty",
+        "text": "机智"
+      }
+    ]
+  }
+}
