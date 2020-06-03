@@ -47,6 +47,7 @@ body {
     overflow-x: hidden;
     /* letter-spacing: 0.1rem!important; */
     background-color: #dff9fb;
+    color: #333;
     overflow-y: scroll;
 }
 
@@ -79,7 +80,15 @@ h2 {
     font-size: 1.5rem;
     font-weight: 900;
 }
-
+h2::after {
+    content: '';
+    width: 50px;
+    border-radius: 5px;
+    display: block;
+    margin: 5px 0;
+    height: 5px;
+    background: #333;
+}
 h3 {
     font-size: 1.4rem;
     font-weight: 900;
