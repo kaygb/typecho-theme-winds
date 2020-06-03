@@ -131,7 +131,16 @@ li.page-item a {
     border-radius: 0;
     height: 100px;
 }
-
+.winds-submit{
+    float: right;
+    position: relative;
+    /* bottom: 0; */
+    top: -28px;
+}
+div#comments-all {
+    margin-top: 30px;
+    border-top: 2px solid #eee;
+}
 input.wind-comment-input.input-group {
     border: 0;
     border-bottom: 1px solid #eee;

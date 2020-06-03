@@ -51,6 +51,7 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/post.css'); ?>?v=<?php echo date('Ymd'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/footer.css'); ?>?v=<?php echo date('Ymd'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/keyframe.css'); ?>?v=<?php echo date('Ymd'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('static/OwO/OwO.min.css'); ?>?v=<?php echo date('Ymd'); ?>">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css">
     <!-- <link rel="stylesheet" href="https://cdn.staticfile.org/jquery.tocify/1.9.0/stylesheets/jquery.tocify.min.css"> -->
