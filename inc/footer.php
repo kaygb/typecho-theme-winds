@@ -10,10 +10,11 @@
         </ul>
 <span>
         &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.</span>
-<span>
+<span>&nbsp;&nbsp;
         <?php _e('<a class="text-success" href="https://www.typecho.org" target="_blank">TYPECHO</a>  THEME  <a class="text-success" href="https://github.com/kaygb/typecho-theme-winds" target="_blank">WINDS</a> '); ?></span>
-<span>
+<span>&nbsp;&nbsp;
         <a href="http://beian.miit.gov.cn/"><?php $this->options->beianNum(); ?></a>
+        &nbsp;&nbsp;
         已运行：<span id="htmer_time" style="color: red;"></span>
         </span>
         <br>
