@@ -3,7 +3,7 @@
     <div class="footer container-fluid ">
     <footer id="footer" class="container" role="contentinfo">
         <ul class="winds-all-links">
-            <?php 
+              友情链接：<?php 
                 $mypattern1 = "<li data-original-title=\"{title}\" data-toggle=\"tooltip\" data-placement=\"top\"><a href=\"{url}\" target=\"_blank\"><span>{name}</span></a></li>";
                 Links_Plugin::output($mypattern1=NULL, $links_num=0, $sort="ten");
                 ?>
