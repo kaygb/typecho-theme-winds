@@ -2,14 +2,24 @@
 <div class="back-to-top"><i class="fas fa-angle-up"></i></div>
     <div class="footer container-fluid ">
     <footer id="footer" class="container" role="contentinfo">
-
-        &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.
-        <br>
-        <?php _e('<a class="text-success" href="https://www.typecho.org" target="_blank">TYPECHO</a>  THEME  <a class="text-success" href="https://github.com/kaygb/typecho-theme-winds" target="_blank">WINDS</a> '); ?>
-        <br>
+        <ul class="winds-all-links">
+            <?php 
+                $mypattern1 = "<li data-original-title=\"{title}\" data-toggle=\"tooltip\" data-placement=\"top\"><a href=\"{url}\" target=\"_blank\"><span>{name}</span></a></li>";
+                Links_Plugin::output($mypattern1=NULL, $links_num=0, $sort="ten");
+                ?>
+        </ul>
+<span>
+        &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.</span>
+<span>
+        <?php _e('<a class="text-success" href="https://www.typecho.org" target="_blank">TYPECHO</a>  THEME  <a class="text-success" href="https://github.com/kaygb/typecho-theme-winds" target="_blank">WINDS</a> '); ?></span>
+<span>
         <a href="http://beian.miit.gov.cn/"><?php $this->options->beianNum(); ?></a>
+        已运行：<span id="htmer_time" style="color: red;"></span>
+        </span>
         <br>
         <?php $this->options->footer(); ?>
+
+
         <script>
     function secondToDate(second) {
         if (!second) {
@@ -53,7 +63,7 @@
     }
     setInterval(setTime, 1000);
 </script>
-   网站已艰难运行：<span id="htmer_time" style="color: red;"></span>
+
 
 
     </footer><!-- end #footer -->
