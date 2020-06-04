@@ -127,7 +127,14 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     
                     <div class="board-list link-list">
                         <?php 
-                        Links_Plugin::output($mypattern1, 0, "nogood");
+                                                $mypattern2 = "
+                                                <a href=\"{url}\" target=\"_blank\" rel=\"nofollow\" class=\"board-item link-item\">
+                                                    <div class=\"board-thumb loaded\" data-thumb=\"{image}\">
+                                                        <img class=\"lazyload loaded\" data-original=\"{image}\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxMzggNzkuMTU5ODI0LCAyMDE2LzA5LzE0LTAxOjA5OjAxICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+IEmuOgAAAA1JREFUCJljePfx038ACXMD0ZVlJAYAAAAASUVORK5CYII=\">
+                                                    </div>
+                                                    <div class=\"board-title\">{name}</div>
+                                                </a>";
+                        Links_Plugin::output($mypattern2, 0, "nogood");
                             // Links_Plugin::output($mypattern3=NULL, $links_num=0, $sort="nogood");
                             ?>
                         
