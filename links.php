@@ -105,7 +105,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         $mypattern1 = "
                         <a href=\"{url}\" target=\"_blank\" class=\"board-item link-item\">
                             <div class=\"board-thumb loaded\" data-thumb=\"{image}\">
-                                <img class=\"lazyload loaded\" data-src=\"{image}\" src=\"{image}\">
+                                <img class=\"lazyload loaded\" data-original=\"{image}\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxMzggNzkuMTU5ODI0LCAyMDE2LzA5LzE0LTAxOjA5OjAxICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+IEmuOgAAAA1JREFUCJljePfx038ACXMD0ZVlJAYAAAAASUVORK5CYII=\">
                             </div>
                             <div class=\"board-title\">{name}</div>
                         </a>";
@@ -115,10 +115,10 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         Links_Plugin::output($mypattern1, 0, "ten");
                         ?>
                     </div>
-                    
-                    <div class="board-list link-list">
                     <h2>内页链接</h2>
-                    <?php 
+                    <div class="board-list link-list">
+
+                        <?php 
                         Links_Plugin::output($mypattern1, 0, "one");
                         // Links_Plugin::output($mypattern2=NULL, $links_num=0, $sort="one");
                         ?>
@@ -126,10 +126,10 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     <h2>异常链接</h2>
                     
                     <div class="board-list link-list">
-                    <?php 
-                    Links_Plugin::output($mypattern1, 0, "nogood");
-                        // Links_Plugin::output($mypattern3=NULL, $links_num=0, $sort="nogood");
-                        ?>
+                        <?php 
+                        Links_Plugin::output($mypattern1, 0, "nogood");
+                            // Links_Plugin::output($mypattern3=NULL, $links_num=0, $sort="nogood");
+                            ?>
                         
                     </div>
                     <?php $this->content(); ?>
