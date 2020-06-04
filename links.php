@@ -120,7 +120,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
                         <?php 
                         Links_Plugin::output($mypattern1, 0, "one");
-                        // Links_Plugin::output($mypattern2=NULL, $links_num=0, $sort="one");
+
                         ?>
                         </div>
                     <h2>异常链接</h2>
@@ -135,7 +135,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                                                     <div class=\"board-title\">{name}</div>
                                                 </a>";
                         Links_Plugin::output($mypattern2, 0, "nogood");
-                            // Links_Plugin::output($mypattern3=NULL, $links_num=0, $sort="nogood");
+
                             ?>
                         
                     </div>
