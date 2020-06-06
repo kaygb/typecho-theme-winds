@@ -169,7 +169,7 @@ input.wind-comment-input.input-group:focus,
 }
 
 .wind-comment-input .input-group {
-    padding: 0;
+    /* padding: 0; */
 }
 
 .wind-comment-input {
