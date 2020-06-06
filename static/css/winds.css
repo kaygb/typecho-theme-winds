@@ -175,3 +175,6 @@ input.wind-comment-input.input-group:focus,
 .wind-comment-input {
     margin: 10px auto;
 }
+.winds-submit {
+    border-radius: 0!important;
+}
