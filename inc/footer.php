@@ -2,20 +2,62 @@
 <div class="back-to-top"><i class="fas fa-angle-up"></i></div>
     <div class="footer container-fluid ">
     <footer id="footer" class="container" role="contentinfo">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 winds-widget">
+
+                <section class="widget">
+                    <h3 class="widget-title"><?php _e('最新文章'); ?></h3>
+                    <ul class="widget-list">
+                        <?php $this->widget('Widget_Contents_Post_Recent')
+                        ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
+                    </ul>
+                </section>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 winds-widget">
+                <section class="widget">
+                <h3 class="widget-title"><?php _e('最近回复'); ?></h3>
+                <ul class="widget-list">
+                <?php $this->widget('Widget_Comments_Recent')->to($comments); ?>
+                <?php while($comments->next()): ?>
+                    <li><a href="<?php $comments->permalink(); ?>"><?php $comments->author(false); ?></a>: <?php $comments->excerpt(35, '...'); ?></li>
+                <?php endwhile; ?>
+                </ul>
+                </section>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 winds-widget">
+                <section class="widget">
+                <h3 class="widget-title"><?php _e('其它'); ?></h3>
+                <ul class="widget-list">
+                    <?php if($this->user->hasLogin()): ?>
+                        <li class="last"><a href="<?php $this->options->adminUrl(); ?>"><?php _e('进入后台'); ?> (<?php $this->user->screenName(); ?>)</a></li>
+                        <li><a href="<?php $this->options->logoutUrl(); ?>"><?php _e('退出'); ?></a></li>
+                    <?php else: ?>
+                        <li class="last"><a href="<?php $this->options->adminUrl('login.php'); ?>"><?php _e('登录'); ?></a></li>
+                    <?php endif; ?>
+                    <li><a href="<?php $this->options->feedUrl(); ?>"><?php _e('文章 RSS'); ?></a></li>
+                    <li><a href="<?php $this->options->commentsFeedUrl(); ?>"><?php _e('评论 RSS'); ?></a></li>
+                    <li><a href="http://www.typecho.org">Typecho</a></li>
+                </ul>
+                </section>
+            </div>
+        </div>
+        
+
         <ul class="winds-all-links">
               友情链接：<?php 
                 $mypattern1 = "<li data-original-title=\"{title}\" data-toggle=\"tooltip\" data-placement=\"top\"><a href=\"{url}\" target=\"_blank\"><span>{name}</span></a></li>";
                 Links_Plugin::output($mypattern1=NULL, $links_num=0, $sort="ten");
                 ?>
         </ul>
-<span>
-        &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.</span>
-<span>&nbsp;&nbsp;
-        <?php _e('<a class="text-success" href="https://www.typecho.org" target="_blank">TYPECHO</a>  THEME  <a class="text-success" href="https://github.com/kaygb/typecho-theme-winds" target="_blank">WINDS</a> '); ?></span>
-<span>&nbsp;&nbsp;
-        <a href="http://beian.miit.gov.cn/"><?php $this->options->beianNum(); ?></a>
-        &nbsp;&nbsp;
-        已运行：<span id="htmer_time" style="color: red;"></span>
+        <span>
+                &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.</span>
+        <span>&nbsp;&nbsp;
+                <?php _e('<a class="text-success" href="https://www.typecho.org" target="_blank">TYPECHO</a>  THEME  <a class="text-success" href="https://github.com/kaygb/typecho-theme-winds" target="_blank">WINDS</a> '); ?></span>
+        <span>&nbsp;&nbsp;
+                <a href="http://beian.miit.gov.cn/"><?php $this->options->beianNum(); ?></a>
+                &nbsp;&nbsp;
+                已运行：<span id="htmer_time" style="color: red;"></span>
         </span>
         <br>
         <?php $this->options->footer(); ?>
