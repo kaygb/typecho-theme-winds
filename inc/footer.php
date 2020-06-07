@@ -8,7 +8,7 @@
                 <section class="widget">
                     <h3 class="widget-title"><?php _e('最新文章'); ?></h3>
                     <ul class="widget-list">
-                        <?php $this->widget('Widget_Contents_Post_Recent')
+                        <?php $this->widget('Widget_Contents_Post_Recent','pageSize=5')
                         ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
                     </ul>
                 </section>
@@ -16,9 +16,9 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 winds-widget">
                 <section class="widget">
-                <h3 class="widget-title"><?php _e('最近回复'); ?></h3>
+                <h3 class="widget-title"><?php _e('最新评论'); ?></h3>
                 <ul class="widget-list">
-                <?php $this->widget('Widget_Comments_Recent')->to($comments); ?>
+                <?php $this->widget('Widget_Comments_Recent','ignoreAuthor=true&pageSize=5')->to($comments); ?>
                 <?php while($comments->next()): ?>
                     <li><a href="<?php $comments->permalink(); ?>"><?php $comments->author(false); ?></a>: <?php $comments->excerpt(35, '...'); ?></li>
                 <?php endwhile; ?>
@@ -37,7 +37,7 @@
                     <?php endif; ?>
                     <li><a href="<?php $this->options->feedUrl(); ?>"><?php _e('文章 RSS'); ?></a></li>
                     <li><a href="<?php $this->options->commentsFeedUrl(); ?>"><?php _e('评论 RSS'); ?></a></li>
-                    <li><a href="http://www.typecho.org">Typecho</a></li>
+
                 </ul>
                 </section>
             </div>
