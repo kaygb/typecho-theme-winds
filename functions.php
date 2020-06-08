@@ -236,3 +236,4 @@ function threadedComments($comments, $options) {
         <?php } ?>
     </li>
 <?php }
+

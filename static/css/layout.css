@@ -125,7 +125,7 @@ blockquote {
     border: 1px dashed #009e4ecc;
 
 
-    background: #fff;
+    /* background: #fff; */
 }
 blockquote p{
     margin: 0!important;
