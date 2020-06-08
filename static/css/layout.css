@@ -116,10 +116,22 @@ p {
 }
 
 blockquote {
-    margin: 0 0 1rem;
-    border-left: 2px solid #009e4ecc;
     padding: 0 15px;
-    background: #e9ffee;
+    /* border-left:5px solid #009e4ecc;
+    border-right:1px dashed #eee;
+    border-top:1px dashed #eee;
+
+    border-bottom:1px dashed #eee; */
+    border: 1px dashed #009e4ecc;
+
+
+    background: #fff;
+}
+blockquote p{
+    margin: 0!important;
+    padding: 5px 0 ;
+    color: #117a8b;
+    font-style: italic;
 }
 
 div {
