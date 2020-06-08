@@ -52,7 +52,7 @@ var OwO_winds = new OwO({
     logo: '<i class="fas fa-smile"></i > 表情',
     container: document.getElementsByClassName('OwO')[0],
     target: document.getElementsByClassName('OwO-textarea')[0],
-    api: 'https://cdn.jsdelivr.net/gh/kaygb/OwO-images@master/JSON/winds-owo.json',
+    api: 'https://cdn.jsdelivr.net/gh/kaygb/OwO-images@master/JSON/winds-lazy-owo.json',
     position: 'down',
     width: '100%',
     maxHeight: '250px'
