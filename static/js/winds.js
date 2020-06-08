@@ -47,16 +47,7 @@ $(function() {
 hljs.initHighlightingOnLoad();
 hljs.initLineNumbersOnLoad();
 
-//OwO
-var OwO_winds = new OwO({
-    logo: '<i class="fas fa-smile"></i > 表情',
-    container: document.getElementsByClassName('OwO')[0],
-    target: document.getElementsByClassName('OwO-textarea')[0],
-    api: 'https://cdn.jsdelivr.net/gh/kaygb/OwO-images@master/JSON/winds-owo.json',
-    position: 'down',
-    width: '100%',
-    maxHeight: '250px'
-});
+
 // $(function() {
 //     //Calls the tocify method on your HTML div.
 //     var toc = $("#toc").tocify({ selectors: "h2,h3,h4,h5" });

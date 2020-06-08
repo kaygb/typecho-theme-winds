@@ -64,16 +64,16 @@
 
 <script src="<?php $this->options->themeUrl('static/OwO/OwO.min.js'); ?>"></script>
 <!-- <script src="<?php $this->options->themeUrl('static/OwO/OwO.min.js.map'); ?>"></script> -->
+
+
 <script>
+//OwO
 var OwO_winds = new OwO({
     logo: '<i class="fas fa-smile"></i > 表情',
     container: document.getElementsByClassName('OwO')[0],
     target: document.getElementsByClassName('OwO-textarea')[0],
-    api: '<?php $this->options->themeUrl('static/OwO/OwO.json'); ?>',
+    api: 'https://cdn.jsdelivr.net/gh/kaygb/OwO-images@master/JSON/winds-owo.json',
     position: 'down',
     width: '100%',
     maxHeight: '250px'
-});
-</script>
-
-
+});</script>
