@@ -65,6 +65,7 @@ cite {
 
 .comment-reply a {
     font-size: 12px;
+    border-radius: 0;
 }
 
 .main-posts-content {

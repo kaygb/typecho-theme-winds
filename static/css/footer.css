@@ -50,9 +50,26 @@
 .footer {
     margin-top: 50px;
     background: #000;
-    color: #eee;
+    color: #949494;
 }
 
 .footer a {
-    color: #eee;
+    color: #949494;
+}
+.winds-all-links{
+    list-style: none;
+    word-break: keep-all;
+    margin: 0;
+    /* text-align: center; */
+    padding: 10px;
+    border: 1px dashed #949494;
+    margin-bottom: 1rem;
+}
+.winds-all-links li{
+    display: inline;
+    padding: 5px;
+}
+.winds-all-links li a{
+    display: inline;
+    color: #949494;
 }
