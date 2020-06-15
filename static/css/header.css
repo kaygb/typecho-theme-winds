@@ -163,7 +163,8 @@ ul.dropdown-menu.winds-category-page-item {
     /* padding: 0; */
     bottom: 0;
     left: 0;
-    top: 50px;
+    top: 0;
+    padding-top: 50px;
     background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
     overflow-y: auto;
@@ -173,6 +174,8 @@ ul.dropdown-menu.winds-category-page-item {
 .mobile-menu a {
     color: #eee;
     text-align: center;
+    display: block;
+    width: 100%;
 }
 
 .wind-menu-hr {
@@ -196,11 +199,18 @@ ul.dropdown-menu.winds-category-page-item {
 
 .mobile-menu-section {
     display: flex;
-}
-
-.mobile-menu-section ul {
     list-style: none;
     padding: 0;
+}
+
+.mobile-menu-section li {
+    list-style: none;
+    padding: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .pc-nav {
@@ -229,6 +239,8 @@ ul.dropdown-menu.winds-category-page-item {
     }
     .mobile-nav {
         display: block;
+        z-index: 100;
+        background: #000;
     }
     .bg-blur img {
         transform: scale(1.5);
