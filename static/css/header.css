@@ -240,7 +240,7 @@ ul.dropdown-menu.winds-category-page-item {
     .mobile-nav {
         display: block;
         z-index: 100;
-        background: #000;
+        /* background: #000; */
     }
     .bg-blur img {
         transform: scale(1.5);
