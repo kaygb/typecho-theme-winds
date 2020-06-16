@@ -168,7 +168,10 @@ $(".winds-mb-menu").click(function() {
 
     $(".winds-mb-menu-f").css({ "display": "inherit" });
     $(".winds-mb-menu ").css({ "display": "none" });
-    $(".back-to-top ").css({ "z-index": "100" });
+    $(".back-to-top ").css({ "z-index": "98" });
+    $("body").css({ "overflow-y": "hidden" });
+    $(".mobile-nav").css({ "background": "#000" });
+
 });
 $(".winds-mb-menu-f").click(function() {
     // $(".mobile-menu").css({ "display": "none" });
@@ -176,6 +179,10 @@ $(".winds-mb-menu-f").click(function() {
     $(".winds-mb-menu-f").css({ "display": "none" });
     // $(".winds-mb-menu-f").fadeOut();;
     $(".winds-mb-menu").css({ "display": "inherit" });
+    $("body").css({ "overflow-y": "scroll" });
+    $(".mobile-nav").css({ "background": "" });
+
+
 
 
 });

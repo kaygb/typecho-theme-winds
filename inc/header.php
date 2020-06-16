@@ -63,18 +63,20 @@
                     <hr class="wind-menu-hr">
                     <span class="mobile-menu-title">页面</span>
 
-                    <div class="pages mobile-menu-section row">
+                    <ul class="pages mobile-menu-section row">
                         <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
                         <?php while($pages->next()): ?>
-                        <a class="col-6" <?php if($this->is('page', $pages->slug)): ?> class="current" <?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
+                        <li class="col-6">
+                        <a <?php if($this->is('page', $pages->slug)): ?> class="current" <?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
+                        </li>
                         <?php endwhile; ?>
-                    </div>
+                    </ul>
                     <hr class="wind-menu-hr">
                     <span class="mobile-menu-title">分类</span>
 
-                    <div class="categories mobile-menu-section row">
-                        <?php $this->widget('Widget_Metas_Category_List')->parse('<a class="col-6" href="{permalink}">{name}</a>');?>
-                        </div>
+                    <ul class="categories mobile-menu-section row">
+                        <?php $this->widget('Widget_Metas_Category_List')->parse('<li class="col-6"><a href="{permalink}">{name}</a></li>');?>
+                        </ul>
                         <hr class="wind-menu-hr">
                 </div>
 
