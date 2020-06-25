@@ -40,10 +40,7 @@
          if($this->is('index')) {
             $this->options->windsSeoDescription(); }
            else{
-               if ($this->excerpt(30, '...') == '') {
-                $this->options->windsSeoDescription();
-               }else{
-    $this->excerpt(30, '...');}
+    $this->excerpt(30, '...');
     
     }?>"/> 
     <meta itemprop="name" content="<?php 
