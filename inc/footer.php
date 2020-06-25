@@ -124,6 +124,10 @@
     <!-- <script src="https://cdn.staticfile.org/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdn.staticfile.org/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js"></script> -->
     <script src="https://cdn.staticfile.org/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+
+    <script type="text/javascript" src="<?php $this->options->themeUrl('static/theia-sticky-sidebar/ResizeSensor.min.js');?>"></script>
+    <script type="text/javascript" src="<?php $this->options->themeUrl('static/theia-sticky-sidebar/theia-sticky-sidebar.min.js');?>"></script>
+
     <script src="<?php $this->options->themeUrl('static/js/tabulous.js');?>"></script>
     <script src="<?php $this->options->themeUrl('static/js/winds.js');?>"></script>
 </body>

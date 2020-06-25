@@ -110,22 +110,19 @@ if ($(window).width() > 1000) {
             let profileBottom = $(".profile").offset().bottom - $(".footer").offset().top;
     console.log(profileBottom);
             // console.log(profileTop);
-            // var scrollTop = $(document).scrollTop();
             if (profileTop < 100) {
-                $(".profile").css({ "top": "100px", "position": "fixed" });
-                // $(".blur-nav-bg").css({ "display": "inherit" });
-                // $(".blur-nav").css({ "display": "inherit" });
+                // $(".profile").css({ "top": "100px", "position": "fixed" });
                 $(".blur-nav-bg").fadeIn();
                 $(".blur-nav").fadeIn();
             } else {
-                $(".profile").css({ "top": "inherit", "position": "" });
+                // $(".profile").css({ "top": "inherit", "position": "" });
                 // $(".blur-nav-bg").css({ "display": "none" });
                 // $(".blur-nav").css({ "display": "none" });
                 $(".blur-nav-bg").fadeOut();
                 $(".blur-nav").fadeOut();
             }
             if (profileBottom < 100) {
-                $(".profile").css({ "top": "inherit", "position": "" });
+                // $(".profile").css({ "top": "inherit", "position": "" });
 
             } 
         } else {
@@ -137,18 +134,12 @@ $(function() {
         if ($(window).width() > 1000) {
             //获取垂直滚动的距离
             let profileTop = $(".main").offset().top - $(window).scrollTop();
-            // console.log(profileTop);
-            // var scrollTop = $(document).scrollTop();
             if (profileTop < 100) {
-                $(".profile").css({ "top": "100px", "position": "fixed" });
-                // $(".blur-nav-bg").css({ "display": "inherit" });
-                // $(".blur-nav").css({ "display": "inherit" });
+                // $(".profile").css({ "top": "100px", "position": "fixed" });
                 $(".blur-nav-bg").fadeIn();
                 $(".blur-nav").fadeIn();
             } else {
-                $(".profile").css({ "top": "inherit", "position": "" });
-                // $(".blur-nav-bg").css({ "display": "none" });
-                // $(".blur-nav").css({ "display": "none" });
+                // $(".profile").css({ "top": "inherit", "position": "" });
                 $(".blur-nav-bg").fadeOut();
                 $(".blur-nav").fadeOut();
             }
@@ -159,7 +150,13 @@ $(function() {
 
     });
 });
-
+// theiaStickySidebar
+jQuery(document).ready(function() {
+    jQuery('.container .sidebar').theiaStickySidebar({
+      // Settings
+      additionalMarginTop: 100
+    });
+  });
 
 //侧栏跟随
 
