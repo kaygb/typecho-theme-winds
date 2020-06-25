@@ -13,7 +13,7 @@
     background-color: #fff;
     box-shadow: 0 0 10px #00000026;
     -webkit-box-shadow: 0 0 10px #00000026;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .wavatar {
