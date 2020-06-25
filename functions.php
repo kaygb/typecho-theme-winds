@@ -13,9 +13,9 @@
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
-include_once('option/winds_themeConfig.php');
-include_once('option/winds_themeFields.php');
-include_once('option/winds_functions.php');
-include_once('option/winds_bash64.php');
+require_once('option/winds_themeConfig.php');
+require_once('option/winds_themeFields.php');
+require_once('option/winds_functions.php');
+require_once('option/winds_bash64.php');
 
 
