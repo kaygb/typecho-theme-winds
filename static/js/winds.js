@@ -160,6 +160,30 @@ $(function() {
     });
 });
 
+
+//侧栏跟随
+
+// (function(){
+
+//     var oDiv=document.getElementById("profile");
+//     var H=0,iE6;
+//     var Y=oDiv;
+//     while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+
+//         window.onscroll=function()
+//         {
+//             var s=document.body.scrollTop||document.documentElement.scrollTop;
+//             if(s>H){
+//                 $(".profile").css({ "top": "inherit", "position": "fixed" });
+//             }else{$(".profile").css({ "top": "inherit", "position": "" });
+//         }
+//             } 
+        
+//     }
+ 
+//  )();
+
+
 //移动端导航
 
 $(".winds-mb-menu").click(function() {
