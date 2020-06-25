@@ -36,7 +36,16 @@
             $this->options->title(); 
         }?>  
     </title>
-    <meta itemprop="description" name="description" content="<?php $this->excerpt(30, '...'); ?>"/> 
+    <meta itemprop="description" name="description" content="<?php 
+         if($this->is('index')) {
+            $this->options->windsSeoDescription(); }
+           else{
+               if ($this->excerpt(30, '...') == '') {
+                $this->options->windsSeoDescription();
+               }else{
+    $this->excerpt(30, '...');}
+    
+    }?>"/> 
     <meta itemprop="name" content="<?php 
      if($this->is('index')) {
      $this->options->title(); _e(' - ');$this->options->description(); }
