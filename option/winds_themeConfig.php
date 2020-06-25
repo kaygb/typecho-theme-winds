@@ -15,12 +15,19 @@
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 function themeConfig($form) {
+
+
     $siteName  = new Typecho_Widget_Helper_Form_Element_Text('siteName', NULL, NULL, _t('站点名称'), _t('在首页导航栏下显示'));
     $form->addInput($siteName);
 
+
+
     $windsSeoDescription  = new Typecho_Widget_Helper_Form_Element_Text('windsSeoDescription', NULL, NULL, _t('站点SEO描述'), _t('面对搜索引擎，在首页显示'));
     $form->addInput($windsSeoDescription);
-    
+
+    $procardName = new Typecho_Widget_Helper_Form_Element_Text('procardName', NULL, NULL, _t('个人资料卡片名称'), _t('显示在个人资料卡图片下方'));
+    $form->addInput($procardName);
+
     $bgImgUrl = new Typecho_Widget_Helper_Form_Element_Text('bgImgUrl', NULL, NULL, _t('背景图片地址'), _t('在这里填入一个图片 URL 地址, 用于背景模糊设置'));
     $form->addInput($bgImgUrl);
 

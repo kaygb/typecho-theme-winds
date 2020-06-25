@@ -9,7 +9,7 @@
     <div class="card-profile">
         <img class="wavatar-s" src="<?php $this->options->avatarUrl(); ?>"  alt="" srcset="">
         <div class="about">
-        <?php $this->options->title(); ?>
+        <?php $this->options->procardName(); ?>
         </div>
     </div>
     <div class="statistics">
