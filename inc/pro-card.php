@@ -28,10 +28,17 @@
             <span class="font-theme font-weight-bold text-md"><?php $stat->publishedCommentsNum() ?></span>
             <small class="d-block text-xs text-muted">评论</small>
         </div>
-        <div class="col">
+        <!-- <div class="col">
             <span class="font-theme font-weight-bold text-md"><?php echo $stat->publishedPagesNum?></span>
             <small class="d-block text-xs text-muted">页面</small>
+        </div> -->
+        <div class="col">
+            <span class="font-theme font-weight-bold text-md"><?php get_post_view($this) ?></span>
+            <small class="d-block text-xs text-muted">访问</small>
         </div>
+
+
+
     </div>
 
     </div>
