@@ -34,6 +34,9 @@
         <span class="">
             <?php _e('<i class="fas fa-folder-minus"></i> '); ?><?php $this->category(','); ?>
         </span>
+        <span class="">
+            <?php _e('<i class="fas fa-comment-alt"></i> '); ?><?php $this->commentsNum(_t('暂无评论'), _t('1 条评论'), _t(' %d 条评论')); ?>
+        </span>
     </div>
     
 </div>
