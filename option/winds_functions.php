@@ -176,20 +176,15 @@ function threadedComments($comments, $options) {
 <?php }
 
 // 个人卡片超链接列表解析
-function winds_procard_item(){
-
-   $json = '{"name":"github","url":"github.com","icon":"fa fa-test"}';
-
-//    var_dump(json_decode($json));
-//    var_dump(json_decode($json, true));
-
-// json_decode($json);
+function winds_procard_item($json){
 
 $winds_procard_item = json_decode($json, true);
-// $winds_procard_item = var_dump(json_decode($json, true));
+$name =  $winds_procard_item["name"];
+$url =  $winds_procard_item["url"];
+$icon =  $winds_procard_item["icon"];
 
 
-echo $winds_procard_item["name"];
+echo '<a href="'.$url.'" target="_blank">'.$name.'</a>';
 
 }
 

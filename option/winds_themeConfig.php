@@ -64,6 +64,9 @@ function themeConfig($form) {
     $winds301 =  new Typecho_Widget_Helper_Form_Element_Radio('winds301', array('0' => '关闭', '1' => '开启'), '0', '404页面固定链接跳转', '实验性功能，请选择关闭');
     $form->addInput($winds301);
 
+    $windsProCardItem =  new Typecho_Widget_Helper_Form_Element_Textarea('windsProCardItem', NULL, NULL, _t('个人卡片超链接'), _t('在这里填入JSO格式'));
+    $form->addInput($windsProCardItem);
+
 
     // $sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', 
     // array('ShowRecentPosts' => _t('显示最新文章'),
