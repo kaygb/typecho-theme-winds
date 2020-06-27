@@ -7,16 +7,6 @@
     <div class="row">
         <div class="col-lg-8 main-posts-content">
                 <article id="main-post" class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
-                
-                <div id="post-content" class="post-content" itemprop="articleBody">
-                <?php 
-                
-                    $pattern = '/\<img.*?src\=\"(.*?)\"[^>]*>/i';
-                    $replacement = '<a href="$1" data-fancybox="gallery" /><img src="$1" alt="'.$this->title.'" title="点击放大图片"></a>';
-                    $content = preg_replace($pattern, $replacement, $this->content);
-                    echo $content; ?>
-                    <?php $this->options->windsAd(); ?>
-                </div>
                 <div class="post-head">
                     
                     <div class="post-meta">
@@ -26,9 +16,22 @@
                         <span>
                             <?php _e('<i class="fas fa-folder-minus"></i> '); ?><?php $this->category(','); ?>
                         </span>
+                        <span><?php _e('<i class="fas fa-eye"></i> '); ?><?php get_post_view($this) ?> 次浏览</span>
+                        
                     </div>
                 </div>
                 <span itemprop="keywords" class="tags"><?php $this->tags(' ', true, ''); ?></span>
+                <div id="post-content" class="post-content" itemprop="articleBody">
+                <?php 
+                
+                    $pattern = '/\<img.*?src\=\"(.*?)\"[^>]*>/i';
+                    $replacement = '<a href="$1" data-fancybox="gallery" /><img src="$1" alt="'.$this->title.'" title="点击放大图片"></a>';
+                    $content = preg_replace($pattern, $replacement, $this->content);
+                    echo $content; ?>
+                    <?php $this->options->windsAd(); ?>
+                </div>
+                
+
             </article>
             <?php $this->need('inc/comments.php'); ?>
             <div class="post-wnear wbg-white row">

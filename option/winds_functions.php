@@ -188,6 +188,8 @@ echo '<a href="'.$url.'" target="_blank">'.$name.'</a>';
 
 }
 
+// 文章阅读量统计
+
 function get_post_view($archive)
 {
     $cid    = $archive->cid;
