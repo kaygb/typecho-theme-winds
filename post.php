@@ -20,7 +20,6 @@
                         
                     </div>
                 </div>
-                <span itemprop="keywords" class="tags"><?php $this->tags(' ', true, ''); ?></span>
                 <div id="post-content" class="post-content" itemprop="articleBody">
                 <?php 
                 
@@ -31,7 +30,7 @@
                     <?php $this->options->windsAd(); ?>
                 </div>
                 
-
+                <span itemprop="keywords" class="tags"><?php $this->tags(' ', true, ''); ?></span>
             </article>
             <?php $this->need('inc/comments.php'); ?>
             <div class="post-wnear wbg-white row">
