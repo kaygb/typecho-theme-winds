@@ -1,5 +1,5 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
-<div class="back-to-top"><i class="fas fa-angle-up"></i></div>
+<div class="card-show back-to-top"><i class="fas fa-angle-up"></i></div>
     <div class="footer container-fluid ">
     <footer id="footer" class="container" role="contentinfo">
         <div class="row">
