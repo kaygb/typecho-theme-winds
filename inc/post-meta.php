@@ -20,5 +20,9 @@
         <?php endif; ?>
          <?php $this->tags(',', true, ''); ?></span>
 
-
+         <?php if($this->user->hasLogin()):?>
+            <span><?php _e('<i class="fas fa-edit"></i> '); ?>
+                <a href="<?php $this->options->adminUrl(); ?>write-post.php?cid=<?php echo $this->cid;?>" target="_blank">编辑</a>
+            </span>
+            <?php endif;?>
     </div>
