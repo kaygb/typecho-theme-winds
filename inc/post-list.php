@@ -27,13 +27,7 @@
     // $excerptNum = intval($this->options->windsExcerptNum());
     $this->excerpt(100,''); ?>...
     </div>
-    <div class="post-meta">
-        <span class="">  
-            <?php _e('<i class="fas fa-calendar-alt"></i> '); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>
-        </span>
-        <span class="">
-            <?php _e('<i class="fas fa-folder-minus"></i> '); ?><?php $this->category(','); ?>
-        </span>
-    </div>
+    <?php $this->need('inc/post-meta.php');?>
+    
     
 </div>

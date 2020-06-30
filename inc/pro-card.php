@@ -2,14 +2,14 @@
 
 <div class="profile-content">
     <div class="avatar-slant">
-        <img class="wavatar lazyload" src="<?php echo loading_bash64();?>" data-original="<?php $this->options->profileImgUrl(); ?>" alt="" srcset="">
+        <img class="wavatar lazyload" src="<?php echo loading_bash64();?>" data-original="<?php $this->options->avatarUrl(); ?>" alt="" srcset="">
         <!-- <div class="winds-slant"></div> -->
 
     </div>
     <div class="card-profile">
-        <img class="wavatar-s" src="<?php $this->options->avatarUrl(); ?>"  alt="" srcset="">
+        <!-- <img class="wavatar-s" src="<?php $this->options->avatarUrl(); ?>"  alt="" srcset=""> -->
         <div class="about">
-        <?php $this->options->title(); ?>
+        <?php $this->options->procardName(); ?>
         </div>
     </div>
     <div class="statistics">
@@ -32,6 +32,13 @@
             <span class="font-theme font-weight-bold text-md"><?php echo $stat->publishedPagesNum?></span>
             <small class="d-block text-xs text-muted">页面</small>
         </div>
+        <!-- <div class="col">
+            <span class="font-theme font-weight-bold text-md"><?php //get_post_view($this) ?></span>
+            <small class="d-block text-xs text-muted">访问</small>
+        </div> -->
+
+
+
     </div>
 
     </div>

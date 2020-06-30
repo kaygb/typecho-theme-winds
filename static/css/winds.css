@@ -21,7 +21,7 @@
 }
 
 .card-show {
-    transition: all .6s ease
+    transition: all .6s ease;
 }
 
 .card-show:hover {
@@ -58,7 +58,7 @@
 
 .post-meta {
     /* text-align: right; */
-    font-size: 10px;
+    font-size: 12px;
     /* padding: 10px 20px 0px; */
     color: #848484
 }

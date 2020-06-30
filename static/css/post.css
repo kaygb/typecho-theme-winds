@@ -1,5 +1,6 @@
 .post img {
-    width: 100%;
+    min-width: 30%;
+    max-width: 100%;
     margin: 10px auto;
 }
 
@@ -40,17 +41,17 @@
 }
 
 .tags a {
-    border: 1px solid #eee;
-    padding: 5px;
+    /* border: 1px solid #eee; */
+    /* padding: 5px; */
     /* animation: jianyin 1s; */
     font-size: 12px;
 }
 
 .tags a:hover {
-    background-color: crimson;
+    /* background-color: crimson;
     color: #fff;
     -webkit-animation: jianyin 1s;
-    animation: jianyin 1s;
+    animation: jianyin 1s; */
 }
 
 .comment-meta time {
@@ -86,4 +87,18 @@ cite {
 
 .post-content a {
     color: #28a745;
+}
+.content-tags{
+    text-align: center;
+}
+
+.content-tags .tag-item{
+    word-break: break-word;
+    padding: 5px 10px;
+    color: #333;
+    margin: 5px;
+    background: #eee;
+    line-height: 2.5em;
+    /* border-radius: 5px; */
+    text-align: center;
 }

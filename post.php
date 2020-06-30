@@ -7,7 +7,9 @@
     <div class="row">
         <div class="col-lg-8 main-posts-content">
                 <article id="main-post" class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
-                
+                <div class="post-head">
+                    <?php $this->need('inc/post-meta.php');?>
+                </div>
                 <div id="post-content" class="post-content" itemprop="articleBody">
                 <?php 
                 
@@ -17,18 +19,8 @@
                     echo $content; ?>
                     <?php $this->options->windsAd(); ?>
                 </div>
-                <div class="post-head">
-                    
-                    <div class="post-meta">
-                        <span>  
-                            <?php _e('<i class="fas fa-calendar-alt"></i> '); ?><time datetime="<?php $this->date('c'); ?>"><?php $this->date(); ?></time>
-                        </span>
-                        <span>
-                            <?php _e('<i class="fas fa-folder-minus"></i> '); ?><?php $this->category(','); ?>
-                        </span>
-                    </div>
-                </div>
-                <span itemprop="keywords" class="tags"><?php $this->tags(' ', true, ''); ?></span>
+                
+                
             </article>
             <?php $this->need('inc/comments.php'); ?>
             <div class="post-wnear wbg-white row">
