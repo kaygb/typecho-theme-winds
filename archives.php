@@ -19,10 +19,17 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <div class="main container">
     <div class="row">
         <div class="col-mb-12 col-lg-8 main-posts-content" id="main" role="main">
-            <article class="post  wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
+            <article id="main-post" class="post  wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
+            <div class="post-head">
+                    <?php $this->need('inc/post-meta.php');?>
+                </div>
                 <div id="post-content" class="post-content" itemprop="articleBody">
+                
+                
+
+                <h2>标签</h2>
                     <div class="content-tags">
-                        <h2>标签</h2>
+                        
                         <?php $this->widget('Widget_Metas_Tag_Cloud', 'sort=count&ignoreZeroCount=1&desc=1&limit=50')->to($tags); ?>
                         <?php if($tags->have()): ?>
                         <?php while ($tags->next()): ?>

@@ -88,3 +88,17 @@ cite {
 .post-content a {
     color: #28a745;
 }
+.content-tags{
+    text-align: center;
+}
+
+.content-tags .tag-item{
+    word-break: break-word;
+    padding: 5px 10px;
+    color: #333;
+    margin: 5px;
+    background: #eee;
+    line-height: 2.5em;
+    /* border-radius: 5px; */
+    text-align: center;
+}
