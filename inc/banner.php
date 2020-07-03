@@ -15,7 +15,7 @@
 
         </h1> 
         
-        <img class="lazy-img"  data-original="<?php  $this->options->bgImgUrl();?>" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" alt="" srcset="">
+        <img class="lazy-img"  data-original="<?php  $this->options->bgImgUrl();?>" src="<?php echo loading_bash64("color");?>" alt="" srcset="">
     </div>
 
     
@@ -34,14 +34,14 @@
         }else{
             $this->options->bgImgUrl();
         }
-        ?>" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" alt="" srcset="">
+        ?>" src="<?php echo loading_bash64("color");?>" alt="" srcset="">
     </div>
     
 
     <?php else:?>
         <div class="bg-blur">
             <h1 class="main-title container"><?php $this->options->siteName(); ?></h1>    
-            <img class="lazy-img"  data-original="<?php $this->options->bgImgUrl(); ?>" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" alt="" srcset="">
+            <img class="lazy-img"  data-original="<?php $this->options->bgImgUrl(); ?>" src="<?php echo loading_bash64("color");?>" alt="" srcset="">
         </div>
             
 
