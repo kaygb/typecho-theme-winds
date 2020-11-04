@@ -89,12 +89,16 @@ window.onload = function() {
     $('#main-post img').addClass('lazyload');
     $(function() {
         $("img.lazyload").lazyload({
-            effect: 'fadeIn'
+            effect: 'fadeIn',
+            // inverval: 3000
+            effectspeed: 1000
         });
     });
 
     $("img.lazy-img").lazyload({
-        effect: 'fadeIn'
+        effect: 'fadeIn',
+        // inverval: 3000
+        effectspeed: 1000 
     });
 }
 

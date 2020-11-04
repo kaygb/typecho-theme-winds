@@ -46,7 +46,8 @@ body {
     font-family: sans-serif, "Open Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "WenQuanYi Micro Hei", "Segoe UI Emoji", "Segoe UI Symbol", Helvetica, Arial, -apple-system, system-ui;
     overflow-x: hidden;
     /* letter-spacing: 0.1rem!important; */
-    background-color: #dff9fb;
+    /* background-color: #dff9fb; */
+    background-color: #333;
     color: #333;
     overflow-y: scroll;
 }
@@ -171,6 +172,7 @@ textarea:focus {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
+    background-color: #000;
 }
 
 .blur {

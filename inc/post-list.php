@@ -7,7 +7,7 @@
     <a href="<?php $this->permalink() ?>">
     
         <div class="thumb-img">
-        <img class="lazy-img" data-original="<?php echo $this->fields->defaultBanner;?>" src="<?php echo loading_bash64();?>" alt="" srcset="">
+        <img class="lazy-img" data-original="<?php echo $this->fields->defaultBanner;?>" src="<?php echo loading_bash64("color");?>" alt="" srcset="">
         </div>
     </a>
         

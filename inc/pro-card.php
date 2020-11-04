@@ -2,7 +2,7 @@
 
 <div class="profile-content">
     <div class="avatar-slant">
-        <img class="wavatar lazyload" src="<?php echo loading_bash64();?>" data-original="<?php $this->options->avatarUrl(); ?>" alt="" srcset="">
+        <img class="wavatar lazyload" src="<?php echo loading_bash64("color");?>" data-original="<?php $this->options->avatarUrl(); ?>" alt="" srcset="">
         <!-- <div class="winds-slant"></div> -->
 
     </div>
