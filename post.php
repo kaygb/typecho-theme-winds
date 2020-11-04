@@ -4,9 +4,9 @@
 
 
 <div class="main container">
-    <div class="row">
-        <div class="col-lg-8 main-posts-content">
-                <article id="main-post" class="post wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="">
+        <div class="row main-posts-content">
+                <article id="main-post" class="post clo-md-6 wbg-white" itemscope itemtype="http://schema.org/BlogPosting">
                 <div class="post-head">
                     <?php $this->need('inc/post-meta.php');?>
                 </div>
@@ -40,7 +40,7 @@
 
             
         </div>
-        <?php $this->need('inc/sidebar.php'); ?>
+        <?php //$this->need('inc/sidebar.php'); ?>
     </div>
 </div>
 

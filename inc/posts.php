@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <?php $this->need('inc/sidebar.php'); ?>
+        <?php //$this->need('inc/sidebar.php'); ?>
             
 
     </div><!-- end .row -->

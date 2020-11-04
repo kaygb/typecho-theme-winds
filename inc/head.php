@@ -69,7 +69,7 @@
     <?php $this->header(); ?>
 </head>
 <body>
-<?php $this->need('inc/banner.php');?>
+<?php //$this->need('inc/banner.php');?>
 
 
 

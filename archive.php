@@ -20,7 +20,7 @@
             <?php $this->pageNav('<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'); ?>
             </div>
     </div><!-- end #main -->
-    <?php $this->need('inc/sidebar.php'); ?>
+    <?php ///$this->need('inc/sidebar.php'); ?>
     </div><!-- end .row -->
 </div>
 

@@ -92,4 +92,58 @@
 </div>
 <div class="blur-nav-bg"></div>
 <div class="blur-nav"></div>
-
+<div class="home-bg pos-a">
+    <div class="pos-a img-bg blur"></div>
+</div>
+<style>
+/* index-bg*/
+.home-bg{
+	            height: 100vh;
+                width: 100%;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                overflow: hidden;
+	    }
+	    .home-bg .img-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: -30px;
+        }
+	    .pos-a{
+	        position: absolute;
+	    }
+	    .pos-a{
+	        position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-image: url('https://kaygbcdn.170601.xyz/kaygbcom/20201023201002.png');
+	    }
+	    .home-bg::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            z-index: 1;
+            background: linear-gradient(to bottom,rgba(0,0,0,0) 40%,#000 100%);
+}
+.blur {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+.img-bg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: -webkit-optimize-contrast;
+}
+</style>

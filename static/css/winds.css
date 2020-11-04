@@ -1,7 +1,8 @@
 /* 内容区域样式 */
 
 .main {
-    margin-top: -10vh;
+    /* margin-top: -10vh; */
+    margin-top: 100px;
     min-height: 60vh;
 }
 
