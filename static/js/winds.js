@@ -126,7 +126,8 @@ $(function() {
     $(window).scroll(function() {
         if ($(window).width() > 1000) {
             //获取垂直滚动的距离
-            let profileTop = $(".main").offset().top - $(window).scrollTop();
+            // let profileTop = $(".main").offset().top - $(window).scrollTop();
+            let profilrTop = 1;
             if (profileTop < 100) {
                 $(".blur-nav-bg").fadeIn();
                 $(".blur-nav").fadeIn();

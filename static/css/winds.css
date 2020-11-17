@@ -16,7 +16,7 @@
     background-color: #fff;
     width: 100%;
     opacity: 1;
-    box-shadow: 0 0 10px #00000026;
+    box-shadow: 0 0 10px #fff;
     -webkit-box-shadow: 0 0 10px #00000026;
     /* border-radius: .25rem; */
 }

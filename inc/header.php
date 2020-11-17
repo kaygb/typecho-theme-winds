@@ -90,11 +90,11 @@
     </div>
 
 </div>
-<div class="blur-nav-bg"></div>
-<div class="blur-nav"></div>
-<div class="home-bg pos-a">
+<!-- <div class="blur-nav-bg"></div>
+<div class="blur-nav"></div> -->
+<!-- <div class="home-bg pos-a">
     <div class="pos-a img-bg blur"></div>
-</div>
+</div> -->
 <style>
 /* index-bg*/
 .home-bg{
