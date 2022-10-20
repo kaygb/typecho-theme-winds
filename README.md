@@ -4,7 +4,7 @@
 
 ## 文档
 
-[WINDS使用文档](https://wiki.eas1.cn/archives/zh-doc-of-typecho-theme-winds/)
+[WINDS使用文档](https://wiki.170601.xyz/archives/zh-doc-of-typecho-theme-winds/)
 
 ## 组件
 
